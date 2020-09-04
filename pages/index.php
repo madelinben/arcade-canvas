@@ -8,8 +8,8 @@
         <title>Canvas - Home</title>
 
         <!-- SITE META DATA -->
-        <meta name="keywords" content="GAME, RECOMMEND, 4122COMP, WEB DEV, HTML,CSS">
-        <meta name="description" content="A Nintendo Switch Game Recommendation website of 10 Ranked titles.">
+        <meta name="keywords" content="CANVAS, CODING CHALLENGE, GAME, WEB DEVELOPMENT, HTML, CSS, JAVASCRIPT">
+        <meta name="description" content="A Collection of re-imagined games turned Challenges to practice Web Development.">
         <meta name="author" content="Ben Madelin">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -31,11 +31,47 @@
     <body>
 
     <!-- HEADER -->
-    <h1>Canvas Challenge</h1>
+    <header>
+        <div class="global-navbar">
+            <a href="..\pages\index.php" class="site-link"><h1>Canvas Challenges</h1></a>
+        </div>
+    </header>
 
     <!-- CONTENT -->
+    <div class="container">
+
+        <!-- TILE -->
+        <div class="tile-gallery">
+
+            <a href="..\content\game.php?..." class="tile-container">
+                <img src="..\img\blockbreaker.jpg" class="tile-image" alt="Block Breaker" style="width:320px;height:320px">
+                <div class="tile-overlay">
+                    <div class="tile-content">Block Breaker</div>
+                </div>
+            </a>
+
+            <a href="..\content\game.php?..." class="tile-container">
+                <img src="..\img\snake.jpg" class="tile-image" alt="Snake" style="width:320px;height:320px">
+                <div class="tile-overlay">
+                    <div class="tile-content">Snake</div>
+                </div>
+            </a>
+
+            <a href="..\content\game.php?..." class="tile-container">
+                <img src="..\img\asteroids.jpg" class="tile-image" alt="Asteroids" style="width:320px;height:320px">
+                <div class="tile-overlay">
+                    <div class="tile-content">Asteroids</div>
+                </div>
+            </a>
+
+        </div>
+    </div>
 
     <!-- FOOTER -->
+    <footer>
+        <a href="..\pages\index.php" class="scroll-up"><p>Back to Top</p></a>
+        <i>~ Ben Madelin ~</i>
+    </footer>
 
 
 
