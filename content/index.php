@@ -28,7 +28,7 @@
     <!-- HEADER -->
     <header>
         <div class="global-navbar">
-            <a href="..\pages\index.php" class="site-link"><h1>Canvas Challenges</h1></a>
+            <a href="..\content\index.php" class="site-link"><h1>CANVAS CODING CHALLENGES</h1></a>
         </div>
     </header>
 
@@ -38,21 +38,21 @@
         <!-- TILE -->
         <div class="tile-gallery">
 
-            <a href="..\content\game.php?..." class="tile-container">
+            <a href="..\content\project.php?selected=blockbreaker" class="tile-container">
                 <img src="..\img\blockbreaker.jpg" class="tile-image" alt="Block Breaker" style="width:320px;height:320px">
                 <div class="tile-overlay">
                     <div class="tile-content">Block Breaker</div>
                 </div>
             </a>
 
-            <a href="..\content\game.php?..." class="tile-container">
+            <a href="..\content\project.php?selected=snake" class="tile-container">
                 <img src="..\img\snake.jpg" class="tile-image" alt="Snake" style="width:320px;height:320px">
                 <div class="tile-overlay">
                     <div class="tile-content">Snake</div>
                 </div>
             </a>
 
-            <a href="..\content\game.php?..." class="tile-container">
+            <a href="..\content\project.php?selected=asteroids" class="tile-container">
                 <img src="..\img\asteroids.jpg" class="tile-image" alt="Asteroids" style="width:320px;height:320px">
                 <div class="tile-overlay">
                     <div class="tile-content">Asteroids</div>
@@ -65,7 +65,7 @@
     <!-- FOOTER -->
     <footer>
         <div class="global-footnote">
-        <a href="..\pages\index.php" class="scroll-up">Back to Top</a>
+        <a href="..\content\index.php" class="scroll-up">Back to Top</a>
         <i>~ Ben Madelin ~</i>
         </div>
     </footer>
