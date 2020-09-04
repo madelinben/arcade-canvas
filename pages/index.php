@@ -20,12 +20,6 @@
         <!-- PAGE STYLING -->
         <link rel="stylesheet" type="text/css" href="..\style\style.css">
 
-        <style>
-
-
-
-        </style>
-
     </head>
 
     <body>
@@ -69,8 +63,10 @@
 
     <!-- FOOTER -->
     <footer>
-        <a href="..\pages\index.php" class="scroll-up"><p>Back to Top</p></a>
+        <div class="global-footnote">
+        <a href="..\pages\index.php" class="scroll-up">Back to Top</a>
         <i>~ Ben Madelin ~</i>
+        </div>
     </footer>
 
 

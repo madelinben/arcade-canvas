@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+/*--- HEADER ---*/
+.global-navbar { /* Navbar Container */
+overflow: hidden;
+    background-color: #333333;
+    font-family: Open Sans;
+}
+
+.global-navbar .site-link { /* Navbar Links */
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+.global-navbar a:hover { /* Highlight Navbar Link */
+    background-color: red;
+}
+
+/*--- FOOTER ---*/
+.global-footnote { /* Footer Container */
+    height: 50px;
+    overflow: hidden;
+    background-color: #333333;
+    font-family: Open Sans;
+}
+
+.global-footnote a, i { /* Footer Content */
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.global-footnote a:hover { /* Highlight Footer Link */
+    background-color: red;
+}
