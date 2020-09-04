@@ -19,6 +19,7 @@
 
         <!-- PAGE STYLING -->
         <link rel="stylesheet" type="text/css" href="..\style\style.css">
+        <link rel="stylesheet" type="text/css" href="..\style\tile.css">
 
     </head>
 
@@ -32,7 +33,7 @@
     </header>
 
     <!-- CONTENT -->
-    <div class="container">
+    <div class="content-container">
 
         <!-- TILE -->
         <div class="tile-gallery">

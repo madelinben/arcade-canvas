@@ -1,0 +1,56 @@
+/*container
+tile-container
+tile-image
+tile-overlay
+tile-content*/
+
+.content-container { /* Row Container */
+    display: flex; /*display: block flex */
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-container { /* Column Container */
+    display: inline-block;
+    /* float: left; */
+    position: relative;
+    /* margin-bottom: -4px;
+    margin-right: -4px;
+  */
+}
+
+.tile-image { /* Tile Image */
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.tile-overlay { /* Link Overlay */
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    width: 320px;
+    height: 320px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333333;
+}
+
+.tile-container:hover .tile-overlay { /* Show Content */
+    opacity: .85;
+}
+
+.tile-content { /* Tile Content */
+    opacity: 1;
+    font-family: Open Sans;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
