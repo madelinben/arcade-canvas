@@ -56,6 +56,7 @@
 
 </body>
 
+<script type="text/javascript" src="..\scripts\snake\fruit.js"></script>
 <script type="text/javascript" src="..\scripts\snake\snake.js"></script>
 <script type="text/javascript" src="..\scripts\snake\draw.js"></script>
 
