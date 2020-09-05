@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Canvas formatted and Snake object created to track and display sprite.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/snake/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/snake/draw.js" afterDir="false" />
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="EventListener added to alter the direction the snake head moves based on the arrow key pressed.">
       <change beforePath="$PROJECT_DIR$/scripts/snake/snake.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/snake/snake.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599234087612</updated>
-      <workItem from="1599234089321" duration="14912000" />
+      <workItem from="1599234089321" duration="15255000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
       <created>1599235551722</created>
@@ -122,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599317867507</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="EventListener added to alter the direction the snake head moves based on the arrow key pressed.">
+      <created>1599318444042</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599318444042</updated>
+    </task>
+    <task id="LOCAL-00008" summary="EventListener added to alter the direction the snake head moves based on the arrow key pressed.">
+      <created>1599318503489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599318503489</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +158,9 @@
     <MESSAGE value="Tile overlays implemented to reveal project contents when hovering over link." />
     <MESSAGE value="Created canvas element to work on." />
     <MESSAGE value="Canvas formatted and Snake object created to track and display sprite." />
-    <option name="LAST_COMMIT_MESSAGE" value="Canvas formatted and Snake object created to track and display sprite." />
+    <MESSAGE value="EventListener added to alter the direction the snake head moves based on the Arrow Key pressed." />
+    <MESSAGE value="EventListener added to alter the direction the snake head moves based on the arrow key pressed." />
+    <option name="LAST_COMMIT_MESSAGE" value="EventListener added to alter the direction the snake head moves based on the arrow key pressed." />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599235399928">
@@ -173,10 +187,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599235416039" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599317879135">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599318511007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599317879135" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599318511007" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599255362593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
