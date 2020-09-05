@@ -5,7 +5,8 @@ body {
 /*--- HEADER ---*/
 .global-navbar { /* Navbar Container */
 overflow: hidden;
-    background-color: #333333;
+    /*background-color: #333333;*/
+    background-color: #e25059;
     /*font-family: Open Sans;*/
     letter-spacing: .4px;
     font-weight: normal;
@@ -28,7 +29,8 @@ overflow: hidden;
 }
 
 .global-navbar a:hover { /* Highlight Navbar Link */
-    background-color: red;
+    /*background-color: red;*/
+    background-color: #af1d26;
 }
 
 /*--- FOOTER ---*/

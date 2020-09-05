@@ -37,6 +37,11 @@
     <canvas class="canvas" height="300" width="300" style="background-color: #e0f8cf"></canvas>
     <h1 class="score"></h1>
 
+    <!--Black = #071821
+    Dark Green = #306850
+    Light Green = #86c06c
+    Lime = #e0f8cf-->
+
 </div>
 
 <!-- FOOTER -->
@@ -50,5 +55,8 @@
 
 
 </body>
+
+<script type="text/javascript" src="..\scripts\snake\snake.js"></script>
+<script type="text/javascript" src="..\scripts\snake\draw.js"></script>
 
 </html>

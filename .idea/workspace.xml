@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Tile overlays implemented to reveal project contents when hovering over link.">
-      <change afterPath="$PROJECT_DIR$/content/project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/index.php" afterDir="false" />
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Created canvas element to work on.">
+      <change afterPath="$PROJECT_DIR$/scripts/snake/draw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/snake/snake.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/project.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +39,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature/project-gallery" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599234087612</updated>
-      <workItem from="1599234089321" duration="10551000" />
+      <workItem from="1599234089321" duration="14366000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
       <created>1599235551722</created>
@@ -107,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599257384120</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created canvas element to work on.">
+      <created>1599261012590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599261012590</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +140,8 @@
     <MESSAGE value="Filled page layout with appropriate data." />
     <MESSAGE value="Styling added to the header and footer bars." />
     <MESSAGE value="Tile overlays implemented to reveal project contents when hovering over link." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tile overlays implemented to reveal project contents when hovering over link." />
+    <MESSAGE value="Created canvas element to work on." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created canvas element to work on." />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599235399928">
@@ -156,10 +168,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599235416039" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599257391053">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599261029562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599257391053" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599261029562" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599255362593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

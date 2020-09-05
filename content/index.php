@@ -38,17 +38,17 @@
         <!-- TILE -->
         <div class="tile-gallery">
 
-            <a href="..\content\project.php?selected=blockbreaker" class="tile-container">
-                <img src="..\img\blockbreaker.jpg" class="tile-image" alt="Block Breaker" style="width:320px;height:320px">
-                <div class="tile-overlay">
-                    <div class="tile-content">Block Breaker</div>
-                </div>
-            </a>
-
             <a href="..\content\project.php?selected=snake" class="tile-container">
                 <img src="..\img\snake.jpg" class="tile-image" alt="Snake" style="width:320px;height:320px">
                 <div class="tile-overlay">
                     <div class="tile-content">Snake</div>
+                </div>
+            </a>
+
+            <a href="..\content\project.php?selected=blockbreaker" class="tile-container">
+                <img src="..\img\blockbreaker.jpg" class="tile-image" alt="Block Breaker" style="width:320px;height:320px">
+                <div class="tile-overlay">
+                    <div class="tile-content">Block Breaker</div>
                 </div>
             </a>
 
