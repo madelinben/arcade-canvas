@@ -72,4 +72,13 @@ function Snake() {
             return false;
         }
     }
+
+    this.collision = function() {
+        for (let i=0; i<this.tail.length; i++) {
+            if (this.x === this.tail[i].x && this.y === this.tail[i].y) {
+                this.size = 0;
+                this.tail = [];
+            }
+        }
+    }
 }

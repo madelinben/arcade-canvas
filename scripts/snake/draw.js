@@ -23,6 +23,10 @@ var fruit;
         if (snake.eat(fruit)) {
             fruit.randLocation();
         }
+
+        snake.collision();
+
+        document.querySelector('.score').innerText = snake.size;
     }, 250);
 }());
 
