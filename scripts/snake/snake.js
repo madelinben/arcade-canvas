@@ -50,4 +50,12 @@ function Snake() {
                 break;
         }
     }
+
+    this.eat = function(fruit) {
+        if (this.x === fruit.x && this.y === fruit.y) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
