@@ -5,8 +5,18 @@ body {
 /*--- HEADER ---*/
 .global-navbar { /* Navbar Container */
 overflow: hidden;
-    background-color: #333333;
-    font-family: Open Sans;
+    /*background-color: #333333;*/
+    background-color: #e25059;
+    /*font-family: Open Sans;*/
+    letter-spacing: .4px;
+    font-weight: normal;
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    letter-spacing: .02em;
+    line-height: 1.4;
+    color: #222;
+    font-size: 1.6rem;
 }
 
 .global-navbar .site-link { /* Navbar Links */
@@ -19,7 +29,8 @@ overflow: hidden;
 }
 
 .global-navbar a:hover { /* Highlight Navbar Link */
-    background-color: red;
+    /*background-color: red;*/
+    background-color: #af1d26;
 }
 
 /*--- FOOTER ---*/

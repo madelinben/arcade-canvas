@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Snake size is incremented when a piece of fruit is eaten, and each tail cell is updated.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/snake/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/snake/draw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/snake/snake.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/snake/snake.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/project-gallery" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7" />
+  <component name="ProjectId" id="1h3JxMBMT1gB9KaLIsMGOMe41Jc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="" />
+      <created>1599234087612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599234087612</updated>
+      <workItem from="1599234089321" duration="17204000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
+      <created>1599235551722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599235551722</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Filled page layout with appropriate data.">
+      <created>1599254970633</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599254970633</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Styling added to the header and footer bars.">
+      <created>1599256412231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599256412231</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tile overlays implemented to reveal project contents when hovering over link.">
+      <created>1599257384120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599257384120</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created canvas element to work on.">
+      <created>1599261012590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599261012590</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Canvas formatted and Snake object created to track and display sprite.">
+      <created>1599317867507</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599317867507</updated>
+    </task>
+    <task id="LOCAL-00007" summary="EventListener added to alter the direction the snake head moves based on the arrow key pressed.">
+      <created>1599318444042</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599318444042</updated>
+    </task>
+    <task id="LOCAL-00008" summary="EventListener added to alter the direction the snake head moves based on the arrow key pressed.">
+      <created>1599318503489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599318503489</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Boundaries added to canvas width and height keeping the snake vector within area.">
+      <created>1599318790310</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599318790310</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fruit can be randomly produced.">
+      <created>1599319330822</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599319330822</updated>
+    </task>
+    <task id="LOCAL-00011" summary="A new random fruit position is produced when the snake and fruit vectors equal.">
+      <created>1599319894684</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599319894684</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Snake size is incremented when a piece of fruit is eaten, and each tail cell is updated.">
+      <created>1599320379028</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599320379028</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial project structure and index.php layout." />
+    <MESSAGE value="Filled page layout with appropriate data." />
+    <MESSAGE value="Styling added to the header and footer bars." />
+    <MESSAGE value="Tile overlays implemented to reveal project contents when hovering over link." />
+    <MESSAGE value="Created canvas element to work on." />
+    <MESSAGE value="Canvas formatted and Snake object created to track and display sprite." />
+    <MESSAGE value="EventListener added to alter the direction the snake head moves based on the Arrow Key pressed." />
+    <MESSAGE value="EventListener added to alter the direction the snake head moves based on the arrow key pressed." />
+    <MESSAGE value="Boundaries added to canvas width and height keeping the snake vector within area." />
+    <MESSAGE value="Fruit can be randomly produced." />
+    <MESSAGE value="A new random fruit position is produced when the snake and fruit vectors equal." />
+    <MESSAGE value="Snake size is incremented when a piece of fruit is eaten, and each tail cell is updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Snake size is incremented when a piece of fruit is eaten, and each tail cell is updated." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599235399928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1599235399928" />
+    <state x="667" y="163" key="#PHP" timestamp="1599234937901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1599234937901" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599234974579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599234974579" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599235366070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599235366070" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1599259711836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599259711836" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1599235416039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599235416039" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599320380939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599320380939" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599255362593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599255362593" />
+  </component>
+</project>
