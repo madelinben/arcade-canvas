@@ -7,7 +7,7 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [ ] Organise project gallery in a tile layout with dynamic sizing.
 * [ ] Implement profile system to track user scores.
 
-## Snake
+## Snake 🐍
 * [x] Format canvas environment and draw method
 * [x] Allow the user to control the snakes moving direction using key inputs.
 * [x] Implement boundaries to contain snake within the canvas area.
