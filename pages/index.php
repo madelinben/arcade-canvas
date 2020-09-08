@@ -28,7 +28,7 @@
     <!-- HEADER -->
     <header>
         <div class="global-navbar">
-            <a href="..\content\index.php" class="site-link"><h1>CANVAS CODING CHALLENGES</h1></a>
+            <a href="..\pages\index.php" class="site-link"><h1>CANVAS CODING CHALLENGES</h1></a>
         </div>
     </header>
 
@@ -38,26 +38,22 @@
         <!-- TILE -->
         <div class="tile-gallery">
 
-            <a href="..\content\project.php?selected=snake" class="tile-container">
-                <img src="..\img\snake.jpg" class="tile-image" alt="Snake" style="width:320px;height:320px">
-                <div class="tile-overlay">
-                    <div class="tile-content">Snake</div>
-                </div>
-            </a>
+            <?php
+            $path = "../content/";
+            $dirList = glob($path . '*', GLOB_ONLYDIR);
 
-            <a href="..\content\project.php?selected=blockbreaker" class="tile-container">
-                <img src="..\img\blockbreaker.jpg" class="tile-image" alt="Block Breaker" style="width:320px;height:320px">
-                <div class="tile-overlay">
-                    <div class="tile-content">Block Breaker</div>
-                </div>
-            </a>
+            foreach($dirList as $i) {
+                $projectName = str_replace($path, "", $i);
 
-            <a href="..\content\project.php?selected=asteroids" class="tile-container">
-                <img src="..\img\asteroids.jpg" class="tile-image" alt="Asteroids" style="width:320px;height:320px">
-                <div class="tile-overlay">
-                    <div class="tile-content">Asteroids</div>
+                echo '<a href="..\content\project.php?selected=' . $projectName . '" class="tile-container">' .
+                    '<img src="..\img\\' . $projectName . '.png" class="tile-image" alt="' . ucfirst($projectName) . '" style="width:320px;height:320px">' .
+                '<div class="tile-overlay">
+                    <div class="tile-content">' . ucfirst($projectName) . '</div>
                 </div>
-            </a>
+            </a>';
+            } ?>
+
+
 
         </div>
     </div>
@@ -65,7 +61,7 @@
     <!-- FOOTER -->
     <footer>
         <div class="global-footnote">
-        <a href="..\content\index.php" class="scroll-up">Back to Top</a>
+        <a href="..\pages\index.php" class="scroll-up">Back to Top</a>
         <i>~ Ben Madelin ~</i>
         </div>
     </footer>

@@ -2,7 +2,7 @@
 tile-container
 tile-image
 tile-overlay
-tile-content*/
+tile-pages*/
 
 .content-container { /* Row Container */
     display: flex; /*display: block flex */

@@ -3,8 +3,15 @@
 A Collection of re-imagined games turned Challenges to practice Web Development.
 
 ## Web Development 🚀
+***Dynamic Pages:***
+* [x] Add a gallery tile to the home page for each project.
+* [ ] Import the relevant files from a selected project's dir.
+
+***Site Styling:***
 * [ ] Clean up canvas environment to clearly showcase the appropriate game.
 * [ ] Organise project gallery in a tile layout with dynamic sizing.
+
+***Accounts:***
 * [ ] Implement profile system to track user scores.
 
 ## Snake 🐍

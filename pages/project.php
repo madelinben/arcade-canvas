@@ -27,7 +27,7 @@
 <!-- HEADER -->
 <header>
     <div class="global-navbar">
-        <a href="..\content\index.php" class="site-link"><h1>CANVAS CODING CHALLENGES</h1></a>
+        <a href="..\pages\index.php" class="site-link"><h1>CANVAS CODING CHALLENGES</h1></a>
     </div>
 </header>
 
@@ -47,12 +47,10 @@
 <!-- FOOTER -->
 <footer>
     <div class="global-footnote">
-        <a href="..\content\index.php" class="scroll-up">Back to Top</a>
+        <a href="..\pages\index.php" class="scroll-up">Back to Top</a>
         <i>~ Ben Madelin ~</i>
     </div>
 </footer>
-
-
 
 </body>
 
