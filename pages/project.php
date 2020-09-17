@@ -54,8 +54,46 @@
 
 </body>
 
-<script type="text/javascript" src="..\scripts\snake\fruit.js"></script>
+<?php
+$url = basename($_SERVER['REQUEST_URI']);
+
+if ((strpos($url, 'project.php') !== false) && (isset($_GET['selected']))) {
+    $selectedProject = $_GET['selected'];
+
+    $projectDir = '..\content\\' . $selectedProject;
+    $scriptFiles = glob($projectDir . '/*.js');
+
+    //sortDependencies
+    $dependencies = 'draw.js';
+    $index = array_search($dependencies, $scriptFiles);
+    $shift = count($scriptFiles) - $index;
+
+    $dependencyValue =  $scriptFiles[$index];
+    $swapValue = $scriptFiles[count($scriptFiles)-1];
+
+    $scriptFiles[$index] = $swapValue;
+    $scriptFiles[count($scriptFiles)-1] = $dependencyValue;
+
+    //formatScriptElements
+    foreach($scriptFiles as $file) {
+        echo $file;
+
+        echo '<script type="text/javascript" src="' . $file . '"></script>';
+    }
+
+
+
+
+
+    echo '';
+
+} else {
+    echo '<div class="game-section"><h2>NO DATA AVAILABLE FOR SELECTED TITLE</h2></div>';
+}
+?>
+
+<!--<script type="text/javascript" src="..\scripts\snake\fruit.js"></script>
 <script type="text/javascript" src="..\scripts\snake\snake.js"></script>
-<script type="text/javascript" src="..\scripts\snake\draw.js"></script>
+<script type="text/javascript" src="..\scripts\snake\draw.js"></script>-->
 
 </html>

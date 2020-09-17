@@ -45,7 +45,7 @@
             foreach($dirList as $i) {
                 $projectName = str_replace($path, "", $i);
 
-                echo '<a href="..\content\project.php?selected=' . $projectName . '" class="tile-container">' .
+                echo '<a href="..\pages\project.php?selected=' . $projectName . '" class="tile-container">' .
                     '<img src="..\img\\' . $projectName . '.png" class="tile-image" alt="' . ucfirst($projectName) . '" style="width:320px;height:320px">' .
                 '<div class="tile-overlay">
                     <div class="tile-content">' . ucfirst($projectName) . '</div>
