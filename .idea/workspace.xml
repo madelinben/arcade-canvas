@@ -26,8 +26,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Gallery tile added dynamically for each project in the content dir.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/projectHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/projectHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +90,8 @@
       <updated>1599234087612</updated>
       <workItem from="1599234089321" duration="36234000" />
       <workItem from="1599952978341" duration="3350000" />
+      <workItem from="1600363304284" duration="1700000" />
+      <workItem from="1600630407667" duration="3347000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
       <created>1599235551722</created>

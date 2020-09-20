@@ -5,7 +5,7 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 ## Web Development 🚀
 ***Dynamic Pages:***
 * [x] Add a gallery tile to the home page for each project.
-* [ ] Import the relevant files from a selected project's dir.
+* [x] Import the relevant files from a selected project's dir.
 
 ***Site Styling:***
 * [ ] Clean up canvas environment to clearly showcase the appropriate game.

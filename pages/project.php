@@ -64,36 +64,31 @@ if ((strpos($url, 'project.php') !== false) && (isset($_GET['selected']))) {
     $scriptFiles = glob($projectDir . '/*.js');
 
     //sortDependencies
-    $dependencies = 'draw.js';
-    $index = array_search($dependencies, $scriptFiles);
-    $shift = count($scriptFiles) - $index;
+    $dependencies = array('draw.js');
+    $conflictFiles = array();
 
-    $dependencyValue =  $scriptFiles[$index];
-    $swapValue = $scriptFiles[count($scriptFiles)-1];
+    foreach($dependencies as $compare) {
+        for ($i=0; $i<count($dependencies); $i++) {
+            //Remove Conflicts
+            if (strpos($scriptFiles[$i], $compare) !== false) {
+                $conflictFiles[] = $scriptFiles[$i];
+                unset($scriptFiles[$i]);
+                break;
+            }
+        }
+    }
 
-    $scriptFiles[$index] = $swapValue;
-    $scriptFiles[count($scriptFiles)-1] = $dependencyValue;
+    //Ordered Dependencies
+    array_push($scriptFiles, ...$conflictFiles);
 
     //formatScriptElements
     foreach($scriptFiles as $file) {
-        echo $file;
-
         echo '<script type="text/javascript" src="' . $file . '"></script>';
     }
 
-
-
-
-
-    echo '';
-
-} else {
+} /*else {
     echo '<div class="game-section"><h2>NO DATA AVAILABLE FOR SELECTED TITLE</h2></div>';
-}
+}*/
 ?>
-
-<!--<script type="text/javascript" src="..\scripts\snake\fruit.js"></script>
-<script type="text/javascript" src="..\scripts\snake\snake.js"></script>
-<script type="text/javascript" src="..\scripts\snake\draw.js"></script>-->
 
 </html>
