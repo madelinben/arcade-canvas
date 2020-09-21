@@ -28,7 +28,17 @@
     <!-- PAGE CONTAINER -->
     <div class="wrapper">
         <header>
-            <a href="..\pages\index.php" class="site-link"><h1>CANVAS CODING CHALLENGES</h1></a>
+            <canvas></canvas>
+            <!--<a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>-->
+
+            <nav>
+                <ul class="nav-link">
+                    <li><a href="..\pages\about.php">Personal Portfolio</a></li>
+                    <li><a href="..\pages\index.php">Project Gallery</a></li>
+                </ul>
+            </nav>
+
+            <a href="..\pages\account.php" class="nav-account"><button><b>Account</b></button></a>
         </header>
 
         <!-- CONTENT -->
