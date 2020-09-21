@@ -24,10 +24,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Gallery tile added dynamically for each project in the content dir.">
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Updated project import method to order files by identified dependencies.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/tile.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/tile.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +41,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -61,6 +63,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
@@ -91,7 +94,7 @@
       <workItem from="1599234089321" duration="36234000" />
       <workItem from="1599952978341" duration="3350000" />
       <workItem from="1600363304284" duration="1700000" />
-      <workItem from="1600630407667" duration="3347000" />
+      <workItem from="1600630407667" duration="17999000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
       <created>1599235551722</created>
@@ -191,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599585942168</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated project import method to order files by identified dependencies.">
+      <created>1600635226955</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600635226955</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +234,8 @@
     <MESSAGE value="Snake size is incremented when a piece of fruit is eaten, and each tail cell is updated." />
     <MESSAGE value="Snake size/tail, and player score is reset when there is a collision." />
     <MESSAGE value="Gallery tile added dynamically for each project in the content dir." />
-    <option name="LAST_COMMIT_MESSAGE" value="Gallery tile added dynamically for each project in the content dir." />
+    <MESSAGE value="Updated project import method to order files by identified dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated project import method to order files by identified dependencies." />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599235399928">
@@ -255,10 +266,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599235416039" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599585953901">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600635231961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599585953901" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600635231961" />
+    <state x="997" y="0" width="930" height="1047" key="dock-window-1" timestamp="1600648273731">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="997" y="0" width="930" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1600648273731" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599255362593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

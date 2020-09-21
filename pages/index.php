@@ -25,19 +25,14 @@
 
     <body>
 
-    <!-- HEADER -->
-    <header>
-        <div class="global-navbar">
+    <!-- PAGE CONTAINER -->
+    <div class="wrapper">
+        <header>
             <a href="..\pages\index.php" class="site-link"><h1>CANVAS CODING CHALLENGES</h1></a>
-        </div>
-    </header>
+        </header>
 
-    <!-- CONTENT -->
-    <div class="content-container">
-
-        <!-- TILE -->
-        <div class="tile-gallery">
-
+        <!-- CONTENT -->
+        <div class="gallery">
             <?php
             $path = "../content/";
             $dirList = glob($path . '*', GLOB_ONLYDIR);
@@ -46,28 +41,20 @@
                 $projectName = str_replace($path, "", $i);
 
                 echo '<a href="..\pages\project.php?selected=' . $projectName . '" class="tile-container">' .
-                    '<img src="..\img\\' . $projectName . '.png" class="tile-image" alt="' . ucfirst($projectName) . '" style="width:320px;height:320px">' .
-                '<div class="tile-overlay">
+                    '<img src="..\img\\' . $projectName . '.png" class="tile-image" alt="' . ucfirst($projectName) . '" style="width:300px;height:300px">' .
+                    '<div class="tile-overlay">
                     <div class="tile-content">' . ucfirst($projectName) . '</div>
                 </div>
             </a>';
             } ?>
-
-
-
         </div>
+
+        <footer>
+            <a href="..\pages\index.php" class="scroll-up">Back to Top</a>
+            <i>~ Ben Madelin ~</i>
+        </footer>
+
     </div>
-
-    <!-- FOOTER -->
-    <footer>
-        <div class="global-footnote">
-        <a href="..\pages\index.php" class="scroll-up">Back to Top</a>
-        <i>~ Ben Madelin ~</i>
-        </div>
-    </footer>
-
-
-
     </body>
 
     </html>
