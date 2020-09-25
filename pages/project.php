@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 
     <!-- PAGE TITLE -->
-    <title>Canvas - Game</title>
+    <title>Canvas - Home</title>
 
     <!-- SITE META DATA -->
     <meta name="keywords" content="CANVAS, CODING CHALLENGE, GAME, WEB DEVELOPMENT, HTML, CSS, JAVASCRIPT">
@@ -19,39 +19,50 @@
 
     <!-- PAGE STYLING -->
     <link rel="stylesheet" type="text/css" href="..\style\style.css">
+    <link rel="stylesheet" type="text/css" href="..\style\project.css">
 
 </head>
 
 <body>
 
-<!-- HEADER -->
-<header>
-    <div class="global-navbar">
-        <a href="..\pages\index.php" class="site-link"><h1>CANVAS CODING CHALLENGES</h1></a>
+<!-- PAGE CONTAINER -->
+<div class="wrapper">
+    <header>
+        <a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>
+
+        <nav>
+            <ul class="nav-link">
+                <li><a href="..\pages\about.php">Personal Portfolio</a></li>
+                <li><a href="..\pages\index.php">Project Gallery</a></li>
+            </ul>
+        </nav>
+
+        <a href="..\pages\account.php" class="nav-account"><button><b>Account</b></button></a>
+    </header>
+
+    <!-- CONTENT -->
+    <div class="project-container">
+
+        <canvas class="canvas" height="300" width="300" style="background-color: #e0f8cf">Your browser does not support HTML5 Canvas.</canvas>
+
+        <span class="profile-stats-container">
+            <h1 class="score">Score: </h1>
+        </span>
+
+
+        <!--Black = #071821
+        Dark Green = #306850
+        Light Green = #86c06c
+        Lime = #e0f8cf-->
+
     </div>
-</header>
 
-<!-- CONTENT -->
-<div class="content-container">
-
-    <canvas class="canvas" height="300" width="300" style="background-color: #e0f8cf"></canvas>
-    <h1 class="score"></h1>
-
-    <!--Black = #071821
-    Dark Green = #306850
-    Light Green = #86c06c
-    Lime = #e0f8cf-->
+    <footer>
+        <a href="..\pages\index.php" class="scroll-up"><button><b>Back to Top</b></button></a>
+        <i>~ Ben Madelin ~</i>
+    </footer>
 
 </div>
-
-<!-- FOOTER -->
-<footer>
-    <div class="global-footnote">
-        <a href="..\pages\index.php" class="scroll-up">Back to Top</a>
-        <i>~ Ben Madelin ~</i>
-    </div>
-</footer>
-
 </body>
 
 <?php

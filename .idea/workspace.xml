@@ -24,11 +24,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Organised page layouts and project gallery using css grid to autofill elements.">
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Navbar has been styled with elements pushed to the right with even spacing and to highlight on hover.">
+      <change afterPath="$PROJECT_DIR$/style/project.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/snake/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/snake/draw.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/tile.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/tile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/tile.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/gallery.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +98,8 @@
       <workItem from="1599234089321" duration="36234000" />
       <workItem from="1599952978341" duration="3350000" />
       <workItem from="1600363304284" duration="1700000" />
-      <workItem from="1600630407667" duration="25376000" />
+      <workItem from="1600630407667" duration="28662000" />
+      <workItem from="1600947149401" duration="7081000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
       <created>1599235551722</created>
@@ -208,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600695786756</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Navbar has been styled with elements pushed to the right with even spacing and to highlight on hover.">
+      <created>1600703697067</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600703697067</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +255,8 @@
     <MESSAGE value="Gallery tile added dynamically for each project in the content dir." />
     <MESSAGE value="Updated project import method to order files by identified dependencies." />
     <MESSAGE value="Organised page layouts and project gallery using css grid to autofill elements." />
-    <option name="LAST_COMMIT_MESSAGE" value="Organised page layouts and project gallery using css grid to autofill elements." />
+    <MESSAGE value="Navbar has been styled with elements pushed to the right with even spacing and to highlight on hover." />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar has been styled with elements pushed to the right with even spacing and to highlight on hover." />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599235399928">
@@ -274,10 +287,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599235416039" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600695794565">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600703699051">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600695794565" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600703699051" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600635231961" />
     <state x="997" y="0" width="930" height="1047" key="dock-window-1" timestamp="1600648273731">
       <screen x="0" y="0" width="1920" height="1040" />

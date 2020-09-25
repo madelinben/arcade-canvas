@@ -19,7 +19,7 @@
 
         <!-- PAGE STYLING -->
         <link rel="stylesheet" type="text/css" href="..\style\style.css">
-        <link rel="stylesheet" type="text/css" href="..\style\tile.css">
+        <link rel="stylesheet" type="text/css" href="..\style\gallery.css">
 
     </head>
 
@@ -28,8 +28,7 @@
     <!-- PAGE CONTAINER -->
     <div class="wrapper">
         <header>
-            <canvas></canvas>
-            <!--<a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>-->
+            <a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>
 
             <nav>
                 <ul class="nav-link">
@@ -60,7 +59,7 @@
         </div>
 
         <footer>
-            <a href="..\pages\index.php" class="scroll-up">Back to Top</a>
+            <a href="..\pages\index.php" class="scroll-up"><button><b>Back to Top</b></button></a>
             <i>~ Ben Madelin ~</i>
         </footer>
 

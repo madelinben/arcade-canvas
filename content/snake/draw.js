@@ -26,7 +26,7 @@ var fruit;
 
         snake.collision();
 
-        document.querySelector('.score').innerText = snake.size;
+        document.querySelector('.score').innerText = 'Score: ' + snake.size;
     }, 250);
 }());
 

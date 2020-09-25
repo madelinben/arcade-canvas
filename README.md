@@ -7,9 +7,11 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [x] Add a gallery tile to the home page for each project.
 * [x] Import the relevant files from a selected project's dir.
 
-***Site Styling:***
-* [ ] Clean up canvas environment to clearly showcase the appropriate game.
-* [ ] Organise project gallery in a tile layout with dynamic sizing.
+***Projects:***
+* [x] Organise project gallery in a tile layout with dynamic sizing.
+* [ ] Clean up canvas environment to clearly showcase the selected game and related user information.
+* [ ] Scale canvas and js and arrange canvas and info container
+* [ ] Update project thumbnail to printscreen highscoring game.
 
 ***Accounts:***
 * [ ] Implement profile system to track user scores.
