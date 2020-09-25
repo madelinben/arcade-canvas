@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas:
+           "header"
+           "content"
+           "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 65px 1fr auto; /* minmax(75px, auto) */
+    grid-gap: 20px;
+}
+
+/*--- HEADER ---*/
+li, a, button {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: lightcoral;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 10%;
+}
+
+.nav-link {
+    list-style: none;
+    padding-right: 30px;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-link li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-link li a:hover {
+    color: #fad1d1;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: white;
+    color: lightcoral;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #fad1d1;
+}
+
+/*--- CONTENT ---*/
+
+
+
+/*--- FOOTER ---*/
+footer { /* Footer Container */
+    grid-area: footer;
+    background: lightgreen;
+
+    height: 50px;
+    overflow: hidden;
+    background-color: #333333;
+    font-family: Open Sans;
+}
+
+footer a, i { /* Footer Content */
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer a:hover { /* Highlight Footer Link */
+    background-color: red;
+}
