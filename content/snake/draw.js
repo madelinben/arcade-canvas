@@ -6,7 +6,20 @@ const columns = canvas.width / scale;
 var snake;
 var fruit;
 
+/*window.onload = function() {
+    init();
+    window.addEventListener('resize', init, false);
+}
+
+function init() {
+    const canvas = canvas.getElementById('canvas');
+    const context = canvas.getContext('2d');
+    context.canvas.width = window.innerWidth - 5;
+    context.canvas.height = window.innerHeight - 5;
+}*/
+
 (function setup() {
+    init();
     snake = new Snake();
     fruit = new Fruit();
 
@@ -34,3 +47,18 @@ window.addEventListener('keydown', ((e) => {
     const keyInput = e.key.replace('Arrow', '');
     snake.changeDirection(keyInput);
 }));
+
+window.addEventListener('resize', init, false);
+
+function init() {
+    let containerWidth = 500;
+    containerWidth = document.querySelector('.environment-container').offsetWidth;
+
+    //DEBUGGING
+    document.querySelector('.project-title').innerText = 'Snake: ' + containerWidth + 'px'; //500
+
+    ctx.canvas.width = containerWidth;
+    ctx.canvas.height = containerWidth;
+
+    /*let windowScale = window.innerWidth / window.innerHeight;*/
+}

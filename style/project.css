@@ -1,15 +1,27 @@
 .project-container { /* Format Grid */
     grid-area: content;
+    background-color: lightblue;
 
-    background: lightblue;
-    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*text-align: center;
+    align-items: center;
+    justify-content: center;*/
 }
 
 .canvas {
-    width: 500px;
-    height: 500px;
+    /*width: 500px;
+    height: 500px;*/
+    background-color: #e0f8cf;
 
-    padding: 0;
+    /*  Black = #071821
+        Dark Green = #306850
+        Light Green = #86c06c
+        Lime = #e0f8cf          */
+
+   /* padding: 0;
     margin: auto;
     display: block;
 
@@ -17,5 +29,21 @@
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 0;*/
+}
+
+.environment-container {
+    display: inline-block;
+    float: left;
+    width: 50%;
+
+    background-color: lightcoral;
+}
+
+.stats-container {
+    display: inline-block;
+    float: right;
+    width: 50%;
+
+    background-color: lightcoral;
 }

@@ -42,20 +42,29 @@
 
     <!-- CONTENT -->
     <div class="project-container">
+        <div class="environment-container">
+            <h1 class="project-title">Snake</h1>
+            <canvas class="canvas" <!--height="300" width="300"-->>Your browser does not support HTML5 Canvas.</canvas>
+        </div>
 
-        <canvas class="canvas" height="300" width="300" style="background-color: #e0f8cf">Your browser does not support HTML5 Canvas.</canvas>
-
-        <span class="profile-stats-container">
+        <div class="stats-container">
             <h1 class="score">Score: </h1>
-        </span>
-
-
-        <!--Black = #071821
-        Dark Green = #306850
-        Light Green = #86c06c
-        Lime = #e0f8cf-->
-
+        </div>
     </div>
+
+    <!--<script>
+        window.onload = function() {
+            init();
+            window.addEventListener('resize', init, false);
+        }
+
+        function init() {
+            const canvas = canvas.getElementById('canvas');
+            const context = canvas.getContext('2d');
+            context.canvas.width = window.innerWidth - 5;
+            context.canvas.height = window.innerHeight - 5;
+        }
+    </script>-->
 
     <footer>
         <a href="..\pages\index.php" class="scroll-up"><button><b>Back to Top</b></button></a>
