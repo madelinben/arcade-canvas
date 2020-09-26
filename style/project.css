@@ -3,12 +3,47 @@
     background-color: lightblue;
 
     width: 50%;
+    min-width: 600px;
+
     margin-left: auto;
     margin-right: auto;
+
+    display: flex;
 
     /*text-align: center;
     align-items: center;
     justify-content: center;*/
+}
+
+/*@media screen and (max-width: 600px) {
+    .environment-container, .stats-container {
+        width: 100%;
+    }
+}*/
+
+.environment-container {
+    /*display: inline-block;*/
+    /*float: left;
+    width: 50%;*/
+    flex: 50%;
+
+    background-color: lightcoral;
+}
+
+.stats-container {
+    /*display: inline-block;*/
+/*    float: right;
+    width: 50%;*/
+flex: 50%;
+    background-color: lightcoral;
+}
+
+.project-container h1 {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    /*text-decoration: none;*/
 }
 
 .canvas {
@@ -21,29 +56,13 @@
         Light Green = #86c06c
         Lime = #e0f8cf          */
 
-   /* padding: 0;
-    margin: auto;
-    display: block;
+    /* padding: 0;
+     margin: auto;
+     display: block;
 
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;*/
-}
-
-.environment-container {
-    display: inline-block;
-    float: left;
-    width: 50%;
-
-    background-color: lightcoral;
-}
-
-.stats-container {
-    display: inline-block;
-    float: right;
-    width: 50%;
-
-    background-color: lightcoral;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;*/
 }

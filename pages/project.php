@@ -44,7 +44,7 @@
     <div class="project-container">
         <div class="environment-container">
             <h1 class="project-title">Snake</h1>
-            <canvas class="canvas" <!--height="300" width="300"-->>Your browser does not support HTML5 Canvas.</canvas>
+            <canvas class="canvas">Your browser does not support HTML5 Canvas.</canvas>
         </div>
 
         <div class="stats-container">

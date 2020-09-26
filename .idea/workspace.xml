@@ -24,7 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Navbar has been styled with elements pushed to the right with even spacing and to highlight on hover.">
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Centered and ordered project environment and stats containers, resizing canvas based on the window width.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/snake/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/snake/draw.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600703697067</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Centered and ordered project environment and stats containers, resizing canvas based on the window width.">
+      <created>1601049014788</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601049014788</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +259,8 @@
     <MESSAGE value="Updated project import method to order files by identified dependencies." />
     <MESSAGE value="Organised page layouts and project gallery using css grid to autofill elements." />
     <MESSAGE value="Navbar has been styled with elements pushed to the right with even spacing and to highlight on hover." />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar has been styled with elements pushed to the right with even spacing and to highlight on hover." />
+    <MESSAGE value="Centered and ordered project environment and stats containers, resizing canvas based on the window width." />
+    <option name="LAST_COMMIT_MESSAGE" value="Centered and ordered project environment and stats containers, resizing canvas based on the window width." />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599235399928">
@@ -267,6 +275,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599234974579" />
+    <state x="184" y="99" key="DiffContextDialog" timestamp="1601049037315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="99" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049037314" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600357582178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -283,16 +295,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599235416039" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601043655469">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601049040515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601043655469" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049040515" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600635231961" />
-    <state x="1230" y="0" width="697" height="1047" key="dock-window-1" timestamp="1601043776655">
+    <state x="1336" y="0" width="591" height="1047" key="dock-window-1" timestamp="1601081723168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1230" y="0" width="697" height="1047" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601043776655" />
-    <state x="997" y="0" width="930" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1600648273731" />
+    <state x="1336" y="0" width="591" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1601081723168" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599255362593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
