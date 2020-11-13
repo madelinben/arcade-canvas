@@ -24,13 +24,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Page layout and design updated to correspond with portfolio style.">
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Height of project container is adjusted based on environment and stats size.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/snake/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/snake/draw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/snake/fruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/snake/fruit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/snake/snake.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/snake/snake.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/project.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,7 @@
       <workItem from="1603417886971" duration="956000" />
       <workItem from="1603462600857" duration="588000" />
       <workItem from="1603510294986" duration="628000" />
-      <workItem from="1605215257109" duration="5208000" />
+      <workItem from="1605215257109" duration="8927000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
       <created>1599235551722</created>
@@ -250,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605228138564</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Height of project container is adjusted based on environment and stats size.">
+      <created>1605230066654</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605230066654</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +294,8 @@
     <MESSAGE value="Centered and ordered project environment and stats containers, resizing canvas based on the window width." />
     <MESSAGE value="Updated canvas position and scaling according to the container size, with minmax values set." />
     <MESSAGE value="Page layout and design updated to correspond with portfolio style." />
-    <option name="LAST_COMMIT_MESSAGE" value="Page layout and design updated to correspond with portfolio style." />
+    <MESSAGE value="Height of project container is adjusted based on environment and stats size." />
+    <option name="LAST_COMMIT_MESSAGE" value="Height of project container is adjusted based on environment and stats size." />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599235399928">
@@ -324,11 +330,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599235416039" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605228142416">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605230069546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049040515" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605228142416" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605230069546" />
     <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1601917806159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -36,24 +36,38 @@
 
     <!-- CONTENT -->
     <div class="project-container">
-        <div class="environment-container">
-            <h1 class="project-title">Snake</h1>
-            <canvas class="canvas">Your browser does not support HTML5 Canvas.</canvas>
+
+        <div class="section">
+            <div class="section-title">Snake</div>
+            <hr>
+
+            <div class="interactive-container">
+                <div class="environment-container">
+                    <canvas class="canvas">Your browser does not support HTML5 Canvas.</canvas>
+                </div>
+
+                <div class="stats-container">
+                    <h1 class="current-score">Score: </h1>
+                    <h1 class="high-score">Best: </h1>
+                    <h1 class="like-btn">Like!</h1>
+                </div>
+            </div>
         </div>
 
-        <div class="stats-container">
-            <h1 class="score">Score: </h1>
+        <br />
+
+        <div class="section">
+            <div class="section-title">Leaderboard</div>
+            <hr>
+        </div>
+
+        <br />
+
+        <div class="section">
+            <div class="section-title">Comment</div>
+            <hr>
         </div>
     </div>
-
-    <!--<script>
-        function init() {
-            const canvas = canvas.getElementById('canvas');
-            const context = canvas.getContext('2d');
-            context.canvas.width = window.innerWidth - 5;
-            context.canvas.height = window.innerHeight - 5;
-        }
-    </script>-->
 
     <footer>
         <a href="https://github.com/madelinben/canvas-js"><i class="credit">~ Ben Madelin ~</i></a>

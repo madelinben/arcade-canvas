@@ -9,60 +9,100 @@
     margin-right: auto;
 
     display: flex;
-
-    /*text-align: center;
-    align-items: center;
-    justify-content: center;*/
+    flex-direction: column;
 }
+
+.section {
+    background-color: #ffffff;
+    border: 3px solid #f1f1f1;
+    padding: 0px;
+    /*overflow: auto;*/
+}
+
+.section-title {
+    color: #333333;
+    font-size: 24px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.project-container {
+    /*DISPLAY AS ROWS*/
+}
+
+
+
+
+
+
+
+
+
+/*.leaderboard-container {*/
+/*}*/
+/*.comment-container {*/
+/*}*/
+
+
+
+
+/*.project-container {*/
+/*    border: 1px #333333;*/
+/*}*/
+
+/*.project-title {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
+
+/*.environment-container {*/
+/*    flex: 50%;*/
+/*    background-color: lightcoral;*/
+/*}*/
+
+/*.stats-container {*/
+/*    flex: 50%;*/
+/*    background-color: lightcoral;*/
+/*}*/
+
+/*.stats-container,h1 {*/
+/*    padding-left: 10px;*/
+/*}*/
+
+/*.project-container h1 {*/
+/*    font-family: "Open Sans",sans-serif;*/
+/*    font-weight: 600;*/
+/*    font-size: 24px;*/
+/*    color: black;*/
+/*}*/
+
+/*.canvas {*/
+/*    background-color: #e0f8cf;*/
+
+/*    !*  Black = #071821*/
+/*        Dark Green = #306850*/
+/*        Light Green = #86c06c*/
+/*        Lime = #e0f8cf          *!*/
+/*}*/
+
 
 /*@media screen and (max-width: 600px 992px) {
     .environment-container, .stats-container {
         width: 100%;
     }
 }*/
-
-.environment-container {
-    /*display: inline-block;*/
-    /*float: left;
-    width: 50%;*/
-    flex: 50%;
-
-    background-color: lightcoral;
-}
-
-.stats-container {
-    /*display: inline-block;*/
-/*    float: right;
-    width: 50%;*/
-flex: 50%;
-    background-color: lightcoral;
-}
-
-.project-container h1 {
-    font-family: "Open Sans",sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    color: black;
-    /*text-decoration: none;*/
-}
-
-.canvas {
-    /*width: 500px;
-    height: 500px;*/
-    background-color: #e0f8cf;
-
-    /*  Black = #071821
-        Dark Green = #306850
-        Light Green = #86c06c
-        Lime = #e0f8cf          */
-
-    /* padding: 0;
-     margin: auto;
-     display: block;
-
-     position: absolute;
-     top: 0;
-     bottom: 0;
-     left: 0;
-     right: 0;*/
-}
