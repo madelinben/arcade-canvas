@@ -1,10 +1,10 @@
 const canvas = document.querySelector(".canvas");
-const ctx = canvas.getContext("2d");
+const context = canvas.getContext("2d");
 const scale = 10;
 const rows = canvas.height / scale;
 const columns = canvas.width / scale;
-var snake;
-var fruit;
+let snake;
+let fruit;
 
 (function setup() {
     init();
@@ -12,10 +12,9 @@ var fruit;
     fruit = new Fruit();
 
     fruit.randLocation()
-    console.log(fruit)
 
     window.setInterval(() => {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        context.clearRect(0, 0, canvas.width, canvas.height);
 
         fruit.draw();
         snake.update();
@@ -41,9 +40,8 @@ window.addEventListener('resize', init, false);
 function init() {
     let containerWidth = 500;
     containerWidth = document.querySelector('.environment-container').offsetWidth;
+    context.canvas.width = containerWidth;
+    context.canvas.height = containerWidth;
 
-    /*document.querySelector('.project-title').innerText = containerWidth + 'px';*/
-
-    ctx.canvas.width = containerWidth;
-    ctx.canvas.height = containerWidth;
+    document.querySelector('.project-container').style.height = containerWidth + 50 + 'px';
 }

@@ -47,11 +47,6 @@
     </div>
 
     <!--<script>
-        window.onload = function() {
-            init();
-            window.addEventListener('resize', init, false);
-        }
-
         function init() {
             const canvas = canvas.getElementById('canvas');
             const context = canvas.getContext('2d');

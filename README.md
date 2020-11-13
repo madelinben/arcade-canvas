@@ -9,8 +9,8 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 
 ***Projects:***
 * [x] Organise project gallery in a tile layout with dynamic sizing.
-* [ ] Clean up canvas environment to clearly showcase the selected game and related user information.
-* [ ] Scale canvas and js and arrange canvas and info container
+* [x] Clean up canvas environment to clearly showcase the selected game and related user information.
+* [x] Scale canvas and js and arrange canvas and info container.
 * [ ] Update project thumbnail to printscreen highscore game.
 
 ***Account Management:***
@@ -27,5 +27,7 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 
 
 ## What's Next!
+* Pong
 * Block Breaker
 * Asteroids
+* Flappy Bird
