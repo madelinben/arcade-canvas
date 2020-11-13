@@ -32,74 +32,35 @@ hr {
     margin-bottom: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-.project-container {
-    /*DISPLAY AS ROWS*/
+.interactive-container {
+    display: flex;
+    flex-direction: row;
 }
 
+.canvas {
+    background-color: #f1f1f1;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 
+    /*  Black = #071821
+        Dark Green = #306850
+        Light Green = #86c06c
+        Lime = #e0f8cf          */
+}
 
+.environment-container {
+    flex: 50%;
+}
 
+.stats-container {
+    flex: 50%;
+}
 
-
-
-
-
-/*.leaderboard-container {*/
-/*}*/
-/*.comment-container {*/
-/*}*/
-
-
-
-
-/*.project-container {*/
-/*    border: 1px #333333;*/
-/*}*/
-
-/*.project-title {*/
-/*    width: 100%;*/
-/*    height: auto;*/
-/*}*/
-
-/*.environment-container {*/
-/*    flex: 50%;*/
-/*    background-color: lightcoral;*/
-/*}*/
-
-/*.stats-container {*/
-/*    flex: 50%;*/
-/*    background-color: lightcoral;*/
-/*}*/
-
-/*.stats-container,h1 {*/
-/*    padding-left: 10px;*/
-/*}*/
-
-/*.project-container h1 {*/
-/*    font-family: "Open Sans",sans-serif;*/
-/*    font-weight: 600;*/
-/*    font-size: 24px;*/
-/*    color: black;*/
-/*}*/
-
-/*.canvas {*/
-/*    background-color: #e0f8cf;*/
-
-/*    !*  Black = #071821*/
-/*        Dark Green = #306850*/
-/*        Light Green = #86c06c*/
-/*        Lime = #e0f8cf          *!*/
-/*}*/
-
+.stats-container h1 {
+    padding-left: 10px;
+    color: #333333;
+}
 
 /*@media screen and (max-width: 600px 992px) {
     .environment-container, .stats-container {
