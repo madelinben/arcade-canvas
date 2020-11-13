@@ -24,11 +24,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Centered and ordered project environment and stats containers, resizing canvas based on the window width.">
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Updated canvas position and scaling according to the container size, with minmax values set.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/snake/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/snake/draw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -96,6 +98,17 @@
       <workItem from="1600363304284" duration="1700000" />
       <workItem from="1600630407667" duration="28662000" />
       <workItem from="1600947149401" duration="7081000" />
+      <workItem from="1602035904112" duration="21000" />
+      <workItem from="1602035954490" duration="616000" />
+      <workItem from="1602112509757" duration="624000" />
+      <workItem from="1602114058198" duration="637000" />
+      <workItem from="1602117639091" duration="601000" />
+      <workItem from="1602122307051" duration="625000" />
+      <workItem from="1602703615782" duration="176000" />
+      <workItem from="1603417886971" duration="956000" />
+      <workItem from="1603462600857" duration="588000" />
+      <workItem from="1603510294986" duration="628000" />
+      <workItem from="1605215257109" duration="3230000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
       <created>1599235551722</created>
@@ -223,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601049014788</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updated canvas position and scaling according to the container size, with minmax values set.">
+      <created>1601082086298</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1601082086298</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +280,8 @@
     <MESSAGE value="Organised page layouts and project gallery using css grid to autofill elements." />
     <MESSAGE value="Navbar has been styled with elements pushed to the right with even spacing and to highlight on hover." />
     <MESSAGE value="Centered and ordered project environment and stats containers, resizing canvas based on the window width." />
-    <option name="LAST_COMMIT_MESSAGE" value="Centered and ordered project environment and stats containers, resizing canvas based on the window width." />
+    <MESSAGE value="Updated canvas position and scaling according to the container size, with minmax values set." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated canvas position and scaling according to the container size, with minmax values set." />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599235399928">
@@ -279,10 +300,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="99" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049037314" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600357582178">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602703768685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600357582178" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602703768685" />
     <state x="748" y="243" key="NewPhpClassDialog" timestamp="1599582731388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -295,16 +316,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599235416039" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601049040515">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601082091048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049040515" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600635231961" />
-    <state x="1336" y="0" width="591" height="1047" key="dock-window-1" timestamp="1601081723168">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601082091048" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1601917806159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1230" y="0" width="697" height="1047" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601043776655" />
-    <state x="1336" y="0" width="591" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1601081723168" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1601917806159" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599255362593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

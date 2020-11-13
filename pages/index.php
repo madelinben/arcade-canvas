@@ -28,16 +28,10 @@
     <!-- PAGE CONTAINER -->
     <div class="wrapper">
         <header>
-            <a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>
-
-            <nav>
-                <ul class="nav-link">
-                    <li><a href="..\pages\about.php">Personal Portfolio</a></li>
-                    <li><a href="..\pages\index.php">Project Gallery</a></li>
-                </ul>
-            </nav>
-
-            <a href="..\pages\account.php" class="nav-account"><button><b>Account</b></button></a>
+            <div class="flex-container">
+                <a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>
+                <a href="..\pages\account.php" class="nav-account"><button><b>Account</b></button></a>
+            </div>
         </header>
 
         <!-- CONTENT -->
@@ -59,8 +53,7 @@
         </div>
 
         <footer>
-            <a href="..\pages\index.php" class="scroll-up"><button><b>Back to Top</b></button></a>
-            <i>~ Ben Madelin ~</i>
+            <a href="https://github.com/madelinben/canvas-js"><i class="credit">~ Ben Madelin ~</i></a>
         </footer>
 
     </div>

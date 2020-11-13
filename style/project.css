@@ -15,7 +15,7 @@
     justify-content: center;*/
 }
 
-/*@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px 992px) {
     .environment-container, .stats-container {
         width: 100%;
     }
