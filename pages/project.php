@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+<?php
+if (isset($_GET['selected'])) {
+    $selectedProject = ucfirst($_GET['selected']);
+} else {
+    $selectedProject = 'Error!';
+}
+?>
+
 <head>
     <meta charset="UTF-8">
 
     <!-- PAGE TITLE -->
-    <title>Canvas - Project</title>
+    <title>Canvas - <?php echo $selectedProject ?></title>
 
     <!-- SITE META DATA -->
     <meta name="keywords" content="CANVAS, CODING CHALLENGE, GAME, WEB DEVELOPMENT, HTML, CSS, JAVASCRIPT">
@@ -36,9 +44,17 @@
 
     <!-- CONTENT -->
     <div class="project-container">
+        <?php
+        if ($selectedProject == 'Error!') {
+            echo '<div class="section">
+                  <div class="section-title">Error!</div>
+                  <hr>
+                  <div class="section-title">Selected project is Unavailable!</div>';
+        } else {
+        ?>
 
         <div class="section">
-            <div class="section-title">Snake</div>
+            <div class="section-title"><?php echo $selectedProject ?></div>
             <hr>
 
             <div class="interactive-container">
@@ -67,6 +83,8 @@
             <div class="section-title">Comment</div>
             <hr>
         </div>
+
+        <?php } ?>
     </div>
 
     <footer>
