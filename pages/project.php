@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+<?php
+if (isset($_GET['selected'])) {
+    $selectedProject = ucfirst($_GET['selected']);
+} else {
+    $selectedProject = 'Error!';
+}
+?>
+
 <head>
     <meta charset="UTF-8">
 
     <!-- PAGE TITLE -->
-    <title>Canvas - Game</title>
+    <title>Canvas - <?php echo $selectedProject ?></title>
 
     <!-- SITE META DATA -->
     <meta name="keywords" content="CANVAS, CODING CHALLENGE, GAME, WEB DEVELOPMENT, HTML, CSS, JAVASCRIPT">
@@ -19,39 +27,71 @@
 
     <!-- PAGE STYLING -->
     <link rel="stylesheet" type="text/css" href="..\style\style.css">
+    <link rel="stylesheet" type="text/css" href="..\style\project.css">
 
 </head>
 
 <body>
 
-<!-- HEADER -->
-<header>
-    <div class="global-navbar">
-        <a href="..\pages\index.php" class="site-link"><h1>CANVAS CODING CHALLENGES</h1></a>
+<!-- PAGE CONTAINER -->
+<div class="wrapper">
+    <header>
+        <div class="flex-container">
+            <a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>
+            <a href="..\pages\account.php" class="nav-account"><button><b>Account</b></button></a>
+        </div>
+    </header>
+
+    <!-- CONTENT -->
+    <div class="project-container">
+        <?php
+        if ($selectedProject == 'Error!') {
+            echo '<div class="section">
+                  <div class="section-title">Error!</div>
+                  <hr>
+                  <div class="section-title">Selected project is Unavailable!</div>';
+        } else {
+            ?>
+
+            <div class="section">
+                <div class="section-title"><?php echo $selectedProject ?></div>
+                <hr>
+
+                <div class="interactive-container">
+                    <div class="environment-container">
+                        <canvas class="canvas">Your browser does not support HTML5 Canvas.</canvas>
+                    </div>
+
+                    <div class="stats-container">
+                        <h1 class="current-score">Score: </h1>
+                        <h1 class="high-score">Best: </h1>
+                        <h1 class="like-btn">Like!</h1>
+                    </div>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="section">
+                <div class="section-title">Leaderboard</div>
+                <hr>
+            </div>
+
+            <br />
+
+            <div class="section">
+                <div class="section-title">Comment</div>
+                <hr>
+            </div>
+
+        <?php } ?>
     </div>
-</header>
 
-<!-- CONTENT -->
-<div class="content-container">
-
-    <canvas class="canvas" height="300" width="300" style="background-color: #e0f8cf"></canvas>
-    <h1 class="score"></h1>
-
-    <!--Black = #071821
-    Dark Green = #306850
-    Light Green = #86c06c
-    Lime = #e0f8cf-->
+    <footer>
+        <a href="https://github.com/madelinben/canvas-js"><i class="credit">~ Ben Madelin ~</i></a>
+    </footer>
 
 </div>
-
-<!-- FOOTER -->
-<footer>
-    <div class="global-footnote">
-        <a href="..\pages\index.php" class="scroll-up">Back to Top</a>
-        <i>~ Ben Madelin ~</i>
-    </div>
-</footer>
-
 </body>
 
 <?php
@@ -85,10 +125,7 @@ if ((strpos($url, 'project.php') !== false) && (isset($_GET['selected']))) {
     foreach($scriptFiles as $file) {
         echo '<script type="text/javascript" src="' . $file . '"></script>';
     }
-
-} /*else {
-    echo '<div class="game-section"><h2>NO DATA AVAILABLE FOR SELECTED TITLE</h2></div>';
-}*/
+}
 ?>
 
 </html>

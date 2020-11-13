@@ -7,13 +7,13 @@ function Snake() {
     this.tail = [];
 
     this.draw = function() {
-        ctx.fillStyle = "#071821";
+        context.fillStyle = "#071821";
 
         for (let i=0; i<this.tail.length; i++) {
-            ctx.fillRect(this.tail[i].x, this.tail[i].y, scale, scale);
+            context.fillRect(this.tail[i].x, this.tail[i].y, scale, scale);
         }
 
-        ctx.fillRect(this.x, this.y, scale, scale);
+        context.fillRect(this.x, this.y, scale, scale);
     }
 
     this.update = function() {
