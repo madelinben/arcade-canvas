@@ -16,6 +16,7 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [ ] Implement profile system to track user scores.
 
 ## 🏓 Pong
+* [x] Format canvas environment and draw method
 * [ ] 
 
 ## 🐍 Snake
@@ -27,6 +28,9 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [x] Validate whether the snake has collided to reset the game.
 
 
+
+## 🐞 BUGS!
+* [ ] Text decoration on credit repo link.
 
 ## What's Next!
 * Pong

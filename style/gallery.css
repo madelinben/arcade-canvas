@@ -1,11 +1,8 @@
 .gallery { /* Format Grid */
     grid-area: content;
-
-    /*background: lightblue;*/
     justify-content: center;
-
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px); /*col=auto-fit size=minmax(300px, 1fr)*/
+    grid-template-columns: repeat(auto-fit, 300px); /*minmax(300px, 1fr)*/
     grid-template-rows: repeat(auto-fit, 300px);
     grid-gap: 5px;
 }

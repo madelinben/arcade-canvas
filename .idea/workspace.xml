@@ -31,17 +31,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Dynamic pages implemented to project title, and visual error displayed if related contents cannot be collected.">
-      <change afterPath="$PROJECT_DIR$/style/project.css" afterDir="false" />
+    <list default="true" id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Branch updated with latest changes from feature/project-layout.">
+      <change afterPath="$PROJECT_DIR$/content/pong/ball.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pong/draw.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/snake/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/snake/draw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/snake/fruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/snake/fruit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/snake/snake.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/snake/snake.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/tile.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/gallery.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +49,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -99,7 +94,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="" />
+      <changelist id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Branch updated with latest changes from feature/project-layout." />
       <created>1599234087612</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -120,6 +115,7 @@
       <workItem from="1603462600857" duration="588000" />
       <workItem from="1603510294986" duration="628000" />
       <workItem from="1605215257109" duration="10706000" />
+      <workItem from="1605461383701" duration="3717000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
       <created>1599235551722</created>
@@ -282,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605234771053</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Branch updated with latest changes from feature/project-layout.">
+      <created>1605239050512</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605239050512</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +339,8 @@
     <MESSAGE value="Height of project container is adjusted based on environment and stats size." />
     <MESSAGE value="Organised project sections using flex-direction as column and styled containers with border." />
     <MESSAGE value="Interactive and statistic containers displayed in flex and styled according to design." />
-    <option name="LAST_COMMIT_MESSAGE" value="Interactive and statistic containers displayed in flex and styled according to design." />
+    <MESSAGE value="Branch updated with latest changes from feature/project-layout." />
+    <option name="LAST_COMMIT_MESSAGE" value="Branch updated with latest changes from feature/project-layout." />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599235399928">
@@ -371,16 +375,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599235416039" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605234774308">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605239055719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049040515" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605234774308" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605239055719" />
     <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1601917806159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1230" y="0" width="697" height="1047" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601043776655" />
     <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1601917806159" />
+    <state x="288" y="242" key="run.anything.popup" timestamp="1605464734581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="288" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605464734581" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599255362593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
