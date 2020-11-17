@@ -5,6 +5,7 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 ***Dynamic Pages:***
 * [x] Add a gallery tile to the home page for each project.
 * [x] Import the relevant files from a selected project's dir.
+* [x] Implement import file to setup canvas environment and simplify project format.
 
 ***Projects:***
 * [x] Organise project gallery in a tile layout with dynamic sizing.
@@ -17,7 +18,8 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 
 ## 🏓 Pong
 * [x] Format canvas environment and draw method
-* [ ] 
+* [x] Return ball to center spot when starting a game.
+* [ ] Alternate between players and vary the initial ball angle.
 
 ## 🐍 Snake
 * [x] Format canvas environment and draw method
@@ -36,4 +38,3 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * Pong
 * Block Breaker
 * Asteroids
-* Flappy Bird
