@@ -1,29 +1,37 @@
 const canvas = document.querySelector(".canvas");
 const context = canvas.getContext("2d");
 
-(function setup() {
+let ball;
+let playerOne;
+let playerTwo;
+
+(function render() {
     init();
-    let ball = new Ball();
-    let player1, player2;
+
+    ball = new Ball();
+
+    playerOne = new Player();
+    playerTwo = new Player();
 
     let playerTurn = true;
-    let scored = true;
-    //set balls initial angle
+    ball.center();
+    ball.angle();
 
     window.setInterval(() => {
         clear();
         lineDash(canvas.width/2, 0, canvas.width/2, canvas.height, 10, 'black');
 
-        if (scored) {
-            //increment player score
+        // text(String.valueOf(playerOne.score), canvas.width/4, 10);
+        // text(String.valueOf(playerTwo.score), 3*(canvas.width/4), 10);
+
+        if (ball.score()) {
+            playerTurn = !playerTurn;
             ball.center();
-            ball.angle();
-            scored = false;
+            ball.angle(playerTurn);
         }
 
         ball.draw();
         ball.update();
-
     }, 250);
 
 }());
@@ -32,9 +40,7 @@ const context = canvas.getContext("2d");
 
 window.addEventListener('keydown', ((e) => {
     const keyInput = e.key.replace('Arrow', '');
-
-
-
+    console.log(keyInput);
 }));
 
 //SKETCH
@@ -66,6 +72,11 @@ function ellipse(x, y, radius) {
     context.beginPath();
     context.arc(x, y, radius, 0, 2 * Math.PI); //anticlockwise
     context.stroke();
+}
+
+function text(content, x, y) {
+    context.font = "30px Arial";
+    context.fillText(content, x, y);
 }
 
 // ENVIRONMENT SETUP & SCALE

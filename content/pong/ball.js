@@ -29,7 +29,6 @@ function Ball() {
 
     this.angle = function(turn) {
         let randAngle = 0;
-
         if (turn) {
             randAngle = Math.random() * (180 - 0);
         } else {
@@ -43,8 +42,18 @@ function Ball() {
         this.ySpeed = 10 * Math.sin(randAngle);
     }
 
-    this.boundary = function () {
-
+    this.score = function() {
+        if (this.x > canvas.width) {
+            player1.score++;
+            return true;
+        } else if (this.x < 0) {
+            player2.score++;
+            return true;
+        }
     }
+
+    /*this.boundary = function () {
+
+    }*/
 
 }

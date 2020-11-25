@@ -43,6 +43,8 @@ hr {
     margin-bottom: 10px;
     margin-right: 10px;
 
+    border: 2px dotted black;
+
     /*  Black = #071821
         Dark Green = #306850
         Light Green = #86c06c
