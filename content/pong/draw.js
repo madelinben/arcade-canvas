@@ -2,8 +2,7 @@ const canvas = document.querySelector(".canvas");
 const context = canvas.getContext("2d");
 
 let ball;
-let playerOne;
-let playerTwo;
+let playerOne, playerTwo;
 
 (function render() {
     init();
@@ -21,14 +20,16 @@ let playerTwo;
         clear();
         lineDash(canvas.width/2, 0, canvas.width/2, canvas.height, 10, 'black');
 
-        // text(String.valueOf(playerOne.score), canvas.width/4, 10);
-        // text(String.valueOf(playerTwo.score), 3*(canvas.width/4), 10);
+        text(playerOne.score, canvas.width/4-10, 50, 'black');
+        text(playerTwo.score, 3*(canvas.width/4)-10, 50, 'black');
 
-        if (ball.score()) {
+        /*if (ball.score()) {
             playerTurn = !playerTurn;
             ball.center();
             ball.angle(playerTurn);
-        }
+        }*/
+
+        playerOne.draw();
 
         ball.draw();
         ball.update();
@@ -40,7 +41,20 @@ let playerTwo;
 
 window.addEventListener('keydown', ((e) => {
     const keyInput = e.key.replace('Arrow', '');
-    console.log(keyInput);
+    switch(keyInput) {
+        case 'Up':
+            playerOne.update('UP');
+            break;
+        case 'Down':
+            playerOne.update('DOWN');
+            break;
+        case 'w':
+            console.log('Player2 - UP');
+            break;
+        case 's':
+            console.log('Player2 - DOWN')
+            break;
+    }
 }));
 
 //SKETCH
@@ -74,8 +88,9 @@ function ellipse(x, y, radius) {
     context.stroke();
 }
 
-function text(content, x, y) {
+function text(content, x, y, color) {
     context.font = "30px Arial";
+    context.fillStyle = color;
     context.fillText(content, x, y);
 }
 

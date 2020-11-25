@@ -103,12 +103,14 @@ if ((strpos($url, 'project.php') !== false) && (isset($_GET['selected']))) {
     $projectDir = '..\content\\' . $selectedProject;
     $scriptFiles = glob($projectDir . '\*.js');
 
+
+
     //sortDependencies
     $dependencies = array('draw.js');
     $conflictFiles = array();
 
     foreach($dependencies as $compare) {
-        for ($i=0; $i<count($dependencies); $i++) {
+        for ($i=0; $i<count($scriptFiles); $i++) {
             //Remove Conflicts
             if (strpos($scriptFiles[$i], $compare) !== false) {
                 $conflictFiles[] = $scriptFiles[$i];

@@ -44,10 +44,10 @@ function Ball() {
 
     this.score = function() {
         if (this.x > canvas.width) {
-            player1.score++;
+            // playerOne.score++;
             return true;
         } else if (this.x < 0) {
-            player2.score++;
+            // player2.score++;
             return true;
         }
     }

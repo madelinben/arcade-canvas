@@ -20,7 +20,7 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [x] Format canvas environment and draw method
 * [x] Return ball to center spot when starting a game.
 * [x] Alternate between players and vary the initial ball angle.
-* [ ] Implement interactive paddles for both players with unique key binds.
+* [x] Implement interactive paddles for both players with unique key binds.
 * [ ] Validate collisions between the ball and paddles to alter vector speed.
 * [ ] 
 * [ ] Display each player score.
