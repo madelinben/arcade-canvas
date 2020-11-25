@@ -1,42 +1,63 @@
-const canvas = document.querySelector(".canvas");
-const context = canvas.getContext("2d");
+// import { Animation } from "../../scripts/sketch.js";
+// const sketch = new Animation();
+//
+// sketch.test();
+// sketch.init();
+// window.addEventListener('resize', sketch.scale(), false);
+//
+// (function render() {
+//     window.setInterval(() => {  }, 250);
+// }());
 
-(function setup() {
-    scale();
-    render();
-}());
+export class Animation {
+    init() {
+        this.canvas = document.querySelector(".canvas");
+        this.context = this.canvas.getContext("2d");
+    }
 
-function scale() {
-    let containerWidth = 500;
-    containerWidth = document.querySelector('.environment-container').offsetWidth;
-    context.canvas.width = containerWidth;
-    context.canvas.height = containerWidth;
-    document.querySelector('.project-container').style.height = containerWidth + 50 + 'px';
-}
+    canvas() {
+        return this.canvas;
+    }
 
-window.addEventListener('resize', scale(), false);
+    scale() {
+        let containerWidth = 500;
+        containerWidth = document.querySelector('.environment-container').offsetWidth;
+        this.context.canvas.width = containerWidth;
+        this.context.canvas.height = containerWidth;
+        document.querySelector('.project-container').style.height = containerWidth + 50 + 'px';
+    }
 
-function line(x1, y1, x2, y2, thickness, color) {
-    context.beginPath();
-    context.moveTo(x1, y1);
-    context.lineTo(x2, y2);
-    context.lineWidth = thickness;
-    context.strokeStyle = color;
-    context.stroke();
-}
+    clear() {
+        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    }
 
-function rectFill(x1, y1, x2, y2) {
-    context.fillRect(x1, y1, x2, y2);
-}
+    line(x1, y1, x2, y2, thickness, color) {
+        this.context.beginPath();
+        this.context.moveTo(x1, y1);
+        this.context.lineTo(x2, y2);
+        this.context.lineWidth = thickness;
+        this.context.strokeStyle = color;
+        this.context.stroke();
+    }
 
-function rectOutline(x1, y1, x2, y2) {
-    context.beginPath();
-    context.rect(x1, y1, x2, y2);
-    context.stroke();
-}
+    rect(x1, y1, x2, y2, color) {
+        this.context.fillStyle = color;
+        this.context.fillRect(x1, y1, x2, y2);
+    }
 
-function ellipse(x, y, radius) {
-    context.beginPath();
-    context.arc(x, y, radius, 0, 2 * Math.PI); //anticlockwise
-    context.stroke();
+    rectOutline(x1, y1, x2, y2) {
+        this.context.beginPath();
+        this.context.rect(x1, y1, x2, y2);
+        this.context.stroke();
+    }
+
+    ellipse(x, y, radius) {
+        this.context.beginPath();
+        this.context.arc(x, y, radius, 0, 2 * Math.PI); //anticlockwise
+        this.context.stroke();
+    }
+
+    test() {
+        console.log('Sketch Module has imported!')
+    }
 }

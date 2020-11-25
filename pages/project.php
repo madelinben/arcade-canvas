@@ -101,7 +101,7 @@ if ((strpos($url, 'project.php') !== false) && (isset($_GET['selected']))) {
     $selectedProject = $_GET['selected'];
 
     $projectDir = '..\content\\' . $selectedProject;
-    $scriptFiles = glob($projectDir . '/*.js');
+    $scriptFiles = glob($projectDir . '\*.js');
 
     //sortDependencies
     $dependencies = array('draw.js');
@@ -128,6 +128,6 @@ if ((strpos($url, 'project.php') !== false) && (isset($_GET['selected']))) {
 }
 ?>
 
-<script type="text/javascript" src="..\scripts\sketch.js"></script>
+<!--<script type="module" src="..\scripts\sketch.js"></script>-->
 
 </html>

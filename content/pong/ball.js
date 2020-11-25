@@ -13,14 +13,21 @@ function Ball() {
     this.update = function() {
         this.x += this.xSpeed;
         this.y += this.ySpeed;
+
+        if (this.x < 0 || this.x > (canvas.width-this.size)) {
+            this.xSpeed *= -1;
+        }
+        if (this.y < 0 || this.y > (canvas.height-this.size)) {
+            this.ySpeed *= -1;
+        }
     }
 
-    this.setCenter = function() {
+    this.center = function() {
         this.x = (canvas.width)/2 - (this.size/2);
         this.y = (canvas.height)/2 - (this.size/2);
     }
 
-    this.setAngle = function(turn) {
+    this.angle = function(turn) {
         let randAngle = 0;
 
         if (turn) {
