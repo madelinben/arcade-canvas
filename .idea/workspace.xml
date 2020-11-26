@@ -31,10 +31,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Each player paddle is displayed and centered.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pong/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/pong/draw.js" afterDir="false" />
+    <list default="true" id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Event listener added to update each paddle position when the specified key binding is clicked.">
       <change beforePath="$PROJECT_DIR$/content/pong/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/pong/player.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +112,7 @@
       <workItem from="1603510294986" duration="628000" />
       <workItem from="1605215257109" duration="10706000" />
       <workItem from="1605461383701" duration="27055000" />
-      <workItem from="1606267197443" duration="14322000" />
+      <workItem from="1606267197443" duration="14401000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
       <created>1599235551722</created>
@@ -334,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606404867350</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Event listener added to update each paddle position when the specified key binding is clicked.">
+      <created>1606405625475</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1606405625475</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +369,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Canvas formatted and Snake object created to track and display sprite." />
     <MESSAGE value="EventListener added to alter the direction the snake head moves based on the Arrow Key pressed." />
     <MESSAGE value="EventListener added to alter the direction the snake head moves based on the arrow key pressed." />
     <MESSAGE value="Boundaries added to canvas width and height keeping the snake vector within area." />
@@ -390,7 +393,8 @@
     <MESSAGE value="Increment associated player score and switch to opponents start." />
     <MESSAGE value="Displaying each player score, centered in respective sides." />
     <MESSAGE value="Each player paddle is displayed and centered." />
-    <option name="LAST_COMMIT_MESSAGE" value="Each player paddle is displayed and centered." />
+    <MESSAGE value="Event listener added to update each paddle position when the specified key binding is clicked." />
+    <option name="LAST_COMMIT_MESSAGE" value="Event listener added to update each paddle position when the specified key binding is clicked." />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599235399928">
@@ -425,11 +429,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599235416039" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606404870560">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606405628608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049040515" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606404870560" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606405628608" />
     <state x="-7" y="0" width="1233" height="1047" key="dock-window-1" timestamp="1605588518816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

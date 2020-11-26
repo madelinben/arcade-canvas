@@ -14,9 +14,15 @@ function Player() {
         switch(direction) {
             case 'UP':
                 this.y -= this.speed;
+                if (this.y <= 0) {
+                    this.y = 0;
+                }
                 break;
             case 'DOWN':
                 this.y += this.speed;
+                if (this.y + this.height >= canvas.height) {
+                    this.y = canvas.height - this.height;
+                }
                 break;
         }
     }
