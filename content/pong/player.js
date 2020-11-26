@@ -7,7 +7,7 @@ function Player() {
     this.score = 0;
 
     this.draw = function() {
-        rect(this.x, this.y, this.width, this.height, "#86c06c");
+        rect(this.x, this.y, this.width, this.height, "#071821");
     }
 
     this.update = function(direction) {
@@ -30,4 +30,8 @@ function Player() {
     this.center = function() {
         this.y = (canvas.height - this.height)/2;
     }
+
+    /*this.computer = function () {
+
+    }*/
 }

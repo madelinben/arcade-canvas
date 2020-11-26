@@ -55,7 +55,7 @@ let playerOne, playerTwo;
         playerOne.draw();
         playerTwo.draw();
 
-
+        ball.boundary();
 
         ball.draw();
         ball.update();
