@@ -130,6 +130,6 @@ if ((strpos($url, 'project.php') !== false) && (isset($_GET['selected']))) {
 }
 ?>
 
-<!--<script type="module" src="..\scripts\sketch.js"></script>-->
+<script type="text/javascript" src="..\scripts\sketch.js"></script> <!--module-->
 
 </html>

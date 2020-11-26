@@ -6,18 +6,14 @@ function Ball() {
     this.size = 10;
 
     this.draw = function() {
-        context.fillStyle = "#86c06c";
-        context.fillRect(this.x, this.y, this.size, this.size);
+        rect(this.x, this.y, this.size, this.size,"#86c06c");
     }
 
     this.update = function() {
         this.x += this.xSpeed;
         this.y += this.ySpeed;
 
-        if (this.x < 0 || this.x > (canvas.width-this.size)) {
-            this.xSpeed *= -1;
-        }
-        if (this.y < 0 || this.y > (canvas.height-this.size)) {
+        if (this.y <= 0 || (this.y + this.size)  >= canvas.height) {
             this.ySpeed *= -1;
         }
     }
@@ -43,11 +39,11 @@ function Ball() {
     }
 
     this.score = function() {
-        if (this.x > canvas.width) {
-            // playerOne.score++;
+        if ((this.x + this.size) >= canvas.width) {
+            playerOne.score++;
             return true;
-        } else if (this.x < 0) {
-            // player2.score++;
+        } else if (this.x <= 0) {
+            playerTwo.score++;
             return true;
         }
     }
@@ -55,5 +51,4 @@ function Ball() {
     /*this.boundary = function () {
 
     }*/
-
 }

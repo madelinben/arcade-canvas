@@ -7,12 +7,7 @@ function Player() {
     this.score = 0;
 
     this.draw = function() {
-        context.fillStyle = "#86c06c";
-        context.fillRect(this.x, this.y, (this.x+this.width), (this.y+this.height));
-    }
-
-    this.test = function () {
-        console.log('workdinging bitch');
+        rect(this.x, this.y, this.width, this.height, "#86c06c");
     }
 
     this.update = function(direction) {
@@ -26,7 +21,7 @@ function Player() {
         }
     }
 
-    this.getScore = function() {
-        return this.score;
+    this.center = function() {
+        this.y = (canvas.height - this.height)/2;
     }
 }
