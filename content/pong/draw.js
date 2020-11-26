@@ -66,19 +66,18 @@ let playerOne, playerTwo;
 // EVENTS
 
 window.addEventListener('keydown', ((e) => {
-    const keyInput = e.key.replace('Arrow', '');
-    switch(keyInput) {
-        case 'Up':
+    switch(e.code) {
+        case 'ArrowUp':
             playerOne.update('UP');
             break;
-        case 'Down':
+        case 'ArrowDown':
             playerOne.update('DOWN');
             break;
-        case 'w':
-            console.log('Player2 - UP');
+        case 'KeyW':
+            playerTwo.update('UP');
             break;
-        case 's':
-            console.log('Player2 - DOWN')
+        case 'KeyS':
+            playerTwo.update('DOWN');
             break;
     }
 }));

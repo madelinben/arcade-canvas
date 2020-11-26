@@ -13,10 +13,10 @@ function Player() {
     this.update = function(direction) {
         switch(direction) {
             case 'UP':
-                this.x -= this.speed;
+                this.y -= this.speed;
                 break;
             case 'DOWN':
-                this.x += this.speed;
+                this.y += this.speed;
                 break;
         }
     }
