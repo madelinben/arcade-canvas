@@ -2,21 +2,24 @@
 A Collection of re-imagined games turned Challenges to practice Web Development.
 
 ## 🚀 Web Development
-***Dynamic Pages:***
+***📁 Dynamic Pages:***
 * [x] Add a gallery tile to the home page for each project.
 * [x] Import the relevant files from a selected project's dir.
 * [x] Implement import file to setup canvas environment and simplify project format.
 
-***Projects:***
+***🚧 Projects:***
 * [x] Organise project gallery in a tile layout with dynamic sizing.
 * [x] Clean up canvas environment to clearly showcase the selected game and related user information.
 * [x] Scale canvas and js and arrange canvas and info container.
 * [ ] Update project thumbnail to printscreen highscore game.
 
-***Accounts:***
+***🧾 Accounts:***
 * [ ] Implement profile system to track user scores.
 
-## 🏓 Pong
+
+
+## 🕹️ Arcade Challenges
+***🏓 Pong***
 * [x] Format canvas environment and draw method
 * [x] Return ball to center spot when starting a game.
 * [x] Alternate between players and vary the initial ball angle.
@@ -25,7 +28,7 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [x] Display each player score.
 * [ ] Implement general COMP intelligence with a lower speed.
 
-## 🐍 Snake
+***🐍 Snake***
 * [x] Format canvas environment and draw method
 * [x] Allow the user to control the snakes moving direction using key inputs.
 * [x] Implement boundaries to contain snake within the canvas area.
