@@ -31,9 +31,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Paddle boundaries added to validate ball position and alter vector direction.">
+    <list default="true" id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Updated Read Me.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pong/ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/pong/ball.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,7 @@
       <workItem from="1605215257109" duration="10706000" />
       <workItem from="1605461383701" duration="27055000" />
       <workItem from="1606267197443" duration="16930000" />
-      <workItem from="1608132957854" duration="1195000" />
+      <workItem from="1608132957854" duration="2617000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
       <created>1599235551722</created>
@@ -354,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606406846652</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Updated Read Me.">
+      <created>1608134179927</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1608134179927</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +392,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Boundaries added to canvas width and height keeping the snake vector within area." />
     <MESSAGE value="Fruit can be randomly produced." />
     <MESSAGE value="A new random fruit position is produced when the snake and fruit vectors equal." />
     <MESSAGE value="Snake size is incremented when a piece of fruit is eaten, and each tail cell is updated." />
@@ -410,21 +416,10 @@
     <MESSAGE value="Event listener added to update each paddle position when the specified key binding is clicked." />
     <MESSAGE value="Validation added to paddle positions, ensuring the vector is within the canvas environment." />
     <MESSAGE value="Paddle boundaries added to validate ball position and alter vector direction." />
-    <option name="LAST_COMMIT_MESSAGE" value="Paddle boundaries added to validate ball position and alter vector direction." />
+    <MESSAGE value="Updated Read Me." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Read Me." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599235399928">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1599235399928" />
-    <state x="667" y="163" key="#PHP" timestamp="1599234937901">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1599234937901" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599234974579">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599234974579" />
     <state x="184" y="99" key="DiffContextDialog" timestamp="1601049037315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -441,15 +436,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599582742021" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1599235416039">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599235416039" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606406849353">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608134182810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049040515" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606406849353" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608134182810" />
     <state x="-7" y="0" width="1233" height="1047" key="dock-window-1" timestamp="1605588518816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -459,9 +450,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="288" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605582168830" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599255362593">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599255362593" />
   </component>
 </project>

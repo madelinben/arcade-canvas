@@ -49,9 +49,9 @@ function Ball() {
     }
 
     this.boundary = function () {
-        if ((this.x <= (playerOne.x + playerOne.width)) && ((this.y >= playerOne.y) && (this.y <= (playerOne.y + playerOne.height)))) {
+        if (((this.x >= playerOne.x) && (this.x <= (playerOne.x + playerOne.width))) && ((this.y >= playerOne.y) && (this.y <= (playerOne.y + playerOne.height)))) {
             this.xSpeed *= -1;
-        } else if (((this.x + this.size) >= playerTwo.x) && ((this.y >= playerTwo.y) && (this.y <= (playerTwo.y + playerTwo.height)))) {
+        } else if ((((this.x + this.size) >= playerTwo.x) && (((this.x + this.size) <= (playerTwo.x + playerTwo.width)))) && ((this.y >= playerTwo.y) && (this.y <= (playerTwo.y + playerTwo.height)))) {
             this.xSpeed *= -1;
         }
     }
