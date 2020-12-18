@@ -31,9 +31,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Updated Read Me.">
+    <list default="true" id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Updated paddle boundaries to account for current void area in goal.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/pong/ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/pong/ball.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,7 @@
       <workItem from="1605215257109" duration="10706000" />
       <workItem from="1605461383701" duration="27055000" />
       <workItem from="1606267197443" duration="16930000" />
-      <workItem from="1608132957854" duration="2617000" />
+      <workItem from="1608132957854" duration="3017000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
       <created>1599235551722</created>
@@ -361,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608134179927</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Updated paddle boundaries to account for current void area in goal.">
+      <created>1608313103684</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1608313103684</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +399,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fruit can be randomly produced." />
     <MESSAGE value="A new random fruit position is produced when the snake and fruit vectors equal." />
     <MESSAGE value="Snake size is incremented when a piece of fruit is eaten, and each tail cell is updated." />
     <MESSAGE value="Snake size/tail, and player score is reset when there is a collision." />
@@ -417,7 +423,8 @@
     <MESSAGE value="Validation added to paddle positions, ensuring the vector is within the canvas environment." />
     <MESSAGE value="Paddle boundaries added to validate ball position and alter vector direction." />
     <MESSAGE value="Updated Read Me." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Read Me." />
+    <MESSAGE value="Updated paddle boundaries to account for current void area in goal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated paddle boundaries to account for current void area in goal." />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="99" key="DiffContextDialog" timestamp="1601049037315">
@@ -436,11 +443,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599582742021" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608134182810">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608313106941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049040515" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608134182810" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608313106941" />
     <state x="-7" y="0" width="1233" height="1047" key="dock-window-1" timestamp="1605588518816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

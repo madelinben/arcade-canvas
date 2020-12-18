@@ -39,7 +39,11 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 
 
 ## 🐞 BUGS!
+***Web Dev:***
 * [ ] Text decoration on credit repo link.
+***Pong:***
+* [ ] Ball angle should initially travel towards the winning player. Game is currently just randomising the angle.
+* [ ] Ball y velocity is not changed when the underside of the paddle is hit.
 
 ## What's Next!
 * Block Breaker
