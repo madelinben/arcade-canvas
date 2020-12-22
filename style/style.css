@@ -8,6 +8,16 @@
     text-transform: uppercase;
 }
 
+/*--- BACKGROUND ---*/
+/*body {
+    !* POLKA DOT BACKGROUND *!
+    background-image: radial-gradient(#dddddd 20%, transparent 20%),
+    radial-gradient(#e6e6e6 20%, transparent 20%); !* #f2f2f2 *!
+    background-color: #ffffff;
+    background-position: 0 0, 50px 50px;
+    background-size: 15px 15px;
+}*/
+
 /*--- LAYOUT ---*/
 .wrapper {
     height: 100vh;
@@ -44,16 +54,23 @@ header {
 
 button {
     padding: 9px 25px;
-    background-color: white;
-    color: #333333;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
+/*--- ACCOUNT ACTION ---*/
+.nav-account button {
+    background-color: white;
+    color: #333333;
+    /*opacity: 0.8;*/
+}
+
+/* Button Highlight */
+.nav-account button:hover {
     background-color: whitesmoke;
+    /*opacity: 1;*/
 }
 
 .flex-container {
@@ -69,8 +86,36 @@ button:hover {
 /*--- CONTENT ---*/
 .content-container {
     grid-area: content;
-    background-color: whitesmoke;
-    width: auto;
+    /*background-color: whitesmoke;*/
+
+    width: 50%;
+    min-width: 600px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    background-color: #ffffff;
+    border: 3px solid #f1f1f1;
+    padding: 0px;
+    /*overflow: auto;*/
+}
+
+.section-title {
+    color: #333333;
+    font-size: 24px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 15px;
 }
 
 /*--- FOOTER ---*/

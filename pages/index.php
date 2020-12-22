@@ -6,6 +6,7 @@
 
     <!-- PAGE TITLE -->
     <title>Canvas - Home</title>
+    <?php /*include ('../includes/title.php'); echo '<title>' . $currentPage . '</title>';*/ ?>
 
     <!-- SITE META DATA -->
     <meta name="keywords" content="CANVAS, CODING CHALLENGE, GAME, WEB DEVELOPMENT, HTML, CSS, JAVASCRIPT">
@@ -25,6 +26,9 @@
 <body>
     <!-- PAGE CONTAINER -->
     <div class="wrapper">
+
+        <?php /*include ('../includes/header.php');*/ ?>
+
         <header>
             <div class="flex-container">
                 <a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>
@@ -49,6 +53,8 @@
                 </a>';
             } ?>
         </div>
+
+        <?php /*include ('../includes/footer.php');*/ ?>
 
         <footer>
             <a href="https://github.com/madelinben/canvas-js"><i class="credit">~ Ben Madelin ~</i></a>

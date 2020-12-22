@@ -1,37 +1,3 @@
-.project-container {
-    grid-area: content;
-    background-color: lightblue;
-
-    width: 50%;
-    min-width: 600px;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    display: flex;
-    flex-direction: column;
-}
-
-.section {
-    background-color: #ffffff;
-    border: 3px solid #f1f1f1;
-    padding: 0px;
-    /*overflow: auto;*/
-}
-
-.section-title {
-    color: #333333;
-    font-size: 24px;
-    height: auto;
-    width: 100%;
-    text-align: center;
-}
-
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 15px;
-}
-
 .interactive-container {
     display: flex;
     flex-direction: row;

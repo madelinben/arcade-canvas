@@ -37,13 +37,13 @@
         <?php require('../service/account.php'); ?>
 
         <!-- CONTENT -->
-        <div class="account-content">
+        <div class="content-container">
 
             <!-- LOGIN -->
-            <div class="login-container">
+            <div class="section">
 
                 <!-- TITLE -->
-                <h1>Login</h1>
+                <div class="section-title">Login</div> <!--h1-->
                 <hr>
 
                 <!-- ERROR MESSAGE -->

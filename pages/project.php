@@ -41,7 +41,7 @@ if (isset($_GET['selected'])) {
         </header>
 
         <!-- CONTENT -->
-        <div class="project-container">
+        <div class="content-container">
             <?php
             if ($selectedProject == 'Error!') {
                 echo '<div class="section">

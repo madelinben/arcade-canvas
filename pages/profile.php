@@ -43,13 +43,13 @@ if (isset($_GET['user'])) {
         <?php require('../service/account.php'); ?>
 
         <!-- CONTENT -->
-        <div class="account-content">
+        <div class="content-container">
 
-            <!-- ACCOUNT -->
-            <div class="profile-container">
+            <!-- PROFILE -->
+            <div class="section">
 
                 <!-- TITLE -->
-                <h1>Account <?php echo '[' . $_SESSION['user'] . ']'?></h1>
+                <div class="section-title">Account <?php echo '[' . $_SESSION['user'] . ']'?></div>
                 <hr>
 
                 <!-- SIGNUP MESSAGE -->
