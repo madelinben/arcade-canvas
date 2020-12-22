@@ -21,9 +21,21 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:feature/pong-game" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Bug Items identified.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/project.css" afterDir="false" />
     <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Interactive and statistic containers displayed in flex and styled according to design.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
@@ -39,16 +51,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/snake-game" />
+        <entry key="$PROJECT_DIR$" value="feature/project-layout" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,7 +96,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="" />
+      <changelist id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Branch updated with latest changes from feature/project-layout." />
       <created>1599234087612</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -105,6 +117,9 @@
       <workItem from="1603462600857" duration="588000" />
       <workItem from="1603510294986" duration="628000" />
       <workItem from="1605215257109" duration="10706000" />
+      <workItem from="1605461383701" duration="27055000" />
+      <workItem from="1606267197443" duration="16930000" />
+      <workItem from="1608132957854" duration="5354000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
       <created>1599235551722</created>
@@ -267,7 +282,105 @@
       <option name="project" value="LOCAL" />
       <updated>1605234771053</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Branch updated with latest changes from feature/project-layout.">
+      <created>1605239050512</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605239050512</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Ball initially displayed to center spot.">
+      <created>1605465136686</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1605465136686</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Refactored the canvas environment configuration and import method to simplify project animation.">
+      <created>1605588911639</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605588911639</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Initial ball angle randomised based on player turn.">
+      <created>1606322073083</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606322073083</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Increment associated player score and switch to opponents start.">
+      <created>1606326608752</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1606326608752</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Displaying each player score, centered in respective sides.">
+      <created>1606329226993</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1606329226993</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Displaying each player score, centered in respective sides.">
+      <created>1606329247486</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1606329247486</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Each player paddle is displayed and centered.">
+      <created>1606404867350</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1606404867350</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Event listener added to update each paddle position when the specified key binding is clicked.">
+      <created>1606405625475</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1606405625475</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Validation added to paddle positions, ensuring the vector is within the canvas environment.">
+      <created>1606405707076</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1606405707076</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Paddle boundaries added to validate ball position and alter vector direction.">
+      <created>1606406846652</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1606406846652</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Updated Read Me.">
+      <created>1608134179927</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1608134179927</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Updated paddle boundaries to account for current void area in goal.">
+      <created>1608313103684</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1608313103684</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Bug Items identified.">
+      <created>1608313474123</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1608313474123</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +391,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/pong-game" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -286,17 +411,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial project structure and index.php layout." />
-    <MESSAGE value="Filled page layout with appropriate data." />
-    <MESSAGE value="Styling added to the header and footer bars." />
-    <MESSAGE value="Tile overlays implemented to reveal project contents when hovering over link." />
-    <MESSAGE value="Created canvas element to work on." />
-    <MESSAGE value="Canvas formatted and Snake object created to track and display sprite." />
-    <MESSAGE value="EventListener added to alter the direction the snake head moves based on the Arrow Key pressed." />
-    <MESSAGE value="EventListener added to alter the direction the snake head moves based on the arrow key pressed." />
-    <MESSAGE value="Boundaries added to canvas width and height keeping the snake vector within area." />
-    <MESSAGE value="Fruit can be randomly produced." />
-    <MESSAGE value="A new random fruit position is produced when the snake and fruit vectors equal." />
     <MESSAGE value="Snake size is incremented when a piece of fruit is eaten, and each tail cell is updated." />
     <MESSAGE value="Snake size/tail, and player score is reset when there is a collision." />
     <MESSAGE value="Gallery tile added dynamically for each project in the content dir." />
@@ -309,21 +423,22 @@
     <MESSAGE value="Height of project container is adjusted based on environment and stats size." />
     <MESSAGE value="Organised project sections using flex-direction as column and styled containers with border." />
     <MESSAGE value="Interactive and statistic containers displayed in flex and styled according to design." />
-    <option name="LAST_COMMIT_MESSAGE" value="Interactive and statistic containers displayed in flex and styled according to design." />
+    <MESSAGE value="Branch updated with latest changes from feature/project-layout." />
+    <MESSAGE value="Ball initially displayed to center spot." />
+    <MESSAGE value="Refactored the canvas environment configuration and import method to simplify project animation." />
+    <MESSAGE value="Initial ball angle randomised based on player turn." />
+    <MESSAGE value="Increment associated player score and switch to opponents start." />
+    <MESSAGE value="Displaying each player score, centered in respective sides." />
+    <MESSAGE value="Each player paddle is displayed and centered." />
+    <MESSAGE value="Event listener added to update each paddle position when the specified key binding is clicked." />
+    <MESSAGE value="Validation added to paddle positions, ensuring the vector is within the canvas environment." />
+    <MESSAGE value="Paddle boundaries added to validate ball position and alter vector direction." />
+    <MESSAGE value="Updated Read Me." />
+    <MESSAGE value="Updated paddle boundaries to account for current void area in goal." />
+    <MESSAGE value="Bug Items identified." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug Items identified." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599235399928">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1599235399928" />
-    <state x="667" y="163" key="#PHP" timestamp="1599234937901">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1599234937901" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599234974579">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599234974579" />
     <state x="184" y="99" key="DiffContextDialog" timestamp="1601049037315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -340,23 +455,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599582742021" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1599235416039">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599235416039" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605234774308">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608313476517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049040515" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605234774308" />
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1601917806159">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608313476517" />
+    <state x="-7" y="0" width="1233" height="1047" key="dock-window-1" timestamp="1605588518816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1230" y="0" width="697" height="1047" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601043776655" />
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1601917806159" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599255362593">
+    <state x="-7" y="0" width="1233" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1605588518816" />
+    <state x="288" y="242" key="run.anything.popup" timestamp="1605582168830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599255362593" />
+    <state x="288" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605582168830" />
   </component>
 </project>
