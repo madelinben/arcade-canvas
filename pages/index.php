@@ -20,11 +20,9 @@
     <!-- PAGE STYLING -->
     <link rel="stylesheet" type="text/css" href="..\style\style.css">
     <link rel="stylesheet" type="text/css" href="..\style\gallery.css">
-
 </head>
 
 <body>
-
 <!-- PAGE CONTAINER -->
 <div class="wrapper">
     <header>
@@ -55,7 +53,6 @@
     <footer>
         <a href="https://github.com/madelinben/canvas-js"><i class="credit">~ Ben Madelin ~</i></a>
     </footer>
-
 </div>
 </body>
 

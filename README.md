@@ -13,7 +13,7 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [x] Scale canvas and js and arrange canvas and info container.
 * [ ] Update project thumbnail to printscreen highscore game.
 
-***🧾 Accounts:***
+***🧾 Account Management:***
 * [ ] Implement profile system to track user scores.
 
 
