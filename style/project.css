@@ -43,7 +43,7 @@ hr {
     margin-bottom: 10px;
     margin-right: 10px;
 
-    border: 4px dotted #306850;
+    border: 4px solid #306850; /*dotted*/
 
     /*  Black = #071821
         Dark Green = #306850
