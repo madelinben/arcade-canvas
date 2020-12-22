@@ -14,6 +14,8 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [ ] Update project thumbnail to printscreen highscore game.
 
 ***🧾 Account Management:***
+* [ ] Format Account page structure and layout for Login Register Profile actions.
+
 * [ ] Implement profile system to track user scores.
 
 
