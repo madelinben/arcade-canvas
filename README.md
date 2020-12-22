@@ -41,6 +41,7 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 ## 🐞 BUGS!
 ***Web Dev:***
 * [ ] Text decoration on credit repo link.
+* [ ] Existing game graphics need to be scaled on window resize.
 
 ***Pong:***
 * [ ] Ball angle should initially travel towards the winning player. Game is currently just randomising the angle.

@@ -28,70 +28,65 @@ if (isset($_GET['selected'])) {
     <!-- PAGE STYLING -->
     <link rel="stylesheet" type="text/css" href="..\style\style.css">
     <link rel="stylesheet" type="text/css" href="..\style\project.css">
-
 </head>
 
 <body>
+    <!-- PAGE CONTAINER -->
+    <div class="wrapper">
+        <header>
+            <div class="flex-container">
+                <a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>
+                <a href="..\pages\account.php" class="nav-account"><button><b>Account</b></button></a>
+            </div>
+        </header>
 
-<!-- PAGE CONTAINER -->
-<div class="wrapper">
-    <header>
-        <div class="flex-container">
-            <a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>
-            <a href="..\pages\account.php" class="nav-account"><button><b>Account</b></button></a>
-        </div>
-    </header>
+        <!-- CONTENT -->
+        <div class="project-container">
+            <?php
+            if ($selectedProject == 'Error!') {
+                echo '<div class="section">
+                      <div class="section-title">Error!</div>
+                      <hr>
+                      <div class="section-title">Selected project is Unavailable!</div>';
+            } else { ?>
 
-    <!-- CONTENT -->
-    <div class="project-container">
-        <?php
-        if ($selectedProject == 'Error!') {
-            echo '<div class="section">
-                  <div class="section-title">Error!</div>
-                  <hr>
-                  <div class="section-title">Selected project is Unavailable!</div>';
-        } else {
-            ?>
+                <div class="section">
+                    <div class="section-title"><?php echo $selectedProject ?></div>
+                    <hr>
 
-            <div class="section">
-                <div class="section-title"><?php echo $selectedProject ?></div>
-                <hr>
+                    <div class="interactive-container">
+                        <div class="environment-container">
+                            <canvas class="canvas">Your browser does not support HTML5 Canvas.</canvas>
+                        </div>
 
-                <div class="interactive-container">
-                    <div class="environment-container">
-                        <canvas class="canvas">Your browser does not support HTML5 Canvas.</canvas>
-                    </div>
-
-                    <div class="stats-container">
-                        <h1 class="current-score">Score: </h1>
-                        <h1 class="high-score">Best: </h1>
-                        <h1 class="like-btn">Like!</h1>
+                        <div class="stats-container">
+                            <h1 class="current-score">Score: </h1>
+                            <h1 class="high-score">Best: </h1>
+                            <h1 class="like-btn">Like!</h1>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <br />
+                <br />
 
-            <div class="section">
-                <div class="section-title">Leaderboard</div>
-                <hr>
-            </div>
+                <div class="section">
+                    <div class="section-title">Leaderboard</div>
+                    <hr>
+                </div>
 
-            <br />
+                <br />
 
-            <div class="section">
-                <div class="section-title">Comment</div>
-                <hr>
-            </div>
+                <div class="section">
+                    <div class="section-title">Comment</div>
+                    <hr>
+                </div>
+            <?php } ?>
+        </div>
 
-        <?php } ?>
+        <footer>
+            <a href="https://github.com/madelinben/canvas-js"><i class="credit">~ Ben Madelin ~</i></a>
+        </footer>
     </div>
-
-    <footer>
-        <a href="https://github.com/madelinben/canvas-js"><i class="credit">~ Ben Madelin ~</i></a>
-    </footer>
-
-</div>
 </body>
 
 <?php
