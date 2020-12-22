@@ -61,11 +61,20 @@
 
                 <!-- FORM -->
                 <form action="..\service\account.php" method="post">
-                    <label for="name"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="email" required>
+                    <div class="flex-vertical">
 
-                    <label for="pwd"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="pwd" required>
+                        <div>
+                        <div class="flex-horizontal">
+                            <label for="pwd"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="pwd" required>
+                        </div>
+
+                        <div class="flex-horizontal">
+                            <label for="name"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="email" required>
+                        </div>
+                        </div>
+                    </div>
 
                     <button type="submit" name="submit-login" class="submit-btn">Login</button>
 
