@@ -21,7 +21,7 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [x] Encrypt password value before any computation.
 * [ ] Execute queries establishing database connection
 * [ ] Validate the results and provide feedback to the user
-* [ ] escape service page if invalid entry
+* [x] escape service page if invalid entry
 
 ***User Preferences***
 

@@ -8,6 +8,7 @@ if (isset($_POST['submit-register'])) {
         // OBTAIN REGISTER INPUT VALUES
         $username = $_POST['name'];
         $email = $_POST['email'];
+        // HASH PASSWORD
         $password = password_hash($_POST['pwd'], PASSWORD_DEFAULT);
         $confirmPassword = password_hash($_POST['pwd-repeat'], PASSWORD_DEFAULT);
 
@@ -44,8 +45,6 @@ if (isset($_POST['submit-register'])) {
 
             // CHECK USER DOESNT ALREADY EXIST
 
-            // HASH PASSWORD
-
             // ADD USER TO DATABASE
 
             // STORE USER INFO IN OBJECT
@@ -61,4 +60,7 @@ if (isset($_POST['submit-register'])) {
         // ERROR FEEDBACK
         echo 'Register Error: ' . $e->getMessage();
     }
+} else {
+    header('Location: ..\pages\login.php');
+    exit();
 }
