@@ -17,7 +17,8 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [x] Format page structure for account pages (Logig, Register, Profile)
 * [x] Style layout using flexbox
 * [x] Setup MySQL database connection with phpmyadmin
-* [x] Depending on selected action validate the input values using isset and POST
+* [x] Based on the action validate the input values using isset and POST
+* [x] Encrypt password value before any computation.
 * [ ] Execute queries establishing database connection
 * [ ] Validate the results and provide feedback to the user
 * [ ] escape service page if invalid entry

@@ -8,8 +8,8 @@ if (isset($_POST['submit-register'])) {
         // OBTAIN REGISTER INPUT VALUES
         $username = $_POST['name'];
         $email = $_POST['email'];
-        $password = $_POST['pwd'];
-        $confirmPassword = $_POST['pwd-repeat'];
+        $password = password_hash($_POST['pwd'], PASSWORD_DEFAULT);
+        $confirmPassword = password_hash($_POST['pwd-repeat'], PASSWORD_DEFAULT);
 
         // VALIDATE FORM
         if (empty($username) || empty($email) || empty($password) || empty($confirmPassword)) { // CHECK EMPTY FIELDS
