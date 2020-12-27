@@ -64,12 +64,15 @@ button:hover {
     justify-content: center; /*CENTER ITEMS VERTICALLY*/
     align-items: center;
     /*flex-wrap: wrap;*/
+
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 .flex-horizontal {
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
 
     justify-content: flex-end; /*PUSHES EACH ITEM TO RIGHT*/
     align-items: center; /*CENTER ELEMENTS*/

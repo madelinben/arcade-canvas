@@ -73,8 +73,6 @@
                             <label for="name"><b>Username</b></label>
                             <input type="text" placeholder="Enter Username" name="email" required>
                         </div>
-                        </div>
-                    </div>
 
                     <button type="submit" name="submit-login" class="submit-btn">Login</button>
 
@@ -84,6 +82,9 @@
                 <form action="..\pages\register.php">
                     <button type="submit" class="alt-btn">Register</button>
                 </form>
+
+            </div>
+        </div>
             </div>
 
         </div>

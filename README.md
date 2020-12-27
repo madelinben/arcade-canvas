@@ -14,8 +14,17 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [ ] Update project thumbnail to printscreen highscore game.
 
 ***🧾 Account Management:***
-* [ ] Format Account page structure and layout for Login Register Profile actions.
+* [x] Format page structure for account pages (Logig, Register, Profile)
+* [x] Style layout using flexbox
+* [ ] Setup database on phpmyadmin
+* [ ] Depending on selected action validate the input values using isset POST
+* [ ] Execute queries establishing database connection
+* [ ] Validate the results and provide feedback to the user
+* [ ] escape service page if invalid entry
 
+***User Preferences***
+
+***Game Data***
 * [ ] Implement profile system to track user scores.
 
 

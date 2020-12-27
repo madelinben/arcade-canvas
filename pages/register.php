@@ -65,17 +65,28 @@
 
                 <!-- FORM -->
                 <form action="..\service\account.php" method="post">
-                    <label for="name"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="name" required>
+                    <div class="flex-vertical">
 
-                    <label for="email"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email" name="email" required>
+                        <div>
+                            <div class="flex-horizontal">
+                                <label for="name"><b>Username</b></label>
+                                <input type="text" placeholder="Enter Username" name="name" required>
+                            </div>
 
-                    <label for="pwd"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="pwd" required>
+                            <div class="flex-horizontal">
+                                <label for="email"><b>Email</b></label>
+                                <input type="text" placeholder="Enter Email" name="email" required>
+                            </div>
 
-                    <label for="pwd-repeat"><b>Confirm Password</b></label>
-                    <input type="password" placeholder="Confirm Password" name="pwd-repeat" required>
+                            <div class="flex-horizontal">
+                                <label for="pwd"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="pwd" required>
+                            </div>
+
+                            <div class="flex-horizontal">
+                                <label for="pwd-repeat"><b>Confirm Password</b></label>
+                                <input type="password" placeholder="Confirm Password" name="pwd-repeat" required>
+                            </div>
 
                     <!--  <label><input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me</label> -->
 
@@ -84,6 +95,9 @@
                 <form action="..\pages\login.php">
                     <button type="submit" class="alt-btn">Login</button>
                 </form>
+                        </div>
+                    </div>
+
 
             </div>
         </div>
