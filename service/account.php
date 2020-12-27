@@ -29,6 +29,18 @@ if (isset($_POST['submit-register'])) {
             exit();
         } else {
             // SETUP MYSQL DATABASE CONNECTION WITH PHPMYADMIN
+            $serverName = "localhost";
+            $dbUser = "root";
+            $dbPwd = "";
+            $dbName = "arcade_canvas";
+
+            $dbConnection = mysqli_connect($serverName, $dbUser, $dbPwd, $dbName);
+
+            if (!$dbConnection) {
+                die("Connection Failed! : " . mysqli_connect_error());
+            } else {
+                echo "Connection Successful! : ";
+            }
 
             // CHECK USER DOESNT ALREADY EXIST
 
