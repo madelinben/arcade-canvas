@@ -59,6 +59,8 @@
                         echo '<p style="float:right;color:red;">Passwords provided do not match!</p>';
                     } else if ($_GET['error'] == 'accountexists') {
                         echo '<p style="float:right;color:red;">Account already exists!</p>';
+                    } else if ($_GET['error'] == 'stmtfailed') {
+                        echo '<p style="float:right;color:red;">Database Connection Error!</p>';
                     }
                 }
                 ?>

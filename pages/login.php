@@ -51,10 +51,14 @@
                 if (isset($_GET['error'])) {
                     if ($_GET['error'] == 'login') {
                         echo '<p style="float:right;color:red;">Error Logging User In!</p>';
-                    } else if ($_GET['error'] == 'invalidemail') {
+                    } else if ($_GET['error'] == 'email') {
                         echo '<p style="float:right;color:red;">Error! Email provided is invalid.</p>';
+                    } else if ($_GET['error'] == 'pwd') {
+                        echo '<p style="float:right;color:red;">Error! Password provided is invalid.</p>';
                     } else if ($_GET['error'] == 'empty') {
                         echo '<p style="float:right;color:red;">Error! No input data provided.</p>';
+                    } else if ($_GET['error'] == 'stmtfailed') {
+                        echo '<p style="float:right;color:red;">Database Connection Error!</p>';
                     }
                 }
                 ?>
@@ -64,15 +68,15 @@
                     <div class="flex-vertical">
 
                         <div>
-                        <div class="flex-horizontal">
-                            <label for="pwd"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="pwd" required>
-                        </div>
+                            <div class="flex-horizontal">
+                                <label for="name"><b>Email</b></label>
+                                <input type="text" placeholder="Enter Email" name="email" required>
+                            </div>
 
-                        <div class="flex-horizontal">
-                            <label for="name"><b>Username</b></label>
-                            <input type="text" placeholder="Enter Username" name="email" required>
-                        </div>
+                            <div class="flex-horizontal">
+                                <label for="pwd"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="pwd" required>
+                            </div>
 
                     <button type="submit" name="submit-login" class="submit-btn">Login</button>
 
@@ -83,8 +87,8 @@
                     <button type="submit" class="alt-btn">Register</button>
                 </form>
 
-            </div>
-        </div>
+                        </div>
+                    </div>
             </div>
 
         </div>
