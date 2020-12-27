@@ -16,8 +16,8 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 ***🧾 Account Management:***
 * [x] Format page structure for account pages (Logig, Register, Profile)
 * [x] Style layout using flexbox
-* [ ] Setup database on phpmyadmin
-* [ ] Depending on selected action validate the input values using isset POST
+* [x] Setup MySQL database connection with phpmyadmin
+* [x] Depending on selected action validate the input values using isset and POST
 * [ ] Execute queries establishing database connection
 * [ ] Validate the results and provide feedback to the user
 * [ ] escape service page if invalid entry
