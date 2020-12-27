@@ -19,8 +19,8 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [x] Setup MySQL database connection with phpmyadmin
 * [x] Based on the action validate the input values using isset and POST
 * [x] Encrypt password value before any computation.
-* [ ] Execute queries establishing database connection
-* [ ] Validate the results and provide feedback to the user
+* [x] Execute queries establishing database connection
+* [x] Validate the results and provide feedback to the user
 * [x] escape service page if invalid entry
 
 ***User Preferences***
@@ -54,6 +54,8 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 ***Web Dev:***
 * [ ] Text decoration on credit repo link.
 * [ ] Existing game graphics need to be scaled on window resize.
+* [ ] Account input elements are converting lowercase characters to allcaps.
+* [ ] Success and Error messages are wrapping flex elements.
 
 ***Pong:***
 * [ ] Ball angle should initially travel towards the winning player. Game is currently just randomising the angle.

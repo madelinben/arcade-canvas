@@ -8,9 +8,8 @@ if (isset($_POST['submit-register'])) {
         // OBTAIN REGISTER INPUT VALUES
         $username = $_POST['name'];
         $email = $_POST['email'];
-        // HASH PASSWORD
-        $password = password_hash($_POST['pwd'], PASSWORD_DEFAULT);
-        $confirmPassword = password_hash($_POST['pwd-repeat'], PASSWORD_DEFAULT);
+        $password = $_POST['pwd'];
+        $confirmPassword = $_POST['pwd-repeat'];
 
         // VALIDATE FORM
         if (empty($username) || empty($email) || empty($password) || empty($confirmPassword)) { // CHECK EMPTY FIELDS
@@ -44,14 +43,45 @@ if (isset($_POST['submit-register'])) {
             }
 
             // CHECK USER DOESNT ALREADY EXIST
+            $sqlUserExist = "SELECT * FROM user WHERE user_Name = ? OR user_Email = ?;";
+            $stmtUserExist = mysqli_stmt_init($dbConnection);
+            if (!mysqli_stmt_prepare($stmtUserExist, $sqlUserExist)) {
+                header('Location: ..\pages\register.php?error=stmtfailed');
+                exit();
+            }
+            mysqli_stmt_bind_param($stmtUserExist, 'ss', $username, $email);
+            mysqli_stmt_execute($stmtUserExist);
 
-            // ADD USER TO DATABASE
+            $resultUserExist = mysqli_stmt_get_result($stmtUserExist);
+            // USER EXISTS
+            if ($record = mysqli_fetch_assoc($resultUserExist)) {
+                header('Location: ..\pages\register.php?error=accountexists');
+                exit();
+            } else {
+                // ADD USER TO DATABASE
+                $sqlUserCreate = "INSERT INTO user(user_Name, user_Email, user_Hash_Pwd) VALUES (?,?,?);";
+                $stmtUserCreate = mysqli_stmt_init($dbConnection);
+                if (!mysqli_stmt_prepare($stmtUserCreate, $sqlUserCreate)) {
+                    // ERROR FEEDBACK
+                    header('Location: ..\pages\register.php?error=stmtfailed');
+                    exit();
+                }
+                // HASH PASSWORD
+                $hashPassword = password_hash($password, PASSWORD_DEFAULT);
+                // EXECUTE STATEMENT
+                mysqli_stmt_bind_param($stmtUserCreate, 'sss', $username, $email, $hashPassword);
+                mysqli_stmt_execute($stmtUserCreate);
+                mysqli_stmt_close($stmtUserCreate);
+                // SUCCESS FEEDBACK
+                header('Location: ..\pages\register.php?success=accountcreated');
+                exit();
+            }
+            mysqli_stmt_close($stmtUserExist);
 
             // STORE USER INFO IN OBJECT
 
             // UPDATE USERID SESSION
 
-            // SUCCESS FEEDBACK
             header('Location: ..\pages\profile.php?success=register&user=' . $username);
             exit();
         }
@@ -60,7 +90,7 @@ if (isset($_POST['submit-register'])) {
         // ERROR FEEDBACK
         echo 'Register Error: ' . $e->getMessage();
     }
-} else {
+} /*else {
     header('Location: ..\pages\login.php');
     exit();
-}
+}*/
