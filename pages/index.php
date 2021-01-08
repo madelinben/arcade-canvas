@@ -16,6 +16,7 @@
 
     <!-- SITE RESOURCES -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/c642229718.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="..\img\favicon.png">
 
     <!-- PAGE STYLING -->
@@ -29,10 +30,41 @@
 
         <?php /*include ('../includes/header.php');*/ ?>
 
+        <!--NAVBAR-->
         <header>
             <div class="flex-container">
-                <a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>
-                <a href="..\pages\register.php" class="nav-account"><button><b>Account</b></button></a>
+                <!--<a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>-->
+                <!--<a href="..\pages\register.php" class="nav-account"><button><b>+</b></button></a>-->
+
+                <!--<a href="login.php" class="account-container">
+                        <img src="..\img\usr-img.png" class="account-image" alt="Profile Picture" style="width:100px;height:100px">
+                        </a>-->
+
+                <!--<a href="..\pages\index.php" class="nav-link">          </a>-->
+
+                <div class="nav-left">
+                    <a href="..\pages\index.php" class="nav-link">Arcade</a>   <!--<i class="fas fa-home"></i>-->
+                </div>
+
+                <div class="nav-right">  <!--text-align: right;-->
+                    <!--<img src border-radius />  <i class="fas fa-user"></i>-->
+                    <i class="nav-user">Sign In to play! // User</i>
+                    <div class="dropdown-container">
+                        <a href="..\pages\#.php" class="dropdown-link"><i class="fas fa-user"></i></a>
+
+                        <div class="dropdown-content">
+                            <a href="..\pages\login.php" class="account-link">Login</a>
+                            <a href="..\pages\register.php" class="account-link">Register</a>
+                            <!--<hr>-->
+                            <a href="..\pages\profile.php" class="account-link">Settings</a>
+                            <a href="..\pages\#.php" class="account-link">Support</a>   <!--<i class="fas fa-envelope"></i>-->
+                        </div>
+
+                    </div>
+                </div>
+
+
+
             </div>
         </header>
 

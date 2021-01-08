@@ -3,6 +3,24 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
+// FORMAT OBJECT
+class Account {
+    public $username;
+    public $email;
+
+    /*
+     * profile img
+     * high scores
+     *
+     * preferences
+    */
+
+    function constructor($username, $email) {
+        $this->username = $username;
+        $this->email = $email;
+    }
+}
+
 // SETUP MYSQL DATABASE CONNECTION WITH PHPMYADMIN
 $serverName = "localhost";
 $dbUser = "root";
@@ -12,10 +30,12 @@ $dbName = "arcade_canvas";
 $dbConnection = mysqli_connect($serverName, $dbUser, $dbPwd, $dbName);
 
 if (!$dbConnection) {
-    die("Connection Failed! : " . mysqli_connect_error());
+    die("Connection to Database Failed! : " . mysqli_connect_error());
 } else {
     //echo "Connection Successful! : ";
 
+
+    // REGISTER ACTION
     if (isset($_POST['submit-register'])) {
         try {
             // OBTAIN REGISTER INPUT VALUES
@@ -74,22 +94,24 @@ if (!$dbConnection) {
                 }
                 mysqli_stmt_close($stmtUserExist);
 
-                // STORE USER INFO IN OBJECT
+                // STORE USER INFORMATION CONTAINED IN REFERENCE OBJECT
+                $userInfo = new Account();
+                $userInfo->constructor($username, $email);
 
-                // UPDATE USERID SESSION
+                // CREATE  USERID SESSION
+                $_SESSION['user'] = $userInfo;
 
                 // SUCCESS FEEDBACK
                 header('Location: ..\pages\profile.php?success=register&user=' . $username);
                 exit();
             }
-
         } catch (Exception $e) {
             // ERROR FEEDBACK
             echo 'Register Error: ' . $e->getMessage();
         }
 
 
-
+    // REGISTER ACTION
     } else if (isset($_POST['submit-login'])) {
         try {
             // OBTAIN REGISTER INPUT VALUES
@@ -120,10 +142,14 @@ if (!$dbConnection) {
                     //VALIDATE PASSWORD
                     $hashPassword = $record["user_Hash_Pwd"];
                     if (password_verify($password, $hashPassword)) {
+                        /*session_start();*/
 
-                        // CREATE USER SESSION
-                        /*session_start();
-                        $_SESSION["user"] = $record["user_Name"];*/
+                        // STORE USER INFORMATION CONTAINED IN REFERENCE OBJECT
+                        $userInfo = new Account();
+                        $userInfo->constructor($record["user_Name"], $record["user_Email"]);
+
+                        // CREATE USERID SESSION
+                        $_SESSION['user'] = $userInfo;
 
                         header('Location: ..\pages\profile.php?success=login&user=' . $record["user_Name"]);
                         exit();
