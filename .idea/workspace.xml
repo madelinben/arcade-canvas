@@ -31,14 +31,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Bug Items identified.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/project.css" afterDir="false" />
     <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Interactive and statistic containers displayed in flex and styled according to design.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -439,31 +435,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="Bug Items identified." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="99" key="DiffContextDialog" timestamp="1601049037315">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610586402623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="99" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049037314" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610586402623" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602703768685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602703768685" />
-    <state x="748" y="243" key="NewPhpClassDialog" timestamp="1599582731388">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="748" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599582731388" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1599582742021">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599582742021" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608313476517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049040515" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608313476517" />
     <state x="-7" y="0" width="1233" height="1047" key="dock-window-1" timestamp="1605588518816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1230" y="0" width="697" height="1047" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601043776655" />
     <state x="-7" y="0" width="1233" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1605588518816" />
     <state x="288" y="242" key="run.anything.popup" timestamp="1605582168830">
       <screen x="0" y="0" width="1920" height="1040" />

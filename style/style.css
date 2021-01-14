@@ -37,7 +37,7 @@
 header {
     grid-area: header;
     width: 100vw;
-    min-height: 65px;
+    min-height: 55px;
     height: auto;
     background-color: #333333;
     color: white;
@@ -48,7 +48,7 @@ header {
     margin-left: auto;
     margin-right: auto;
 
-    min-height: 65px;
+    min-height: 55px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -68,7 +68,7 @@ header a.nav-link {
     text-align: center;
 }
 
-/*CONTAINER*/
+/*POSITION*/
 .nav-right {
     width: auto;
     display: flex;
@@ -76,29 +76,24 @@ header a.nav-link {
     align-items: center;
 }
 
-/*GLOBAL PROFILE THUMBNAIL*/
-.dropdown-link {
+/*PROFILE THUMBNAIL*/
+.dropdown-action {
     color: white;
 }
 
+/*PROFILE LABEL*/
 .nav-user {
     margin-right: 15px;
     text-align: right;
 }
 
 /*HIGHLIGHT LINK*/
-header a.nav-link:hover, .dropdown-link:hover {
+header a.nav-link:hover, .dropdown-action:hover {
     color: whitesmoke;
     color: #f44336;
 }
 
-/*DROPDOWN CONTAINER*/
-.dropdown-container {
-    /*float: left;
-    overflow: hidden;*/
-}
-
-/*HIDE // FORMAT CONTENT*/
+/*FORMAT DROPDOWN*/
 .dropdown-content {
     /*display: none;*/
 
@@ -107,12 +102,42 @@ header a.nav-link:hover, .dropdown-link:hover {
     top: 57px;
     min-width: 160px;
 
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    border: 4px solid #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
 
     z-index: 1;
 }
 
+/*HIDE DROPDOWN*/
+.dropdown-container {
+    display: none;
+}
+
+/*REVEAL DROPDOWN*/
+.dropdown-action:hover + .dropdown-container {
+    display: block;
+}
+
+/*DROPDOWN ARROW*/
+.dropdown-content:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 10px solid;
+    border-color: transparent transparent #f1f1f1 transparent;
+}
+
+
+
+
+/*DROPDOWN CONTAINER*/
+/*.dropdown-container {
+    !*float: left;
+    overflow: hidden;*!
+}*/
 /*.dropdown-content a {
     float: none;
     color: black;
@@ -131,7 +156,7 @@ header a.nav-link:hover, .dropdown-link:hover {
 */
 
 /*REVEAL CONTENT*/
-.dropdown-link:hover .dropdown-content {
+.dropdown-action:hover .dropdown-content {
     display: block;
 }
 
