@@ -40,26 +40,28 @@
                         <img src="..\img\usr-img.png" class="account-image" alt="Profile Picture" style="width:100px;height:100px">
                         </a>-->
 
-                <!--<a href="..\pages\index.php" class="nav-link">          </a>-->
-
                 <div class="nav-left">
                     <a href="..\pages\index.php" class="nav-link">Arcade</a>   <!--<i class="fas fa-home"></i>-->
                 </div>
 
-                <div class="nav-right">  <!--text-align: right;-->
-                    <!--<img src border-radius />  <i class="fas fa-user"></i>-->
+                <div class="nav-right">
                     <i class="nav-user">Sign In to play! // User</i>
+
                     <div class="dropdown-container">
-                        <a href="..\pages\#.php" class="dropdown-link"><i class="fas fa-user"></i></a>
+                        <i class="dropdown-action fas fa-user"></i>
 
-                        <div class="dropdown-content">
-                            <a href="..\pages\login.php" class="account-link">Login</a>
-                            <a href="..\pages\register.php" class="account-link">Register</a>
-                            <!--<hr>-->
-                            <a href="..\pages\profile.php" class="account-link">Settings</a>
-                            <a href="..\pages\#.php" class="account-link">Support</a>   <!--<i class="fas fa-envelope"></i>-->
+                        <!--<img src border-radius />  <i class="fas fa-user"></i>-->
+                        <!--<img src="..\img\\' . $projectName . '.png" class="dropdown-action" alt="<?php /*echo <i class="fas fa-user"></i> */?>">-->
+
+                        <div class="dropdown-visibility">
+                            <div class="dropdown-content">
+                                <a href="..\pages\login.php" class="dropdown-link">Login</a>
+                                <a href="..\pages\register.php" class="dropdown-link">Register</a>
+                                <hr>
+                                <a href="..\pages\profile.php" class="dropdown-link">Settings</a>
+                                <a href="..\pages\#.php" class="dropdown-link">Support</a>   <!--<i class="fas fa-envelope"></i>-->
+                            </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -93,5 +95,18 @@
         </footer>
     </div>
 </body>
+
+<script>
+/*    document.querySelector(".right ul li").addEventListener("click", function(){
+        this.classList.toggle("active");
+    });
+
+        $(function(){
+            $('#close').live('click',function(){
+                $('#main').show();
+                $('#login').hide();
+            });
+        });*/
+</script>
 
 </html>

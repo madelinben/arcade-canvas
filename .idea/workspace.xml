@@ -31,9 +31,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Interactive and statistic containers displayed in flex and styled according to design.">
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Dropdown Action-Menu contained in a hidden container, only revealed when the action toggle is hovered.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -376,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608313474123</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Dropdown Action-Menu contained in a hidden container, only revealed when the action toggle is hovered.">
+      <created>1610587168154</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1610587168154</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +415,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Snake size is incremented when a piece of fruit is eaten, and each tail cell is updated." />
     <MESSAGE value="Snake size/tail, and player score is reset when there is a collision." />
     <MESSAGE value="Gallery tile added dynamically for each project in the content dir." />
     <MESSAGE value="Updated project import method to order files by identified dependencies." />
@@ -432,7 +439,8 @@
     <MESSAGE value="Updated Read Me." />
     <MESSAGE value="Updated paddle boundaries to account for current void area in goal." />
     <MESSAGE value="Bug Items identified." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug Items identified." />
+    <MESSAGE value="Dropdown Action-Menu contained in a hidden container, only revealed when the action toggle is hovered." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dropdown Action-Menu contained in a hidden container, only revealed when the action toggle is hovered." />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610586402623">
@@ -443,10 +451,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602703768685" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608313476517">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610587173373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608313476517" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610587173373" />
     <state x="-7" y="0" width="1233" height="1047" key="dock-window-1" timestamp="1605588518816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

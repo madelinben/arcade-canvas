@@ -3,6 +3,7 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 
 ## 🚀 Site Structure
 ***Gallery:***
+* [ ] 
 
 ***📁 Dynamic Pages:***
 * [x] Add a gallery tile to the home page for each project.
@@ -16,6 +17,7 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 * [ ] Update project thumbnail to the canvas state of the highest scoring game.
 
 ***Responsive Layout:***
+* [ ] 
 
 
 
@@ -65,16 +67,20 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 
 
 ## 🐞 BUGS!
-***Global:***
-* [ ] Text decoration on credit repo link.
+***Header:***
+* [ ] Grow highlighted elements to further show selectability.
+* [ ] Encapsulate page sections within a centered 80vw wrapper to align everything.
+
+***Account:***
+* [ ] Account input elements are converting lowercase characters to allcaps.
+* [ ] Success and Error messages are wrapping flex elements.
 
 ***Gallery:***
 * [ ] Ensure project tiles are fixed to 300x300 scale.
 * [ ] Overflow the content section and position the footer relative to the bottom.
 
-***Account:***
-* [ ] Account input elements are converting lowercase characters to allcaps.
-* [ ] Success and Error messages are wrapping flex elements.
+***Footer:***
+* [ ] Text decoration on credit repo link.
 
 ***Project:***
 * [ ] Existing game graphics need to be scaled on window resize.
