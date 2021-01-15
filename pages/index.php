@@ -55,11 +55,19 @@
 
                         <div class="dropdown-visibility">
                             <div class="dropdown-content">
-                                <a href="..\pages\login.php" class="dropdown-link">Login</a>
-                                <a href="..\pages\register.php" class="dropdown-link">Register</a>
-                                <hr>
-                                <a href="..\pages\profile.php" class="dropdown-link">Settings</a>
-                                <a href="..\pages\#.php" class="dropdown-link">Support</a>   <!--<i class="fas fa-envelope"></i>-->
+                                <div class="action-account">
+                                    <a href="..\pages\register.php" class="dropdown-link"><button><i class="fas fa-rocket"></i>Register</button></a>
+                                    <a href="..\pages\login.php" class="dropdown-link"><button><i class="fas fa-user-astronaut"></i>Login</button></a>
+                                </div>
+
+                                <div class="action-terminate">
+                                    <a href="..\pages\register.php" class="dropdown-link terminate-btn"><button><i class="fas fa-hand-sparkles"></i>Bye Bye MotherTrucker!</button></a>
+                                </div>
+
+                                <div class="action-info">
+                                    <a href="..\pages\profile.php" class="dropdown-link"><button><i class="fas fa-cog"></i>Settings</button></a>
+                                    <a href="..\pages\#.php" class="dropdown-link"><button><i class="fas fa-question-circle"></i>Support</button></a>
+                                </div>
                             </div>
                         </div>
                     </div>
