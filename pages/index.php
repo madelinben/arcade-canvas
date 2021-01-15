@@ -46,11 +46,16 @@
                 </div>
 
                 <div class="nav-right">
-                    <i class="nav-user">Sign In to play! // User</i>
+
+                    <?php
+                    if (isset($_SESSION['user'])) {
+                        echo '<i class="nav-user">' . $_SESSION['user'] . '</i>';
+                    } else {
+                        echo '<i class="nav-user">Sign In to play!</i>';
+                    }
+                    ?>
 
                     <div class="dropdown-container">
-                        <!--<i class="dropdown-action fas fa-user"></i>-->
-
                         <img src="..\img\profile\default.png" class="dropdown-action" alt="Profile Picture">
 
                         <div class="dropdown-visibility">
