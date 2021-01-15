@@ -31,8 +31,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Dropdown Actions arranged and styled.">
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Visibility altered to hide and reveal dropdown on hover and hide terminate action.">
+      <change afterPath="$PROJECT_DIR$/img/profile/default.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -396,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610734574891</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Visibility altered to hide and reveal dropdown on hover and hide terminate action.">
+      <created>1610734819271</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1610734819271</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +436,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated project import method to order files by identified dependencies." />
     <MESSAGE value="Organised page layouts and project gallery using css grid to autofill elements." />
     <MESSAGE value="Navbar has been styled with elements pushed to the right with even spacing and to highlight on hover." />
     <MESSAGE value="Centered and ordered project environment and stats containers, resizing canvas based on the window width." />
@@ -452,7 +460,8 @@
     <MESSAGE value="Dropdown Action-Menu contained in a hidden container, only revealed when the action toggle is hovered." />
     <MESSAGE value="Action dropdown position and margin inherited from container." />
     <MESSAGE value="Dropdown Actions arranged and styled." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dropdown Actions arranged and styled." />
+    <MESSAGE value="Visibility altered to hide and reveal dropdown on hover and hide terminate action." />
+    <option name="LAST_COMMIT_MESSAGE" value="Visibility altered to hide and reveal dropdown on hover and hide terminate action." />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610586402623">
@@ -463,10 +472,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602703768685" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610734578841">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610734821523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610734578841" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610734821523" />
     <state x="-7" y="0" width="1233" height="1047" key="dock-window-1" timestamp="1605588518816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

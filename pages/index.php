@@ -17,6 +17,7 @@
     <!-- SITE RESOURCES -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/c642229718.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" type="image/png" href="..\img\favicon.png">
 
     <!-- PAGE STYLING -->
@@ -48,10 +49,9 @@
                     <i class="nav-user">Sign In to play! // User</i>
 
                     <div class="dropdown-container">
-                        <i class="dropdown-action fas fa-user"></i>
+                        <!--<i class="dropdown-action fas fa-user"></i>-->
 
-                        <!--<img src border-radius />  <i class="fas fa-user"></i>-->
-                        <!--<img src="..\img\\' . $projectName . '.png" class="dropdown-action" alt="<?php /*echo <i class="fas fa-user"></i> */?>">-->
+                        <img src="..\img\profile\default.png" class="dropdown-action" alt="Profile Picture">
 
                         <div class="dropdown-visibility">
                             <div class="dropdown-content">
@@ -104,17 +104,13 @@
     </div>
 </body>
 
-<script>
-/*    document.querySelector(".right ul li").addEventListener("click", function(){
-        this.classList.toggle("active");
+<script type="text/javascript">
+    $(document).ready(function() {
+       $(".dropdown-action").click(function() {
+           /*alert("button clicked");*/
+           $(this).siblings('.dropdown-visibility').toggle();
+       });
     });
-
-        $(function(){
-            $('#close').live('click',function(){
-                $('#main').show();
-                $('#login').hide();
-            });
-        });*/
 </script>
 
 </html>

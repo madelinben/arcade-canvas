@@ -91,8 +91,14 @@ header a.nav-link:hover, .dropdown-action:hover { /*LINK HIGHLIGHT*/
 
 
 /*--- DROPDOWN INTERFACE ---*/
-.dropdown-container {
-    background-color: darkseagreen;
+.dropdown-action { /*PROFILE THUMBNAIL*/
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    /*border: 3px solid black;*/
+    filter: invert(100%);
+
+    z-index: 1;
 }
 
 /*CONTAINER*/
@@ -165,9 +171,9 @@ header a.nav-link:hover, .dropdown-action:hover { /*LINK HIGHLIGHT*/
     display: none;
 }
 
-.dropdown-action:hover + .dropdown-visibility { /*REVEAL DROPDOWN*/
+/*.dropdown-action:hover + .dropdown-visibility { !*REVEAL DROPDOWN*!
     display: block;
-}
+}*/
 
 .action-terminate { /*HIDE TERMINATE*/
     display: none;
@@ -175,14 +181,6 @@ header a.nav-link:hover, .dropdown-action:hover { /*LINK HIGHLIGHT*/
 
 /*.terminate-btn:hover.fa-hand-sparkles { !*ANIMATE LOGOUT WAVE*!
     transform: rotate(15deg);
-}
-
-.account-image { !*PROFILE THUMBNAIL*!
-    background-color: lightcoral;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    z-index: 1;
 }*/
 
 
