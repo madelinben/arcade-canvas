@@ -157,12 +157,12 @@ header a.nav-link:hover, .dropdown-action:hover { /*LINK HIGHLIGHT*/
 }
 
 .terminate-btn button { /*WIDE BUTTON*/
-    width: 275px;
+    width: 270px;
 }
 
 /*VISIBILITY*/
 .dropdown-visibility { /*HIDE DROPDOWN*/
-    /*display: none;*/
+    display: none;
 }
 
 .dropdown-action:hover + .dropdown-visibility { /*REVEAL DROPDOWN*/
