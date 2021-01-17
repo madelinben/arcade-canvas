@@ -176,7 +176,7 @@ header a.nav-link:hover, .dropdown-action:hover { /*LINK HIGHLIGHT*/
 }*/
 
 .action-terminate { /*HIDE TERMINATE*/
-    display: none;
+    /*display: none;*/
 }
 
 /*.terminate-btn:hover.fa-hand-sparkles { !*ANIMATE LOGOUT WAVE*!

@@ -35,8 +35,10 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 
 ***Drop-Down Interface***
 * [x] Format header elements, positioning the site logo and action button at either end of the flex container.
-* [ ] Hide and Show the dropdown container to reveal content elements and links.
-* [ ] Alter the action button and label, providing sign in/out and profile options. 
+* [x] Hide and Show the dropdown container to reveal content elements and links.
+* [x] Alter the action button and label, providing sign in/out and profile options. 
+* [ ] 
+* [ ] 
 
 ***Preferences***
 * [ ]
@@ -74,6 +76,7 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 ***Account:***
 * [ ] Account input elements are converting lowercase characters to allcaps.
 * [ ] Success and Error messages are wrapping flex elements.
+* [ ] Hide dropdown if visible when user clicks outside the content container.
 
 ***Gallery:***
 * [ ] Ensure project tiles are fixed to 300x300 scale.

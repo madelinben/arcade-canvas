@@ -42,7 +42,7 @@
                         </a>-->
 
                 <div class="nav-left">
-                    <a href="..\pages\index.php" class="nav-link">Arcade</a>   <!--<i class="fas fa-home"></i>-->
+                    <a href="..\pages\index.php" class="nav-link">Arcade</a>
                 </div>
 
                 <div class="nav-right">
@@ -60,14 +60,21 @@
 
                         <div class="dropdown-visibility">
                             <div class="dropdown-content">
-                                <div class="action-account">
-                                    <a href="..\pages\register.php" class="dropdown-link"><button><i class="fas fa-rocket"></i>Register</button></a>
-                                    <a href="..\pages\login.php" class="dropdown-link"><button><i class="fas fa-user-astronaut"></i>Login</button></a>
-                                </div>
 
-                                <div class="action-terminate">
-                                    <a href="..\pages\register.php" class="dropdown-link terminate-btn"><button><i class="fas fa-hand-sparkles"></i>Bye Bye MotherTrucker!</button></a>
-                                </div>
+                                <?php if (isset($_SESSION['user'])) { ?>
+
+                                    <div class="action-terminate">
+                                        <a href="..\pages\register.php" class="dropdown-link terminate-btn"><button><i class="fas fa-hand-sparkles"></i>Bye Bye MotherTrucker!</button></a>
+                                    </div>
+
+                                <?php } else { ?>
+
+                                    <div class="action-account">
+                                        <a href="..\pages\register.php" class="dropdown-link"><button><i class="fas fa-rocket"></i>Register</button></a>
+                                        <a href="..\pages\login.php" class="dropdown-link"><button><i class="fas fa-user-astronaut"></i>Login</button></a>
+                                    </div>
+
+                                <?php } ?>
 
                                 <div class="action-info">
                                     <a href="..\pages\profile.php" class="dropdown-link"><button><i class="fas fa-cog"></i>Settings</button></a>
