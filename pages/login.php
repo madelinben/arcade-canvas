@@ -41,7 +41,7 @@
         <div class="content-container">
 
             <!-- LOGIN -->
-            <div class="section">
+            <div class="section form-container">
 
                 <!-- TITLE -->
                 <div class="section-title">Login</div> <!--h1-->
@@ -78,8 +78,11 @@
                                 <label for="pwd"><b>Password</b></label>
                                 <input type="password" placeholder="Enter Password" name="pwd" required>
                             </div>
+                        </div>
+                    </div>
 
-                    <button type="submit" name="submit-login" class="submit-btn">Login</button>
+                        <div class="account-action">
+                            <button type="submit" name="submit-login" class="submit-btn">Login</button>
 
                     <!--  <label><input type="checkbox" checked="checked" name="remember"> Remember me</label> -->
                     <!--  <span class="psw">Forgot <a href="..\service\reset.php">password?</a></span> -->
@@ -87,9 +90,8 @@
                 <form action="..\pages\register.php">
                     <button type="submit" class="alt-btn">Register</button>
                 </form>
-
                         </div>
-                    </div>
+                </div>
             </div>
 
         </div>

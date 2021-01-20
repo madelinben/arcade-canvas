@@ -41,7 +41,7 @@
         <div class="content-container">
 
             <!-- REGISTER -->
-            <div class="section">
+            <div class="section form-container">
 
                 <!-- TITLE -->
                 <div class="section-title">Register</div>
@@ -90,18 +90,17 @@
                                 <label for="pwd-repeat"><b>Confirm Password</b></label>
                                 <input type="password" placeholder="Confirm Password" name="pwd-repeat" required>
                             </div>
-
+                        </div>
+                    </div>
                     <!--  <label><input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me</label> -->
 
-                    <button type="submit" name="submit-register" class="submit-btn">Register</button>
+                        <div class="account-action">
+                            <button type="submit" name="submit-register" class="submit-btn">Register</button>
                 </form>
                 <form action="..\pages\login.php">
                     <button type="submit" class="alt-btn">Login</button>
                 </form>
                         </div>
-                    </div>
-
-
             </div>
         </div>
 

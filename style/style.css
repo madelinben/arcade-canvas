@@ -159,6 +159,10 @@ header a.nav-link:hover, .dropdown-action:hover { /*LINK HIGHLIGHT*/
     width: 125px;
 }
 
+.dropdown-content button:hover {
+    background-color: lightgrey;
+}
+
 .fas { /*ICON PADDING*/
     margin-right: 10px;
 }
@@ -186,7 +190,7 @@ header a.nav-link:hover, .dropdown-action:hover { /*LINK HIGHLIGHT*/
 /*--- CONTENT ---*/
 .content-container {
     grid-area: content;
-    overflow-y: scroll;
+    overflow-y: hidden; //scroll;
 
     width: 50%;
     min-width: 600px;
@@ -201,8 +205,8 @@ header a.nav-link:hover, .dropdown-action:hover { /*LINK HIGHLIGHT*/
 .section {
     background-color: #ffffff;
     border: 3px solid #f1f1f1;
-    padding: 0px;
-    /*overflow: auto;*/
+    padding: 0px; //10px;
+    /*overflow: hidden;*/
 }
 
 .section-title {
@@ -229,9 +233,7 @@ button {
 
 button:hover { /*HIGHLIGHT*/
     opacity: 1;
-    background-color: lightgrey;
 }
-
 
 
 /*--- FOOTER ---*/

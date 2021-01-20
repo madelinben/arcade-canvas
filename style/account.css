@@ -1,22 +1,11 @@
 /* Form Container */
 .form-container {
-    padding: 16px;
-    width: 530px;
-    overflow: auto;
-    background-color: #ffffff;
-    border: 3px solid #f1f1f1;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 675px;
 }
-
-/*label {
-    display: block;
-    margin-right: 0px;
-}*/
 
 /* Input Fields */
 input[type=text], input[type=password] {
-    width: 400px;
+    width: 325px;
     padding: 15px;
     /*margin: 5px 0 22px 0;*/
     margin-left: 15px;
@@ -78,4 +67,17 @@ button:hover {
     align-items: center; /*CENTER ELEMENTS*/
 
     margin-bottom: 22px;
+}
+
+.account-action {
+    float: right;
+    margin-right: 50px; //50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.account-action button {
+    margin: -10px 5px 0px 5px;
+    padding: 10px 20px;
 }
