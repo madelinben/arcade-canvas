@@ -174,16 +174,15 @@ if (!$dbConnection) {
             /* session_start(); */
             session_unset();
             session_destroy();
-            header('Location: ..\pages\index.php');
+            header('Location: ..\pages\index.php?terminate=true');
         } catch (Exception $e) {
             echo 'Logout Error: ' . $e->getMessage();
         }
-    }
 
 
 
-/*else {
-    header('Location: ..\pages\login.php');
-    exit();
-}*/
+    } /*else {
+        header('Location: ..\pages\login.php');
+        exit();
+    }*/
 }

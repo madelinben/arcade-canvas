@@ -11,7 +11,13 @@
             if (isset($_SESSION['user'])) {
                 echo '<i class="nav-user">' . $_SESSION['user'] . '</i>';
             } else {
-                echo '<i class="nav-user">Sign In to play!</i>';
+                if (isset($_GET['terminate'])) {
+                    if ($_GET['terminate'] == 'true') {
+                        echo '<i class="nav-user">Sign Out Successful!</i>';
+                    }
+                } else {
+                    echo '<i class="nav-user">Sign In to play!</i>';
+                }
             }
             ?>
 
