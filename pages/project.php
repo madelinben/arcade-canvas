@@ -33,12 +33,9 @@ if (isset($_GET['selected'])) {
 <body>
     <!-- PAGE CONTAINER -->
     <div class="wrapper">
-        <header>
-            <div class="flex-container">
-                <a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>
-                <a href="..\pages\profile.php" class="nav-account"><button><b>Account</b></button></a>
-            </div>
-        </header>
+
+        <!-- NAVBAR -->
+        <?php require('../includes/header.php'); ?>
 
         <!-- CONTENT -->
         <div class="content-container">
@@ -126,5 +123,6 @@ if ((strpos($url, 'project.php') !== false) && (isset($_GET['selected']))) {
 ?>
 
 <script type="text/javascript" src="..\scripts\sketch.js"></script> <!--module-->
+<script type="text/javascript" src="..\scripts\dropdown.js"></script>
 
 </html>

@@ -27,14 +27,12 @@
 <body>
     <!-- PAGE CONTAINER -->
     <div class="wrapper">
-        <header>
-            <div class="flex-container">
-                <a href="..\pages\index.php" class="nav-logo"><h1>CANVAS CODING CHALLENGES</h1></a>
-                <a href="..\pages\account.php" class="nav-account"><button><b>Account</b></button></a>
-            </div>
-        </header>
 
-        <?php require('../service/account.php'); ?>
+        <!-- NAVBAR -->
+        <?php
+        require('../includes/header.php');
+        require('../service/account.php');
+        ?>
 
         <!-- CONTENT -->
         <div class="content-container">
@@ -109,5 +107,7 @@
         </footer>
     </div>
 </body>
+
+<script type="text/javascript" src="..\scripts\dropdown.js"></script>
 
 </html>
