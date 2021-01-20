@@ -31,10 +31,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Implemented terminate action to account service, destroying the current user session.">
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Signout feedback provided to user.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/service/account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,13 +121,6 @@
       <workItem from="1605461383701" duration="27055000" />
       <workItem from="1606267197443" duration="16930000" />
       <workItem from="1608132957854" duration="5354000" />
-    </task>
-    <task id="LOCAL-00003" summary="Styling added to the header and footer bars.">
-      <created>1599256412231</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1599256412231</updated>
     </task>
     <task id="LOCAL-00004" summary="Tile overlays implemented to reveal project contents when hovering over link.">
       <created>1599257384120</created>
@@ -466,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611178937253</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Signout feedback provided to user.">
+      <created>1611180281118</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1611180281118</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +496,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactored the canvas environment configuration and import method to simplify project animation." />
     <MESSAGE value="Initial ball angle randomised based on player turn." />
     <MESSAGE value="Increment associated player score and switch to opponents start." />
     <MESSAGE value="Displaying each player score, centered in respective sides." />
@@ -522,7 +520,8 @@
     <MESSAGE value="Adjusted account styles." />
     <MESSAGE value="Added highlight to profile img." />
     <MESSAGE value="Implemented terminate action to account service, destroying the current user session." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented terminate action to account service, destroying the current user session." />
+    <MESSAGE value="Signout feedback provided to user." />
+    <option name="LAST_COMMIT_MESSAGE" value="Signout feedback provided to user." />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610586402623">
@@ -537,10 +536,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="31" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610902822223" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611178940042">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611180283351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611178940042" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611180283351" />
     <state x="1054" y="0" width="873" height="1047" key="dock-window-1" timestamp="1611177449722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

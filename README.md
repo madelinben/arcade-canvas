@@ -37,13 +37,9 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 * [x] Format header elements, positioning the site logo and action button at either end of the flex container.
 * [x] Hide and Show the dropdown container to reveal content elements and links.
 * [x] Alter the action button and label, providing sign in/out and profile options. 
-* [ ] 
-* [ ] 
 
-***Preferences***
+***Preference Data***
 * [ ]
-
-***Data***
 * [ ] Implement profile system to track user scores.
 
 
