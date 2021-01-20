@@ -67,8 +67,7 @@ header a.nav-link { /*LINK FORMAT*/
 }
 
 header a.nav-link:hover, .dropdown-action:hover { /*LINK HIGHLIGHT*/
-    color: whitesmoke;
-    color: #f44336;
+    opacity: 0.8;
 }
 
 .nav-right { /*FLEX RIGHT CONTAINER*/
