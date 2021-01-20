@@ -11,7 +11,7 @@ function init() {
     context.canvas.width = containerWidth;
     context.canvas.height = containerWidth;
 
-    document.querySelector('.project-container').style.height = containerWidth + 50 + 'px';
+    document.querySelector('.content-container').style.height = containerWidth + 50 + 'px';
 }
 
 // RENDER ANIMATION

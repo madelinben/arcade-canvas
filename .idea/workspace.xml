@@ -31,14 +31,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d973d0fa-7353-49bc-97fa-3393b3e8e1e3" name="Default Changelist" comment="Bug Items identified.">
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Signout feedback provided to user.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/project.css" afterDir="false" />
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Interactive and statistic containers displayed in flex and styled according to design.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +60,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7" />
   <component name="ProjectId" id="1h3JxMBMT1gB9KaLIsMGOMe41Jc" />
   <component name="ProjectViewState">
@@ -85,7 +86,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -120,27 +121,6 @@
       <workItem from="1605461383701" duration="27055000" />
       <workItem from="1606267197443" duration="16930000" />
       <workItem from="1608132957854" duration="5354000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial project structure and index.php layout.">
-      <created>1599235551722</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1599235551722</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Filled page layout with appropriate data.">
-      <created>1599254970633</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1599254970633</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Styling added to the header and footer bars.">
-      <created>1599256412231</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1599256412231</updated>
     </task>
     <task id="LOCAL-00004" summary="Tile overlays implemented to reveal project contents when hovering over link.">
       <created>1599257384120</created>
@@ -380,7 +360,112 @@
       <option name="project" value="LOCAL" />
       <updated>1608313474123</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Dropdown Action-Menu contained in a hidden container, only revealed when the action toggle is hovered.">
+      <created>1610587168154</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1610587168154</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Action dropdown position and margin inherited from container.">
+      <created>1610590857678</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1610590857678</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Dropdown Actions arranged and styled.">
+      <created>1610734574891</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1610734574891</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Visibility altered to hide and reveal dropdown on hover and hide terminate action.">
+      <created>1610734819271</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1610734819271</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Implemented JQuery method to toggle dropdown visibility.">
+      <created>1610754190889</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1610754190889</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Altered label to display either prompt or username if session has started.">
+      <created>1610754939272</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1610754939272</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Altered DOM to display the relevant action buttons if a user session has started.">
+      <created>1610897946546</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1610897946550</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Added Jquery method to hide dropdown content when the user clicks outside the div area.">
+      <created>1611159813126</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1611159813126</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Combined Jquery click event to listen for both actions, using the position to determine visibility.">
+      <created>1611159928047</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1611159928047</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Modularised header include and Jquery scripts on all pages.">
+      <created>1611161421197</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1611161421197</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Imported relevant header scripts on each page.">
+      <created>1611163284742</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1611163284742</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Adjusted account styles.">
+      <created>1611176738896</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1611176738896</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Added highlight to profile img.">
+      <created>1611177256185</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1611177256186</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Implemented terminate action to account service, destroying the current user session.">
+      <created>1611178937253</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1611178937253</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Signout feedback provided to user.">
+      <created>1611180281118</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1611180281118</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,21 +496,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Snake size is incremented when a piece of fruit is eaten, and each tail cell is updated." />
-    <MESSAGE value="Snake size/tail, and player score is reset when there is a collision." />
-    <MESSAGE value="Gallery tile added dynamically for each project in the content dir." />
-    <MESSAGE value="Updated project import method to order files by identified dependencies." />
-    <MESSAGE value="Organised page layouts and project gallery using css grid to autofill elements." />
-    <MESSAGE value="Navbar has been styled with elements pushed to the right with even spacing and to highlight on hover." />
-    <MESSAGE value="Centered and ordered project environment and stats containers, resizing canvas based on the window width." />
-    <MESSAGE value="Updated canvas position and scaling according to the container size, with minmax values set." />
-    <MESSAGE value="Page layout and design updated to correspond with portfolio style." />
-    <MESSAGE value="Height of project container is adjusted based on environment and stats size." />
-    <MESSAGE value="Organised project sections using flex-direction as column and styled containers with border." />
-    <MESSAGE value="Interactive and statistic containers displayed in flex and styled according to design." />
-    <MESSAGE value="Branch updated with latest changes from feature/project-layout." />
-    <MESSAGE value="Ball initially displayed to center spot." />
-    <MESSAGE value="Refactored the canvas environment configuration and import method to simplify project animation." />
     <MESSAGE value="Initial ball angle randomised based on player turn." />
     <MESSAGE value="Increment associated player score and switch to opponents start." />
     <MESSAGE value="Displaying each player score, centered in respective sides." />
@@ -436,38 +506,51 @@
     <MESSAGE value="Updated Read Me." />
     <MESSAGE value="Updated paddle boundaries to account for current void area in goal." />
     <MESSAGE value="Bug Items identified." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug Items identified." />
+    <MESSAGE value="Dropdown Action-Menu contained in a hidden container, only revealed when the action toggle is hovered." />
+    <MESSAGE value="Action dropdown position and margin inherited from container." />
+    <MESSAGE value="Dropdown Actions arranged and styled." />
+    <MESSAGE value="Visibility altered to hide and reveal dropdown on hover and hide terminate action." />
+    <MESSAGE value="Implemented JQuery method to toggle dropdown visibility." />
+    <MESSAGE value="Altered label to display either prompt or username if session has started." />
+    <MESSAGE value="Altered DOM to display the relevant action buttons if a user session has started." />
+    <MESSAGE value="Added Jquery method to hide dropdown content when the user clicks outside the div area." />
+    <MESSAGE value="Combined Jquery click event to listen for both actions, using the position to determine visibility." />
+    <MESSAGE value="Modularised header include and Jquery scripts on all pages." />
+    <MESSAGE value="Imported relevant header scripts on each page." />
+    <MESSAGE value="Adjusted account styles." />
+    <MESSAGE value="Added highlight to profile img." />
+    <MESSAGE value="Implemented terminate action to account service, destroying the current user session." />
+    <MESSAGE value="Signout feedback provided to user." />
+    <option name="LAST_COMMIT_MESSAGE" value="Signout feedback provided to user." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="99" key="DiffContextDialog" timestamp="1601049037315">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610586402623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="99" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049037314" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610586402623" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602703768685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602703768685" />
-    <state x="748" y="243" key="NewPhpClassDialog" timestamp="1599582731388">
+    <state x="31" y="168" key="SettingsEditor" timestamp="1610902822223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="748" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599582731388" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1599582742021">
+    <state x="31" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610902822223" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611180283351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599582742021" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608313476517">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611180283351" />
+    <state x="1054" y="0" width="873" height="1047" key="dock-window-1" timestamp="1611177449722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601049040515" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608313476517" />
-    <state x="-7" y="0" width="1233" height="1047" key="dock-window-1" timestamp="1605588518816">
+    <state x="1054" y="0" width="873" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1611177449722" />
+    <state x="288" y="242" key="run.anything.popup" timestamp="1610906784430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1230" y="0" width="697" height="1047" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601043776655" />
-    <state x="-7" y="0" width="1233" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1605588518816" />
-    <state x="288" y="242" key="run.anything.popup" timestamp="1605582168830">
+    <state x="288" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610906784430" />
+    <state x="193" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1610900178451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="288" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605582168830" />
+    <state x="193" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610900178451" />
   </component>
 </project>

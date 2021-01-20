@@ -1,7 +1,10 @@
 # Canvas Coding Challenges ✨
-A Collection of re-imagined games turned Challenges to practice Web Development.
+A Collection of re-imagined arcade games turned Challenges to practice Responsive Web Development and Handle User Interaction Cases.
 
-## 🚀 Web Development
+## 🚀 Site Structure
+***Gallery:***
+* [ ] 
+
 ***📁 Dynamic Pages:***
 * [x] Add a gallery tile to the home page for each project.
 * [x] Import the relevant files from a selected project's dir.
@@ -11,9 +14,32 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 * [x] Organise project gallery in a tile layout with dynamic sizing.
 * [x] Clean up canvas environment to clearly showcase the selected game and related user information.
 * [x] Scale canvas and js and arrange canvas and info container.
-* [ ] Update project thumbnail to printscreen highscore game.
+* [ ] Update project thumbnail to the canvas state of the highest scoring game.
 
-***🧾 Account Management:***
+***Responsive Layout:***
+* [ ] 
+
+
+
+## 🧾 Account Management
+***Functionality***
+* [x] Format page structure for account pages (Login, Register, Profile)
+* [x] Style layout using flexbox
+* [x] Setup MySQL database connection with phpmyadmin
+* [x] Based on the action validate the input values using isset and POST
+* [x] Encrypt password value before any computation.
+* [x] Execute queries establishing database connection
+* [x] Validate the results and provide feedback to the user
+* [x] escape service page if invalid entry
+* [x] Update userid Session to track relevant information.
+
+***Drop-Down Interface***
+* [x] Format header elements, positioning the site logo and action button at either end of the flex container.
+* [x] Hide and Show the dropdown container to reveal content elements and links.
+* [x] Alter the action button and label, providing sign in/out and profile options. 
+
+***Preference Data***
+* [ ]
 * [ ] Implement profile system to track user scores.
 
 
@@ -39,12 +65,32 @@ A Collection of re-imagined games turned Challenges to practice Web Development.
 
 
 ## 🐞 BUGS!
-***Web Dev:***
+***Header:***
+* [ ] Grow highlighted elements to further show selectability.
+* [ ] Encapsulate page sections within a centered 80vw wrapper to align everything.
+
+***Account:***
+* [ ] Account input elements are converting lowercase characters to allcaps.
+* [ ] Success and Error messages are wrapping flex elements.
+* [ ] Hide dropdown if visible when user clicks outside the content container.
+
+***Gallery:***
+* [ ] Ensure project tiles are fixed to 300x300 scale.
+* [ ] Overflow the content section and position the footer relative to the bottom.
+
+***Footer:***
 * [ ] Text decoration on credit repo link.
+
+***Project:***
+* [ ] Existing game graphics need to be scaled on window resize.
+* [ ] Game frame rate should increase exponentially as the rounds go on.
 
 ***Pong:***
 * [ ] Ball angle should initially travel towards the winning player. Game is currently just randomising the angle.
 * [ ] Ball y velocity is not changed when the underside of the paddle is hit.
+
+***Snake:***
+* [ ] Snake game needs to terminate if the snake head collides outside the canvas boundary.
 
 ## What's Next!
 * Block Breaker

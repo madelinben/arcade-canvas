@@ -1,0 +1,83 @@
+/* Form Container */
+.form-container {
+    max-width: 675px;
+}
+
+/* Input Fields */
+input[type=text], input[type=password] {
+    width: 325px;
+    padding: 15px;
+    /*margin: 5px 0 22px 0;*/
+    margin-left: 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Input Highlight */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #dddddd;
+    outline: none;
+}
+
+/* Button */
+.submit-btn {
+    float: right;
+    background-color: #4CAF50;
+    color: white;
+    opacity: 0.9;
+}
+
+.alt-btn {
+    float: left;
+    background-color: #f44336;
+    color: white;
+    opacity: 0.9;
+}
+
+.terminate-btn {
+    background-color: #f44336;
+    color: white;
+    opacity: 0.9;
+}
+
+/* Button Highlight */
+button:hover {
+    opacity: 1;
+}
+
+/* Arrange Elements */
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*CENTER ITEMS VERTICALLY*/
+    align-items: center;
+    /*flex-wrap: wrap;*/
+
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: flex-end; /*PUSHES EACH ITEM TO RIGHT*/
+    align-items: center; /*CENTER ELEMENTS*/
+
+    margin-bottom: 22px;
+}
+
+.account-action {
+    float: right;
+    margin-right: 50px; //50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.account-action button {
+    margin: -10px 5px 0px 5px;
+    padding: 10px 20px;
+}
