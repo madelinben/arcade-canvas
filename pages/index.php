@@ -118,36 +118,17 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-
-        $('.dropdown-action').click(function() {
-            $('.dropdown-visibility').toggle();
-
-            /*if ($('.dropdown-visibility').is(':visible')) {
-                $('.dropdown-visibility').hide();
-            } else {
-                $('.dropdown-visibility').show();
-            }*/
-        });
-
-        $(document).mouseup(function(e) {
-            const content = $(".dropdown-visibility");
-
-            $(".dropdown-action").after(function() {
-                content.hide();
-            });
-
-            if (content.is(":visible") && (!content.is(e.target) && content.has(e.target).length===0)) {
-                content.hide();
+        $(document).click(function(e) {
+            const targetElement = e.target.className;
+            //alert(targetElement.toString());
+            const dropdownContent = $(".dropdown-visibility");
+            if (targetElement === 'dropdown-action') {
+                $('.dropdown-visibility').toggle();
+            } else if (dropdownContent.is(":visible") && (!dropdownContent.is(e.target) && dropdownContent.has(e.target).length===0)) {
+                dropdownContent.hide();
             }
         });
-
-        //.fadeIn()
-        //.slideToggle()
-        //.blur()
-
-        //e..stopPropagation()
     });
-
 </script>
 
 </html>
