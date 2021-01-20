@@ -22,11 +22,14 @@ if (isset($_GET['selected'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SITE RESOURCES -->
+    <script src="https://kit.fontawesome.com/c642229718.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="..\img\favicon.png">
 
     <!-- PAGE STYLING -->
     <link rel="stylesheet" type="text/css" href="..\style\style.css">
+    <script type="text/javascript" src="..\scripts\dropdown.js"></script>
     <link rel="stylesheet" type="text/css" href="..\style\project.css">
 </head>
 
@@ -123,6 +126,5 @@ if ((strpos($url, 'project.php') !== false) && (isset($_GET['selected']))) {
 ?>
 
 <script type="text/javascript" src="..\scripts\sketch.js"></script> <!--module-->
-<script type="text/javascript" src="..\scripts\dropdown.js"></script>
 
 </html>

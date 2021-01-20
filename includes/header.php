@@ -1,3 +1,7 @@
+<!--<script src="https://kit.fontawesome.com/c642229718.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="..\scripts\dropdown.js"></script>-->
+
 <header>
     <div class="flex-container">
 

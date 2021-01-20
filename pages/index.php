@@ -22,6 +22,7 @@
 
     <!-- PAGE STYLING -->
     <link rel="stylesheet" type="text/css" href="..\style\style.css">
+    <script type="text/javascript" src="..\scripts\dropdown.js"></script>
     <link rel="stylesheet" type="text/css" href="..\style\gallery.css">
 </head>
 
@@ -57,7 +58,5 @@
         </footer>
     </div>
 </body>
-
-<script type="text/javascript" src="..\scripts\dropdown.js"></script>
 
 </html>
