@@ -24,21 +24,23 @@
                         <?php if (isset($_SESSION['user'])) { ?>
 
                             <div class="action-terminate">
-                                <a href="..\pages\register.php" class="dropdown-link terminate-btn"><button><i class="fas fa-hand-sparkles"></i>Bye Bye MotherTrucker!</button></a>
+                                <form action="..\service\account.php" method="post">
+                                    <button type="submit" name="submit-logout" id="terminate-btn"><i class="fas fa-hand-sparkles"></i>Bye Bye MotherTrucker!</button>
+                                </form>
                             </div>
 
                         <?php } else { ?>
 
                             <div class="action-account">
-                                <a href="..\pages\register.php" class="dropdown-link"><button><i class="fas fa-rocket"></i>Register</button></a>
-                                <a href="..\pages\login.php" class="dropdown-link"><button><i class="fas fa-user-astronaut"></i>Login</button></a>
+                                <a href="..\pages\register.php"><button><i class="fas fa-rocket"></i>Register</button></a>
+                                <a href="..\pages\login.php"><button><i class="fas fa-user-astronaut"></i>Login</button></a>
                             </div>
 
                         <?php } ?>
 
                         <div class="action-info">
-                            <a href="..\pages\profile.php" class="dropdown-link"><button><i class="fas fa-cog"></i>Settings</button></a>
-                            <a href="..\pages\#.php" class="dropdown-link"><button><i class="fas fa-question-circle"></i>Support</button></a>
+                            <a href="..\pages\profile.php"><button><i class="fas fa-cog"></i>Settings</button></a>
+                            <a href="..\pages\#.php"><button><i class="fas fa-question-circle"></i>Support</button></a>
                         </div>
                     </div>
                 </div>

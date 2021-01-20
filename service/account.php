@@ -111,7 +111,7 @@ if (!$dbConnection) {
         }
 
 
-    // REGISTER ACTION
+    // LOGIN ACTION
     } else if (isset($_POST['submit-login'])) {
         try {
             // OBTAIN REGISTER INPUT VALUES
@@ -165,6 +165,18 @@ if (!$dbConnection) {
             }
         } catch (Exception $e) {
             echo 'Login Error: ' . $e->getMessage();
+        }
+
+
+    // TERMINATE ACTION
+    } else if (isset($_POST['submit-logout'])) {
+        try {
+            /* session_start(); */
+            session_unset();
+            session_destroy();
+            header('Location: ..\pages\index.php');
+        } catch (Exception $e) {
+            echo 'Logout Error: ' . $e->getMessage();
         }
     }
 
