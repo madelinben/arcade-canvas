@@ -118,11 +118,36 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-       $(".dropdown-action").click(function() {
-           /*alert("button clicked");*/
-           $(this).siblings('.dropdown-visibility').toggle();
-       });
+
+        $('.dropdown-action').click(function() {
+            $('.dropdown-visibility').toggle();
+
+            /*if ($('.dropdown-visibility').is(':visible')) {
+                $('.dropdown-visibility').hide();
+            } else {
+                $('.dropdown-visibility').show();
+            }*/
+        });
+
+        $(document).mouseup(function(e) {
+            const content = $(".dropdown-visibility");
+
+            $(".dropdown-action").after(function() {
+                content.hide();
+            });
+
+            if (content.is(":visible") && (!content.is(e.target) && content.has(e.target).length===0)) {
+                content.hide();
+            }
+        });
+
+        //.fadeIn()
+        //.slideToggle()
+        //.blur()
+
+        //e..stopPropagation()
     });
+
 </script>
 
 </html>

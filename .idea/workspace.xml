@@ -31,9 +31,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Altered label to display either prompt or username if session has started.">
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Altered DOM to display the relevant action buttons if a user session has started.">
+      <change beforePath="$PROJECT_DIR$/.idea/canvas-challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/canvas-challenge.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
@@ -62,6 +62,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7" />
   <component name="ProjectId" id="1h3JxMBMT1gB9KaLIsMGOMe41Jc" />
   <component name="ProjectViewState">
@@ -82,7 +88,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -419,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610754939272</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Altered DOM to display the relevant action buttons if a user session has started.">
+      <created>1610897946546</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1610897946550</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +463,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Centered and ordered project environment and stats containers, resizing canvas based on the window width." />
     <MESSAGE value="Updated canvas position and scaling according to the container size, with minmax values set." />
     <MESSAGE value="Page layout and design updated to correspond with portfolio style." />
     <MESSAGE value="Height of project container is adjusted based on environment and stats size." />
@@ -475,7 +487,8 @@
     <MESSAGE value="Visibility altered to hide and reveal dropdown on hover and hide terminate action." />
     <MESSAGE value="Implemented JQuery method to toggle dropdown visibility." />
     <MESSAGE value="Altered label to display either prompt or username if session has started." />
-    <option name="LAST_COMMIT_MESSAGE" value="Altered label to display either prompt or username if session has started." />
+    <MESSAGE value="Altered DOM to display the relevant action buttons if a user session has started." />
+    <option name="LAST_COMMIT_MESSAGE" value="Altered DOM to display the relevant action buttons if a user session has started." />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610586402623">
@@ -486,17 +499,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602703768685" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610754941595">
+    <state x="31" y="168" key="SettingsEditor" timestamp="1610902822223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610754941595" />
+    <state x="31" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610902822223" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610897950772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610897950772" />
     <state x="-7" y="0" width="1233" height="1047" key="dock-window-1" timestamp="1605588518816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-7" y="0" width="1233" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1605588518816" />
-    <state x="288" y="242" key="run.anything.popup" timestamp="1605582168830">
+    <state x="288" y="242" key="run.anything.popup" timestamp="1610906784430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="288" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605582168830" />
+    <state x="288" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610906784430" />
+    <state x="193" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1610900178451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="193" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610900178451" />
   </component>
 </project>

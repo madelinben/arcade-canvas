@@ -105,22 +105,23 @@ header a.nav-link:hover, .dropdown-action:hover { /*LINK HIGHLIGHT*/
 .dropdown-content:before { /*DROPDOWN ARROW*/
     content: "";
     position: absolute;
-    top: -25px;
-    right: 21px;
+    top: -24px;
+    right: 15px;
     transform: translateX(-50%);
     border: 10px solid;
     border-color: transparent transparent #f1f1f1 transparent;
+    z-index: 1;
 }
 
 .dropdown-content { /*POSITION DROPDOWN*/
     position: absolute;
-    margin-top: 20px;
+    margin-top: 13px;
     margin-left: -250px;
     min-width: 300px;
 
     background-color: #f1f1f1;
     border: 4px solid #f1f1f1; /*#333333*/
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
     z-index: 1;
 }
@@ -175,10 +176,7 @@ header a.nav-link:hover, .dropdown-action:hover { /*LINK HIGHLIGHT*/
     display: block;
 }*/
 
-.action-terminate { /*HIDE TERMINATE*/
-    /*display: none;*/
-}
-
+/*ANIMATE ICONS*/
 /*.terminate-btn:hover.fa-hand-sparkles { !*ANIMATE LOGOUT WAVE*!
     transform: rotate(15deg);
 }*/
@@ -223,7 +221,7 @@ hr {
 button {
     padding: 5px 10px; /*9px 25px*/
     border-radius: 5px; /*50px*/
-    /*border: none;*/
+    border: none;
     cursor: pointer;
     opacity: 0.9;
     transition: all 0.3s ease 0s;
