@@ -31,8 +31,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Signout feedback provided to user.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Identified feature objectives.">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,13 +120,6 @@
       <workItem from="1605461383701" duration="27055000" />
       <workItem from="1606267197443" duration="16930000" />
       <workItem from="1608132957854" duration="5354000" />
-    </task>
-    <task id="LOCAL-00004" summary="Tile overlays implemented to reveal project contents when hovering over link.">
-      <created>1599257384120</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1599257384120</updated>
     </task>
     <task id="LOCAL-00005" summary="Created canvas element to work on.">
       <created>1599261012590</created>
@@ -465,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611180281118</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Identified feature objectives.">
+      <created>1611255749275</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1611255749275</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +495,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial ball angle randomised based on player turn." />
     <MESSAGE value="Increment associated player score and switch to opponents start." />
     <MESSAGE value="Displaying each player score, centered in respective sides." />
     <MESSAGE value="Each player paddle is displayed and centered." />
@@ -521,7 +519,8 @@
     <MESSAGE value="Added highlight to profile img." />
     <MESSAGE value="Implemented terminate action to account service, destroying the current user session." />
     <MESSAGE value="Signout feedback provided to user." />
-    <option name="LAST_COMMIT_MESSAGE" value="Signout feedback provided to user." />
+    <MESSAGE value="Identified feature objectives." />
+    <option name="LAST_COMMIT_MESSAGE" value="Identified feature objectives." />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610586402623">
@@ -536,10 +535,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="31" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610902822223" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611180283351">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611255753020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611180283351" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611255753020" />
     <state x="1054" y="0" width="873" height="1047" key="dock-window-1" timestamp="1611177449722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

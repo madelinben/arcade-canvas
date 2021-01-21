@@ -3,14 +3,14 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 
 ## 🚀 Feature Checklist
 
-### Site Structure:
+### 📁 Site Structure:
 
 ***Gallery:***
 * [x] Identify and dynamically increment through all project directories displaying project title and thumbnail.
 * [x] Format gallery tile to highlight and reveal title when hovering image thumbnail.
 * [x] Center gallery and organise tiles to fit 300x300 cells, wrapping elements to create uniform rows.
 
-***📁 Dynamic Pages:***
+***Dynamic Pages:***
 * [x] Pass delimiter query identifying the selected project title for each tile hyperlink.
 * [x] Using URL GET method import relevant files from the selected project's directory.
 * [x] Establish and sort script hierarchy when importing js files to organise syntax dependencies.
@@ -72,7 +72,7 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 
 
 ## 🕹️ Arcade Challenges
-***🏓 Pong:***
+***Pong 🏓***
 * [x] Format canvas environment and draw method
 * [x] Return ball to center spot when starting a game.
 * [x] Alternate between players and vary the initial ball angle.
@@ -81,7 +81,7 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 * [x] Display each player score.
 * [ ] Implement general COMP intelligence with a lower speed.
 
-***🐍 Snake:***
+***Snake 🐍***
 * [x] Format canvas environment and draw method
 * [x] Allow the user to control the snakes moving direction using key inputs.
 * [x] Implement boundaries to contain Snake within the canvas area.
