@@ -55,7 +55,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/project-layout" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -544,10 +544,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1054" y="0" width="873" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1611177449722" />
-    <state x="288" y="242" key="run.anything.popup" timestamp="1610906784430">
+    <state x="288" y="242" key="run.anything.popup" timestamp="1611251742181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="288" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610906784430" />
+    <state x="288" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611251742181" />
     <state x="193" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1610900178451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
