@@ -1,9 +1,65 @@
 # Canvas Coding Challenges ✨
 A Collection of re-imagined arcade games turned Challenges to practice Responsive Web Development and Handle User Interaction Cases.
 
-## 🚀 Feature Checklist
+## 📚 Documentation
 
-### 📁 Site Structure:
+### Sketch Module:
+
+*Directory Entry Point:*
+
+![Project Repository Guide](docs/content-guide.png)
+
+*Initialise Canvas Environment:*
+```javascript
+const canvas = document.querySelector(".canvas");
+const context = canvas.getContext("2d");
+
+window.addEventListener('resize', init, false);
+
+function init() {
+    let containerWidth = 500;
+    containerWidth = document.querySelector('.environment-container').offsetWidth;
+    context.canvas.width = containerWidth;
+    context.canvas.height = containerWidth;
+
+    document.querySelector('.content-container').style.height = containerWidth + 50 + 'px';
+}
+```
+
+*Render Animation:*
+```javascript
+let globalReference;
+
+(function render() {
+    init();
+
+    globalReference = new Object();
+
+    window.setInterval(() => {
+        clear();
+        
+        line(x1, y1, x2, y2, thickness, color);
+        lineDash(x1, y1, x2, y2, thickness, color);
+        rect(x, y, width, height, color);
+        ellipse(x, y, radius);
+        text(content, x, y, color);
+    }, 250);
+}());
+```
+
+### Site Map:
+
+### MySQL Database:
+
+***Table Relationship:***
+
+![MySQL innoDB Class Diagram and Normalised Relationships](docs/database-class-diagram.png)
+
+
+
+## 🧾 Feature Checklist
+
+### Site Structure:
 
 ***Gallery:***
 * [x] Identify and dynamically increment through all project directories displaying project title and thumbnail.
@@ -22,7 +78,7 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 * [ ] Set each gallery tile width to 1fr of viewport when grid displays only one element per row.
 * [ ] Canvas 
 
-### 🚧 Project Interface:
+### Project Interface:
 
 ***Layout:***
 * [x] Establish a global format for content and organise features in section containers. 
@@ -43,11 +99,7 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 * [ ] Implement sort dropdown.
 * [ ] Update project thumbnail to the canvas state of the highest scoring game.
 
-### 🧾 Account Management:
-
-***Class Diagram Relationship: (MySQL, innoDB)***
-
-![MySQL innoDB Class Diagram and Normalised Relationships](docs/database-class-diagram.png)
+### Account Management:
 
 ***Functionality:***
 * [x] Format page structure for account pages (Login, Register, Profile)
@@ -76,6 +128,7 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 
 
 ## 🕹️ Arcade Challenges
+
 ***Pong 🏓***
 * [x] Format canvas environment and draw method
 * [x] Return ball to center spot when starting a game.
@@ -123,6 +176,6 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 ***Snake:***
 * [ ] Snake game needs to terminate if the snake head collides outside the canvas boundary.
 
-## What's Next!
+## 🚀 What's Next!
 * Block Breaker
 * Asteroids

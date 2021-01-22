@@ -31,10 +31,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Tidied ReadMe.">
-      <change afterPath="$PROJECT_DIR$/docs/database-class-diagram.png" afterDir="false" />
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Formatted project and comment tables in phpmyadmin, and established normalised relationships.">
+      <change afterPath="$PROJECT_DIR$/docs/content-guide.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/title.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/title.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/sketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/service/project.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,13 +128,6 @@
       <workItem from="1605461383701" duration="27055000" />
       <workItem from="1606267197443" duration="16930000" />
       <workItem from="1608132957854" duration="5354000" />
-    </task>
-    <task id="LOCAL-00006" summary="Canvas formatted and Snake object created to track and display sprite.">
-      <created>1599317867507</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1599317867507</updated>
     </task>
     <task id="LOCAL-00007" summary="EventListener added to alter the direction the snake head moves based on the arrow key pressed.">
       <created>1599318444042</created>
@@ -467,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611256105888</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Formatted project and comment tables in phpmyadmin, and established normalised relationships.">
+      <created>1611338650194</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1611338650195</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +503,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Displaying each player score, centered in respective sides." />
     <MESSAGE value="Each player paddle is displayed and centered." />
     <MESSAGE value="Event listener added to update each paddle position when the specified key binding is clicked." />
     <MESSAGE value="Validation added to paddle positions, ensuring the vector is within the canvas environment." />
@@ -523,7 +527,8 @@
     <MESSAGE value="Signout feedback provided to user." />
     <MESSAGE value="Identified feature objectives." />
     <MESSAGE value="Tidied ReadMe." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tidied ReadMe." />
+    <MESSAGE value="Formatted project and comment tables in phpmyadmin, and established normalised relationships." />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatted project and comment tables in phpmyadmin, and established normalised relationships." />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610586402623">
@@ -538,14 +543,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="31" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610902822223" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611256110216">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611338653757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611256110216" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611338653757" />
     <state x="1054" y="0" width="873" height="1047" key="dock-window-1" timestamp="1611177449722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1054" y="0" width="873" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1611177449722" />
+    <state x="1230" y="0" width="697" height="1047" key="dock-window-2" timestamp="1611340204883">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1230" y="0" width="697" height="1047" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1611340204883" />
     <state x="288" y="242" key="run.anything.popup" timestamp="1611251742181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
