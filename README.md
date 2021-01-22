@@ -45,6 +45,10 @@ A Collection of re-imagined arcade games turned Challenges to practice Responsiv
 
 ### 🧾 Account Management:
 
+***Class Diagram Relationship: (MySQL, innoDB)***
+
+![MySQL innoDB Class Diagram and Normalised Relationships](docs/database-class-diagram.png)
+
 ***Functionality:***
 * [x] Format page structure for account pages (Login, Register, Profile)
 * [x] Style layout using flexbox
