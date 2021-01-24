@@ -68,22 +68,21 @@ let globalReference;
 * [x] Establish and sort script hierarchy when importing js files to organise syntax dependencies.
 
 ***Responsive Layout:***
-* [ ] Format alternative site layout for mobile and tablet viewport dimensions.
-* [ ] Flex header elements in column direction with each container wrapped as a row. 
-
+* [x] Format alternative site layout for mobile and tablet viewport dimensions.
+* [x] Flex header elements in column direction with each container wrapped as a row. 
 * [ ] Set each gallery tile width to 1fr of viewport when grid displays only one element per row.
-* [ ] Canvas 
+* [x] Format Canvas environment and organise feedback elements for desktop/mobile viewports.
 
 ### Project Interface:
 
 ***Layout:***
 * [x] Establish a global format for content and organise features in section containers. 
 * [x] Format canvas environment to showcase selected arcade project and scale according to viewport size.
-* [ ] Clearly present game data, related user information and feedback actions.
+* [x] Clearly present game data, related user information and feedback actions.
 
 ***Feedback:***
-* [ ] Format section container and arrange required elements.
-* [ ] Normalise database table relationships in phpMyAdmin, including relevant project and comment information.
+* [x] Format section container and arrange required elements.
+* [x] Normalise database table relationships in phpMyAdmin, including relevant project and comment information.
 * [ ] Format add and delete actions and implement relevant service procedures.
 * [ ] Implement display service to retrieve and increment through each related user comment.
 * [ ] Toggle like icon, calculating the selected projects ratio and modify the label.
@@ -150,9 +149,9 @@ let globalReference;
 * [ ] Encapsulate page sections within a centered 80vw wrapper to align everything.
 
 ***Account:***
-* [ ] Account input elements are converting lowercase characters to allcaps.
+* [x] Account input elements are converting lowercase characters to allcaps.
 * [ ] Success and Error messages are wrapping flex elements.
-* [ ] Hide dropdown if visible when user clicks outside the content container.
+* [x] Hide dropdown if visible when user clicks outside the content container.
 
 ***Gallery:***
 * [ ] Ensure project tiles are fixed to 300x300 scale.

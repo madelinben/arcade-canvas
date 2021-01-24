@@ -1,4 +1,9 @@
-<?php session_start(); ?>
+<?php
+require('../service/account.php');
+
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+} ?>
 
 <!DOCTYPE html>
 <html lang="en-US">
@@ -116,6 +121,7 @@ date_default_timezone_set('Europe/London');
 
                                     <form action="..\service\comment.php" method="post" class="comment-form flex-vertical comment-content">
                                         <input type="hidden" name="uid" value="Anonymous">
+                                        <input type="hidden" name="projectid" value="Anonymous">
                                         <input type="hidden" name="date" value="<?php echo date('Y-m-d H:i:s') ?>">
 
                                         <textarea placeholder="SOMETHING INTERESTING AND INFORMATIVE" name="content" required oninput="this.style.height = '';this.style.height = this.scrollHeight + 'px'"></textarea>
@@ -127,8 +133,9 @@ date_default_timezone_set('Europe/London');
                     </div>
                     <hr>
 
-                    <!--PARENT COMMENTS-->
+                    <!--RETRIEVE COMMENTS-->
 
+                    <!--INDENT COMMENT REPLIES-->
 
 
                 </div>

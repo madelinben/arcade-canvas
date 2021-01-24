@@ -9,7 +9,7 @@
 
             <?php
             if (isset($_SESSION['user'])) {
-                echo '<i class="nav-user">' . $_SESSION['user'] . '</i>';
+                echo '<i class="nav-user">' . $_SESSION['user']->username . '</i>';
             } else {
                 if (isset($_GET['terminate'])) {
                     if ($_GET['terminate'] == 'true') {
@@ -46,7 +46,7 @@
 
                         <div class="action-info">
                             <a href="..\pages\profile.php"><button><i class="fas fa-cog"></i>Settings</button></a>
-                            <a href="..\pages\#.php"><button><i class="fas fa-question-circle"></i>Support</button></a>
+                            <a href="..\pages\profile.php"><button><i class="fas fa-question-circle"></i>Support</button></a>
                         </div>
                     </div>
                 </div>

@@ -1,10 +1,9 @@
 <?php
-session_start();
+require('../service/account.php');
 
-if (isset($_GET['user'])) {
-    $_SESSION['user'] = $_GET['user'];
-}
-?>
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+} ?>
 
 <!DOCTYPE html>
 <html lang="en-US">
@@ -39,10 +38,7 @@ if (isset($_GET['user'])) {
     <div class="wrapper">
 
         <!-- NAVBAR -->
-        <?php
-        require('../includes/header.php');
-        require('../service/account.php');
-        ?>
+        <?php require('../includes/header.php'); ?>
 
         <!-- CONTENT -->
         <div class="content-container">
@@ -51,7 +47,7 @@ if (isset($_GET['user'])) {
             <div class="section">
 
                 <!-- TITLE -->
-                <div class="section-title">Account <?php echo '[' . $_SESSION['user'] . ']'?></div>
+                <div class="section-title">Account <?php echo '[' . $_SESSION['user']->username . ']'?></div>
                 <hr>
 
                 <!-- SIGNUP MESSAGE -->

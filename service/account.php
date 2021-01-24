@@ -5,19 +5,16 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // FORMAT OBJECT
 class Account {
+    public $id;
     public $username;
     public $email;
+    public $pic;
 
-    /*
-     * profile img
-     * high scores
-     *
-     * preferences
-    */
-
-    function constructor($username, $email) {
+    function constructor($id, $username, $email, $pic) {
+        $this->id = $id;
         $this->username = $username;
         $this->email = $email;
+        $this->pic = $pic;
     }
 }
 
@@ -96,7 +93,7 @@ if (!$dbConnection) {
 
                 // STORE USER INFORMATION CONTAINED IN REFERENCE OBJECT
                 $userInfo = new Account();
-                $userInfo->constructor($username, $email);
+                $userInfo->constructor($dbConnection->insert_id, $username, $email, 'img\profile\default.png');
 
                 // CREATE  USERID SESSION
                 $_SESSION['user'] = $userInfo;
@@ -114,7 +111,7 @@ if (!$dbConnection) {
     // LOGIN ACTION
     } else if (isset($_POST['submit-login'])) {
         try {
-            // OBTAIN REGISTER INPUT VALUES
+            // OBTAIN LOGIN INPUT VALUES
             $email = $_POST['email'];
             $password = $_POST['pwd'];
 
@@ -146,7 +143,7 @@ if (!$dbConnection) {
 
                         // STORE USER INFORMATION CONTAINED IN REFERENCE OBJECT
                         $userInfo = new Account();
-                        $userInfo->constructor($record["user_Name"], $record["user_Email"]);
+                        $userInfo->constructor($record["user_ID"], $record["user_Name"], $record["user_Email"], $record["user_Pic"]);
 
                         // CREATE USERID SESSION
                         $_SESSION['user'] = $userInfo;

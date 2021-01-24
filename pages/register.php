@@ -1,4 +1,9 @@
-<?php session_start(); ?>
+<?php
+require('../service/account.php');
+
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+} ?>
 
 <!DOCTYPE html>
 <html lang="en-US">
@@ -33,10 +38,7 @@
     <div class="wrapper">
 
         <!-- NAVBAR -->
-        <?php
-        require('../includes/header.php');
-        require('../service/account.php');
-        ?>
+        <?php require('../includes/header.php'); ?>
 
         <!-- CONTENT -->
         <div class="content-container">
