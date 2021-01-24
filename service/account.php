@@ -148,7 +148,7 @@ if (!$dbConnection) {
                         // CREATE USERID SESSION
                         $_SESSION['user'] = $userInfo;
 
-                        header('Location: ..\pages\profile.php?success=login&user=' . $record["user_Name"]);
+                        header('Location: ..\pages\profile.php?success=login'); //'&user=' . $record["user_Name"]);
                         exit();
                     } else {
                         header('Location: ..\pages\login.php?error=pwd');

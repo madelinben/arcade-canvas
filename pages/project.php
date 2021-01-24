@@ -14,8 +14,6 @@ if (isset($_GET['selected'])) {
 } else {
     $selectedProject = 'Error!';
 }
-
-date_default_timezone_set('Europe/London');
 ?>
 
 <head>
@@ -120,9 +118,9 @@ date_default_timezone_set('Europe/London');
                             <img src="..\img\profile\default.png" class="comment-profile" alt="Profile Picture">
 
                                     <form action="..\service\comment.php" method="post" class="comment-form flex-vertical comment-content">
-                                        <input type="hidden" name="uid" value="Anonymous">
-                                        <input type="hidden" name="projectid" value="Anonymous">
-                                        <input type="hidden" name="date" value="<?php echo date('Y-m-d H:i:s') ?>">
+<!--                                        <input type="hidden" name="uid" value="Anonymous">-->
+                                        <input type="hidden" name="project" value="<?php echo $selectedProject ?>">
+<!--                                        <input type="hidden" name="date" value="--><?php //echo date('Y-m-d H:i:s') ?><!--">-->
 
                                         <textarea placeholder="SOMETHING INTERESTING AND INFORMATIVE" name="content" required oninput="this.style.height = '';this.style.height = this.scrollHeight + 'px'"></textarea>
                                         <button type="submit" name="submit-comment" class="submit-btn">Post</button>

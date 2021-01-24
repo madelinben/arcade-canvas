@@ -37,14 +37,22 @@ if (!$dbConnection) {
     // CREATE ACTION
     if (isset($_POST['submit-comment'])) {
         try {
-            // OBTAIN REGISTER INPUT VALUES
-            $user = $_POST['uid'];
-            $date = $_POST['date'];
-            $content = $_POST['content'];
+            //comment_ID
+            //comment_parent
+            //user_ID
+            //project_ID
+            //comment_content
+            //comment_date
+
+            // OBTAIN VALUES
+            $user = $_SESSION['user']->id;
 
             $project = $_POST['project'];
 
-            /*$_SESSION['user']-> {id, username, email, pic};*/
+            date_default_timezone_set('Europe/London');
+            $date = date('Y-m-d H:i:s');
+
+            $content = $_POST['content'];
 
 
 
@@ -52,41 +60,70 @@ if (!$dbConnection) {
 
 
 
+            /*IDENTIFY PROJECT ID*/
+            $sqlProjectID = "SELECT project_ID FROM project WHERE project_Title = ?;";
+            $stmtProjectID = mysqli_stmt_init($dbConnection);
 
-
-
-
-
-
-            /*if (empty($username) || empty($email) || empty($password) || empty($confirmPassword)) { // CHECK EMPTY FIELDS
-                header('Location: ..\pages\register.php?error=empty&user=' . $username . '&email=' . $email);
+            if (!mysqli_stmt_prepare($stmtProjectID, $sqlProjectID)) {
+                header('Location: ..\pages\register.php?error=stmtfailed');
                 exit();
-            }else {
-                echo 'comment clicked: ' . $content;*/
+            }
+
+            mysqli_stmt_bind_param($stmtProjectID, 's', $project);
+            mysqli_stmt_execute($stmtProjectID);
+            $resultProjectID = mysqli_stmt_get_result($stmtProjectID);
+
+            if ($record = mysqli_fetch_assoc($resultProjectID)) {
+                $projectID = $record['project_ID'];
+                echo $projectID;
+
+            } else {
+                echo 'error identifying project id';
+
+                header('Location: ..\pages\project.php?selected=' . $project . 'error=project');
+                exit();
+            }
+
+            mysqli_stmt_close($stmtProjectID);
+
+
+
+            /*INSERT COMMENT*/
+            $sqlProjectID = "INSERT INTO comment(user_Name, user_Email, user_Hash_Pwd) VALUES (?,?,?);";
+            $stmtProjectID = mysqli_stmt_init($dbConnection);
+
+            if (!mysqli_stmt_prepare($stmtProjectID, $sqlProjectID)) {
+                header('Location: ..\pages\register.php?error=stmtfailed');
+                exit();
+            }
+
+            mysqli_stmt_bind_param($stmtProjectID, 's', $project);
+            mysqli_stmt_execute($stmtProjectID);
+            $resultProjectID = mysqli_stmt_get_result($stmtProjectID);
+
+            if ($record = mysqli_fetch_assoc($resultProjectID)) {
+                $projectID = $record['project_ID'];
+                echo $projectID;
+
+            } else {
+                echo 'error identifying project id';
+
+                header('Location: ..\pages\project.php?selected=' . $project . 'error=project');
+                exit();
+            }
+
+            mysqli_stmt_close($stmtProjectID);
 
 
 
 
 
 
-                /*// CHECK USER DOESNT ALREADY EXIST
-                $sqlUserExist = "SELECT * FROM user WHERE user_Name = ? OR user_Email = ?;";
-                $stmtUserExist = mysqli_stmt_init($dbConnection);
-                if (!mysqli_stmt_prepare($stmtUserExist, $sqlUserExist)) {
-                    header('Location: ..\pages\register.php?error=stmtfailed');
-                    exit();
-                }
-                mysqli_stmt_bind_param($stmtUserExist, 'ss', $username, $email);
-                mysqli_stmt_execute($stmtUserExist);
 
-                $resultUserExist = mysqli_stmt_get_result($stmtUserExist);
-                // USER EXISTS
-                if ($record = mysqli_fetch_assoc($resultUserExist)) {
-                    header('Location: ..\pages\register.php?error=accountexists');
-                    exit();
-                } else {
-                    // ADD USER TO DATABASE
-                    $sqlUserCreate = "INSERT INTO user(user_Name, user_Email, user_Hash_Pwd) VALUES (?,?,?);";
+
+
+
+                    $sqlUserCreate = ;
                     $stmtUserCreate = mysqli_stmt_init($dbConnection);
                     if (!mysqli_stmt_prepare($stmtUserCreate, $sqlUserCreate)) {
                         // ERROR FEEDBACK
@@ -118,8 +155,18 @@ if (!$dbConnection) {
             }*/
 
 
-            //project title
-            //userid
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
