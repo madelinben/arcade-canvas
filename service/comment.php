@@ -45,7 +45,7 @@ if (!$dbConnection) {
             //comment_date
 
             // OBTAIN VALUES
-            $user = $_SESSION['user']->id;
+            $userID = $_SESSION['user']->id;
 
             $project = $_POST['project'];
 
@@ -65,7 +65,7 @@ if (!$dbConnection) {
             $stmtProjectID = mysqli_stmt_init($dbConnection);
 
             if (!mysqli_stmt_prepare($stmtProjectID, $sqlProjectID)) {
-                header('Location: ..\pages\register.php?error=stmtfailed');
+                header('Location: ..\pages\project.php?selected='. $project .'&error=stmtfailed');
                 exit();
             }
 
@@ -80,7 +80,7 @@ if (!$dbConnection) {
             } else {
                 echo 'error identifying project id';
 
-                header('Location: ..\pages\project.php?selected=' . $project . 'error=project');
+                header('Location: ..\pages\project.php?selected='. $project .'&error=project');
                 exit();
             }
 
@@ -89,92 +89,22 @@ if (!$dbConnection) {
 
 
             /*INSERT COMMENT*/
-            $sqlProjectID = "INSERT INTO comment(user_Name, user_Email, user_Hash_Pwd) VALUES (?,?,?);";
-            $stmtProjectID = mysqli_stmt_init($dbConnection);
+            $sqlComment = "INSERT INTO comment(user_ID, project_ID, comment_Content, comment_Date) VALUES (?,?,?,?);";
+            $stmtComment = mysqli_stmt_init($dbConnection);
 
-            if (!mysqli_stmt_prepare($stmtProjectID, $sqlProjectID)) {
-                header('Location: ..\pages\register.php?error=stmtfailed');
+            if (!mysqli_stmt_prepare($stmtComment, $sqlComment)) {
+                header('Location: ..\pages\project.php?selected='. $project .'&error=stmtfailed');
                 exit();
             }
 
-            mysqli_stmt_bind_param($stmtProjectID, 's', $project);
-            mysqli_stmt_execute($stmtProjectID);
-            $resultProjectID = mysqli_stmt_get_result($stmtProjectID);
+            //i=int, d=double, s=string, b=blob
+            mysqli_stmt_bind_param($stmtComment, 'iiss', $userID, $projectID, $content, $date);
+            mysqli_stmt_execute($stmtComment);
+            mysqli_stmt_close($stmtComment);
 
-            if ($record = mysqli_fetch_assoc($resultProjectID)) {
-                $projectID = $record['project_ID'];
-                echo $projectID;
-
-            } else {
-                echo 'error identifying project id';
-
-                header('Location: ..\pages\project.php?selected=' . $project . 'error=project');
-                exit();
-            }
-
-            mysqli_stmt_close($stmtProjectID);
-
-
-
-
-
-
-
-
-
-
-                    $sqlUserCreate = ;
-                    $stmtUserCreate = mysqli_stmt_init($dbConnection);
-                    if (!mysqli_stmt_prepare($stmtUserCreate, $sqlUserCreate)) {
-                        // ERROR FEEDBACK
-                        header('Location: ..\pages\register.php?error=stmtfailed');
-                        exit();
-                    }
-                    // HASH PASSWORD
-                    $hashPassword = password_hash($password, PASSWORD_DEFAULT);
-                    // EXECUTE STATEMENT
-                    mysqli_stmt_bind_param($stmtUserCreate, 'sss', $username, $email, $hashPassword);
-                    mysqli_stmt_execute($stmtUserCreate);
-                    mysqli_stmt_close($stmtUserCreate);
-                }
-                mysqli_stmt_close($stmtUserExist);
-
-                // STORE USER INFORMATION CONTAINED IN REFERENCE OBJECT
-                $userInfo = new Account();
-                $userInfo->constructor($username, $email);
-
-                // CREATE  USERID SESSION
-                $_SESSION['user'] = $userInfo;
-
-                // SUCCESS FEEDBACK
-                header('Location: ..\pages\profile.php?success=register&user=' . $username);
-                exit();
-            }
-
-
-            }*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            // SUCCESS FEEDBACK
+            header('Location: ..\pages\project.php?selected='. $project .'&success=comment');
+            exit();
 
 
 
