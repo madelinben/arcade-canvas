@@ -1,5 +1,5 @@
 <header>
-    <div class="flex-container">
+    <div class="flex-header">
 
         <div class="nav-left">
             <a href="..\pages\index.php" class="nav-link">Arcade</a>

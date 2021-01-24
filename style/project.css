@@ -1,13 +1,17 @@
-.interactive-container {
-    display: flex;
-    flex-direction: row;
-}
-
 .canvas {
     background-color: #f1f1f1;
-    margin-left: 15px;
+
+    width: 100%;
+    max-width: 500px;
+
+    padding: 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*margin-left: 15px;
     margin-bottom: 10px;
-    margin-right: 10px;
+    margin-right: 10px;*/
 
     border: 4px solid #306850; /*dotted*/
 
@@ -17,21 +21,66 @@
         Lime = #e0f8cf          */
 }
 
+.project-container {
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
 .environment-container {
-    flex: 50%;
+    width: calc(100% - 200px);
+}
+
+.flex-vertical {
+    justify-content: space-around;
+}
+
+.stats-container, .feedback-container {
+    width: 150px;
 }
 
 .stats-container {
-    flex: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.stats-container h1 {
-    padding-left: 10px;
-    color: #333333;
+.stats-container label {
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    width: 125px;
+    border-radius: 5px;
+    margin: 5px 15px;
 }
 
-/*@media screen and (max-width: 600px 992px) {
-    .environment-container, .stats-container {
+.feedback-container button {
+    width: 125px;
+    margin: 5px 0px;
+}
+
+.feedback-container button:hover {
+    background-color: lightgrey;
+}
+
+@media screen and (max-width: 600px) {
+    .project-container {
+        flex-direction: column;
+    }
+    .environment-container, .stats-container, .feedback-container {
         width: 100%;
     }
-}*/
+    .environment-container {
+        margin-bottom: 15px;
+    }
+    .stats-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .feedback-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

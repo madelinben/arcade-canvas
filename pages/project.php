@@ -53,7 +53,49 @@ if (isset($_GET['selected'])) {
             } else { ?>
 
                 <div class="section">
-                    <div class="section-title"><?php echo $selectedProject ?></div>
+                    <div class="section-title"><div class="section-title"><?php echo $selectedProject ?></div></div>
+                    <hr>
+
+                    <div class="flex-horizontal project-container">
+                        <div class="side-section environment-container">
+                            <canvas class="canvas">Your browser does not support HTML5 Canvas.</canvas>
+                        </div>
+
+                        <div class="side-section flex-vertical">
+                            <div class="stats-container">
+                                <!--<h1 class="current-score">Score: </h1>
+                                <h1 class="high-score">Best: </h1>-->
+
+                                <label class="current-score">Score: </label>
+                                <label class="high-score"> Best: </label>
+                            </div>
+
+                            <div class="feedback-container">
+                                <form action="..\service\project.php" method="post" class="flex-vertical feedback-content">
+                                    <button type="submit" name="submit-like" id="like-btn">
+                                        <!--<i class="fas fa-heart"></i>--> <!--LIKE-->
+                                        <!--<i class="fas fa-heart-broken"></i>--> <!--DISLIKE-->
+                                        <i class="far fa-heart"></i> <!--DEFAULT-->
+                                        Like</button>
+
+                                    <button type="submit" name="submit-share" id="share-btn">
+                                        <i class="fas fa-share"></i>
+                                        Share</button>
+
+                                    <button type="submit" name="submit-share" id="share-btn">
+                                        <i class="fas fa-flag"></i>
+                                        Report</button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <!--<div class="section">
+                    <div class="section-title"><?php /*echo $selectedProject */?></div>
                     <hr>
 
                     <div class="interactive-container">
@@ -67,7 +109,7 @@ if (isset($_GET['selected'])) {
                             <h1 class="like-btn">Like!</h1>
                         </div>
                     </div>
-                </div>
+                </div>-->
 
                 <br />
 

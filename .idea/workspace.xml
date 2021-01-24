@@ -31,15 +31,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Formatted project and comment tables in phpmyadmin, and established normalised relationships.">
-      <change afterPath="$PROJECT_DIR$/docs/content-guide.png" afterDir="false" />
+    <list default="true" id="da98b888-d398-4d2e-9070-0be688e3f3ff" name="Default Changelist" comment="Updated ReadMe to include documentation notes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/title.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/title.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/pong/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/pong/draw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/snake/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/snake/draw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/service/project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/account.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/account.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,13 +132,6 @@
       <workItem from="1605461383701" duration="27055000" />
       <workItem from="1606267197443" duration="16930000" />
       <workItem from="1608132957854" duration="5354000" />
-    </task>
-    <task id="LOCAL-00007" summary="EventListener added to alter the direction the snake head moves based on the arrow key pressed.">
-      <created>1599318444042</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1599318444042</updated>
     </task>
     <task id="LOCAL-00008" summary="EventListener added to alter the direction the snake head moves based on the arrow key pressed.">
       <created>1599318503489</created>
@@ -472,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611338650195</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Updated ReadMe to include documentation notes.">
+      <created>1611341118232</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1611341118232</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +507,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Each player paddle is displayed and centered." />
     <MESSAGE value="Event listener added to update each paddle position when the specified key binding is clicked." />
     <MESSAGE value="Validation added to paddle positions, ensuring the vector is within the canvas environment." />
     <MESSAGE value="Paddle boundaries added to validate ball position and alter vector direction." />
@@ -528,7 +531,8 @@
     <MESSAGE value="Identified feature objectives." />
     <MESSAGE value="Tidied ReadMe." />
     <MESSAGE value="Formatted project and comment tables in phpmyadmin, and established normalised relationships." />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatted project and comment tables in phpmyadmin, and established normalised relationships." />
+    <MESSAGE value="Updated ReadMe to include documentation notes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated ReadMe to include documentation notes." />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610586402623">
@@ -543,10 +547,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="31" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610902822223" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611338653757">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611341121611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611338653757" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611341121611" />
     <state x="1054" y="0" width="873" height="1047" key="dock-window-1" timestamp="1611177449722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -555,6 +559,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1230" y="0" width="697" height="1047" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1611340204883" />
+    <state x="846" y="0" width="413" height="1047" key="dock-window-3" timestamp="1611346705126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="846" y="0" width="413" height="1047" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1611346705126" />
     <state x="288" y="242" key="run.anything.popup" timestamp="1611251742181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

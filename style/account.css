@@ -20,6 +20,10 @@ input[type=text]:focus, input[type=password]:focus {
     outline: none;
 }
 
+.login-form input[type=text], .login-form input[type=password] {
+    width: 400px;
+}
+
 /* Button */
 .submit-btn {
     float: right;
@@ -41,32 +45,16 @@ input[type=text]:focus, input[type=password]:focus {
     opacity: 0.9;
 }
 
-/* Button Highlight */
-button:hover {
-    opacity: 1;
-}
-
 /* Arrange Elements */
-.flex-vertical {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /*CENTER ITEMS VERTICALLY*/
-    align-items: center;
-    /*flex-wrap: wrap;*/
-
+.account-content {
     padding-top: 5px;
     padding-bottom: 20px;
 }
 
-.flex-horizontal {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    justify-content: flex-end; /*PUSHES EACH ITEM TO RIGHT*/
-    align-items: center; /*CENTER ELEMENTS*/
-
+.account-content div {
+    justify-content: flex-end;
     margin-bottom: 22px;
+    /*flex-wrap: wrap;*/
 }
 
 .account-action {

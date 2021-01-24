@@ -67,10 +67,10 @@
                 ?>
 
                 <!-- FORM -->
-                <form action="..\service\account.php" method="post">
+                <form action="..\service\account.php" method="post" class="register-form">
                     <div class="flex-vertical">
 
-                        <div>
+                        <div class="account-content">
                             <div class="flex-horizontal">
                                 <label for="name"><b>Username</b></label>
                                 <input type="text" placeholder="Enter Username" name="name" required>

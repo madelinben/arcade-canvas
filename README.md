@@ -17,12 +17,8 @@ const context = canvas.getContext("2d");
 window.addEventListener('resize', init, false);
 
 function init() {
-    let containerWidth = 500;
-    containerWidth = document.querySelector('.environment-container').offsetWidth;
-    context.canvas.width = containerWidth;
-    context.canvas.height = containerWidth;
-
-    document.querySelector('.content-container').style.height = containerWidth + 50 + 'px';
+    context.canvas.height = context.canvas.width;
+    document.querySelector('.environment-container').style.height = context.canvas.width;
 }
 ```
 
