@@ -9,6 +9,8 @@ if (isset($_GET['selected'])) {
 } else {
     $selectedProject = 'Error!';
 }
+
+date_default_timezone_set('Europe/London');
 ?>
 
 <head>
@@ -32,7 +34,9 @@ if (isset($_GET['selected'])) {
     <!-- PAGE STYLING -->
     <link rel="stylesheet" type="text/css" href="..\style\style.css">
     <script type="text/javascript" src="..\scripts\dropdown.js"></script>
+    <link rel="stylesheet" type="text/css" href="..\style\form.css">
     <link rel="stylesheet" type="text/css" href="..\style\project.css">
+
 </head>
 
 <body>
@@ -57,15 +61,15 @@ if (isset($_GET['selected'])) {
                     <hr>
 
                     <div class="flex-horizontal project-container">
-                        <div class="side-section environment-container">
+                        <div class="environment-container">
                             <canvas class="canvas">Your browser does not support HTML5 Canvas.</canvas>
                         </div>
 
-                        <div class="side-section flex-vertical">
+                        <div class="flex-vertical">
                             <div class="stats-container">
                                 <!--<h1 class="current-score">Score: </h1>
                                 <h1 class="high-score">Best: </h1>-->
-
+                                <img src="..\img\profile\default.png" class="stats-profile" alt="Profile Picture">
                                 <label class="current-score">Score: </label>
                                 <label class="high-score"> Best: </label>
                             </div>
@@ -92,25 +96,6 @@ if (isset($_GET['selected'])) {
                     </div>
                 </div>
 
-
-
-                <!--<div class="section">
-                    <div class="section-title"><?php /*echo $selectedProject */?></div>
-                    <hr>
-
-                    <div class="interactive-container">
-                        <div class="environment-container">
-                            <canvas class="canvas">Your browser does not support HTML5 Canvas.</canvas>
-                        </div>
-
-                        <div class="stats-container">
-                            <h1 class="current-score">Score: </h1>
-                            <h1 class="high-score">Best: </h1>
-                            <h1 class="like-btn">Like!</h1>
-                        </div>
-                    </div>
-                </div>-->
-
                 <br />
 
                 <div class="section">
@@ -123,6 +108,29 @@ if (isset($_GET['selected'])) {
                 <div class="section">
                     <div class="section-title">Comment</div>
                     <hr>
+
+                    <!--CREATE COMMENT-->
+                    <div class="sub-section">
+                        <div class="flex-horizontal comment-create-container">
+                            <img src="..\img\profile\default.png" class="comment-profile" alt="Profile Picture">
+
+                                    <form action="..\service\comment.php" method="post" class="comment-form flex-vertical comment-content">
+                                        <input type="hidden" name="uid" value="Anonymous">
+                                        <input type="hidden" name="date" value="<?php echo date('Y-m-d H:i:s') ?>">
+
+                                        <textarea placeholder="SOMETHING INTERESTING AND INFORMATIVE" name="content" required oninput="this.style.height = '';this.style.height = this.scrollHeight + 'px'"></textarea>
+                                        <button type="submit" name="submit-comment" class="submit-btn">Post</button>
+                                    </form>
+                        </div>
+
+
+                    </div>
+                    <hr>
+
+                    <!--PARENT COMMENTS-->
+
+
+
                 </div>
             <?php } ?>
         </div>

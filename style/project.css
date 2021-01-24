@@ -1,3 +1,4 @@
+/*CANVAS ENVIRONMENT*/
 .canvas {
     background-color: #f1f1f1;
 
@@ -21,6 +22,9 @@
         Lime = #e0f8cf          */
 }
 
+
+
+/*INTERACTIVE SECTION*/
 .project-container {
     width: 100%;
     flex-flow: row wrap;
@@ -46,6 +50,12 @@
     flex-direction: column;
 }
 
+.stats-profile {
+    width: 50px;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+}
+
 .stats-container label {
     background-color: #f1f1f1;
     padding: 5px 10px;
@@ -63,6 +73,52 @@
     background-color: lightgrey;
 }
 
+
+
+/*COMMENT SECTION*/
+
+.comment-create-container {
+    width: 100%;
+    align-items: flex-start;
+}
+
+.comment-profile {
+    width: 30px;
+    margin: 15px;
+}
+
+.comment-content textarea {
+    width: 500px;
+    min-width: 100%;
+    max-width: 500px;
+
+    margin-bottom: 15px;
+
+
+    resize: none;
+}
+
+
+
+
+/*.comment-content, .comment-form {
+    width: 100%;
+    max-width: 500px;
+    background-color: mediumpurple;
+}*/
+
+.comment-form {
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+/*RESPONSIVE LAYOUT*/
 @media screen and (max-width: 600px) {
     .project-container {
         flex-direction: column;
@@ -77,6 +133,10 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+    .stats-profile {
+        width: 25px;
+        height: 25px;
     }
     .feedback-content {
         display: flex;

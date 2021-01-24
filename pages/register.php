@@ -24,6 +24,7 @@
     <!-- PAGE STYLING -->
     <link rel="stylesheet" type="text/css" href="..\style\style.css">
     <script type="text/javascript" src="..\scripts\dropdown.js"></script>
+    <link rel="stylesheet" type="text/css" href="..\style\form.css">
     <link rel="stylesheet" type="text/css" href="..\style\account.css">
 </head>
 
@@ -73,22 +74,22 @@
                         <div class="account-content">
                             <div class="flex-horizontal">
                                 <label for="name"><b>Username</b></label>
-                                <input type="text" placeholder="Enter Username" name="name" required>
+                                <input type="text" placeholder="ENTER USERNAME" name="name" required>
                             </div>
 
                             <div class="flex-horizontal">
                                 <label for="email"><b>Email</b></label>
-                                <input type="text" placeholder="Enter Email" name="email" required>
+                                <input type="text" placeholder="ENTER EMAIL" name="email" required>
                             </div>
 
                             <div class="flex-horizontal">
                                 <label for="pwd"><b>Password</b></label>
-                                <input type="password" placeholder="Enter Password" name="pwd" required>
+                                <input type="password" placeholder="ENTER PASSWORD" name="pwd" required>
                             </div>
 
                             <div class="flex-horizontal">
                                 <label for="pwd-repeat"><b>Confirm Password</b></label>
-                                <input type="password" placeholder="Confirm Password" name="pwd-repeat" required>
+                                <input type="password" placeholder="CONFIRM PASSWORD" name="pwd-repeat" required>
                             </div>
                         </div>
                     </div>

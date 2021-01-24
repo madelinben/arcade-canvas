@@ -190,75 +190,14 @@ header a.nav-link:hover, .dropdown-action:hover { /*LINK HIGHLIGHT*/
 .content-container {
     grid-area: content;
     overflow-y: hidden; //scroll;
-
     width: 50%;
     /*min-width: 600px;*/
-
     margin-left: auto;
     margin-right: auto;
-
     display: flex;
     flex-direction: column;
 }
 
-.flex-vertical {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.flex-horizontal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-/*.wrap-content {
-    flex-wrap: wrap;
-}*/
-
-.section {
-    background-color: #ffffff;
-    border: 3px solid #f1f1f1;
-    padding-bottom: 15px;
-    /*padding: 10px;*/
-    /*overflow: hidden;*/
-
-    /*width: 100%;*/
-    /*max-width: 600px;*/
-}
-
-/*.side-section {
-    background-color: #ffffff;
-    border: 3px solid #f1f1f1;
-}*/
-
-.section-title {
-    color: #333333;
-    font-size: 24px;
-    height: auto;
-    width: 100%;
-    text-align: center;
-}
-
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 15px;
-}
-
-button {
-    padding: 5px 10px; /*9px 25px*/
-    border-radius: 5px; /*50px*/
-    border: none;
-    cursor: pointer;
-    opacity: 0.9;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover { /*HIGHLIGHT*/
-    opacity: 1;
-}
 
 
 /*--- FOOTER ---*/

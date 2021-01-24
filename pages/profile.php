@@ -30,6 +30,7 @@ if (isset($_GET['user'])) {
     <!-- PAGE STYLING -->
     <link rel="stylesheet" type="text/css" href="..\style\style.css">
     <script type="text/javascript" src="..\scripts\dropdown.js"></script>
+    <link rel="stylesheet" type="text/css" href="..\style\form.css">
     <link rel="stylesheet" type="text/css" href="..\style\account.css">
 </head>
 
