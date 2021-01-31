@@ -56,7 +56,8 @@ if (isset($_GET['selected'])) {
                 echo '<div class="section">
                       <div class="section-title">Error!</div>
                       <hr>
-                      <div class="section-title">Selected project is Unavailable!</div>';
+                      <div class="section-title">Selected project is Unavailable!</div>
+                      </div>';
             } else { ?>
 
                 <div class="section">
@@ -114,10 +115,10 @@ if (isset($_GET['selected'])) {
 
                     <!--CREATE COMMENT-->
                     <div class="sub-section">
-                        <div class="flex-horizontal comment-create-container">
+                        <div class="flex-horizontal create-comment-container">
                             <img src="..\img\profile\default.png" class="comment-profile" alt="Profile Picture">
 
-                                    <form action="..\service\comment.php" method="post" class="comment-form flex-vertical comment-content">
+                                    <form action="..\service\comment.php" method="post" class="create-comment-form flex-vertical create-comment-content">
 <!--                                        <input type="hidden" name="uid" value="Anonymous">-->
                                         <input type="hidden" name="project" value="<?php echo $selectedProject ?>">
 <!--                                        <input type="hidden" name="date" value="--><?php //echo date('Y-m-d H:i:s') ?><!--">-->
@@ -132,6 +133,27 @@ if (isset($_GET['selected'])) {
                     <hr>
 
                     <!--RETRIEVE COMMENTS-->
+                    <div class="sub-section">
+                        <?php require('../service/comment.php');
+                        retrieveComments($selectedProject); ?>
+
+                        <!--<div class="flex-vertical">
+
+                            <form action="..\service\comment.php" method="post" class="">
+                                <button type="submit" name="delete-comment" class="terminate-btn">X</button>
+                            </form>
+
+                            <div class="flex-horizontal">
+                                <img src="..\img\profile\default.png" class="comment-profile" alt="Profile Picture">
+
+                                <p>CONTENT</p>
+                            </div>
+
+                        </div>-->
+
+
+
+                    </div>
 
                     <!--INDENT COMMENT REPLIES-->
 

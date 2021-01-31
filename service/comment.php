@@ -1,5 +1,5 @@
 <?php
-require('../service/account.php');
+//require('../service/account.php');
 
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
@@ -21,6 +21,94 @@ class Comment {
         $this->content = $content;
     }
 }
+
+function retrieveComments($project) {
+    // SETUP DATABASE CONNECTION
+    $serverName = "localhost";
+    $dbUser = "root";
+    $dbPwd = "";
+    $dbName = "arcade_canvas";
+
+    $dbConnection = mysqli_connect($serverName, $dbUser, $dbPwd, $dbName);
+
+    if (!$dbConnection) {
+        die("Connection to Database Failed! : " . mysqli_connect_error());
+    } else {
+
+        /*IDENTIFY PROJECT ID*/
+        $sqlProjectID = "SELECT project_ID FROM project WHERE project_Title = ?;";
+        $stmtProjectID = mysqli_stmt_init($dbConnection);
+
+        if (!mysqli_stmt_prepare($stmtProjectID, $sqlProjectID)) {
+            header('Location: ..\pages\project.php?selected='. $project .'&error=stmtfailed');
+            exit();
+        }
+
+        mysqli_stmt_bind_param($stmtProjectID, 's', $project);
+        mysqli_stmt_execute($stmtProjectID);
+        $resultProjectID = mysqli_stmt_get_result($stmtProjectID);
+
+        if ($record = mysqli_fetch_assoc($resultProjectID)) {
+            $projectID = $record['project_ID'];
+        } else {
+            header('Location: ..\pages\project.php?selected='. $project .'&error=project');
+            exit();
+        }
+
+        mysqli_stmt_close($stmtProjectID);
+
+        /*RETRIEVE PROJECT COMMENTS*/
+        //$sqlGetComments = "SELECT * FROM comment WHERE project_ID = ? AND comment_parent_ID IS NULL;";
+
+        $sqlGetComments = "SELECT user.user_Name, user.user_Pic, comment.comment_Content
+        FROM user INNER JOIN comment ON comment.user_ID = user.user_ID
+        WHERE comment.project_ID = ? AND comment.comment_parent_ID IS NULL;";
+        $stmtGetComments = mysqli_stmt_init($dbConnection);
+
+        if (!mysqli_stmt_prepare($stmtGetComments, $sqlGetComments)) {
+            header('Location: ..\pages\project.php?selected='. $project .'&error=stmtfailed');
+            exit();
+        }
+
+        mysqli_stmt_bind_param($stmtGetComments, 'i', $projectID);
+        mysqli_stmt_execute($stmtGetComments);
+        $resultGetComments = mysqli_stmt_get_result($stmtGetComments);
+
+        //$conn->query($sql)->fetch_assoc()
+        while ($row = mysqli_fetch_assoc($resultGetComments)) {
+            //echo $row['user_Name'] . PHP_EOL . $row['user_Pic'] . PHP_EOL . $row['comment_Content'];
+
+            echo '
+            <div class="flex-vertical view-comment-container">
+                <div class="flex-horizontal view-comment-action">
+                    <div class="flex-horizontal">
+                        <img src="..\\' . $row['user_Pic'] . '" class="comment-profile" alt="Profile Picture">
+                        <div class="view-comment-username">' . $row['user_Name'] . '</div>
+                    </div>
+                    
+                    <div>
+                    <form action="..\service\comment.php" method="post" class="view-comment-remove">
+                        <button type="submit" name="delete-comment" class="terminate-btn">X</button>
+                    </form>
+                    </div>
+                </div>
+                
+                <div class="view-comment-content">' . $row['comment_Content'] . '</div>
+            </div>
+                
+                
+                ';
+
+
+
+        }
+    }
+    return $resultGetComments;
+}
+
+/*function getProjectID($projectTitle) {
+
+}*/
 
 // SETUP DATABASE CONNECTION
 $serverName = "localhost";
@@ -75,11 +163,7 @@ if (!$dbConnection) {
 
             if ($record = mysqli_fetch_assoc($resultProjectID)) {
                 $projectID = $record['project_ID'];
-                echo $projectID;
-
             } else {
-                echo 'error identifying project id';
-
                 header('Location: ..\pages\project.php?selected='. $project .'&error=project');
                 exit();
             }
