@@ -102,7 +102,6 @@
 /*COMMENT VIEW*/
 .view-comment-container {
     width: 100%;
-    background-color: mediumpurple;
 }
 
 .view-comment-action {
@@ -119,9 +118,7 @@
 }
 
 .view-comment-content {
-    width: 80%;
-    margin-left: 50px;
-    background-color: lightgrey;
+    width: 70%;
 }
 
 

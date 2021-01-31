@@ -78,32 +78,27 @@ function retrieveComments($project) {
         while ($row = mysqli_fetch_assoc($resultGetComments)) {
             //echo $row['user_Name'] . PHP_EOL . $row['user_Pic'] . PHP_EOL . $row['comment_Content'];
 
-            echo '
-            <div class="flex-vertical view-comment-container">
+            echo '<div class="flex-vertical view-comment-container">
                 <div class="flex-horizontal view-comment-action">
                     <div class="flex-horizontal">
                         <img src="..\\' . $row['user_Pic'] . '" class="comment-profile" alt="Profile Picture">
                         <div class="view-comment-username">' . $row['user_Name'] . '</div>
-                    </div>
-                    
-                    <div>
-                    <form action="..\service\comment.php" method="post" class="view-comment-remove">
-                        <button type="submit" name="delete-comment" class="terminate-btn">X</button>
-                    </form>
-                    </div>
-                </div>
-                
-                <div class="view-comment-content">' . $row['comment_Content'] . '</div>
-            </div>
-                
-                
-                ';
+                    </div>';
 
+            if (isset($_SESSION['user'])) {
+                if ($_SESSION['user'] = $row['user_Name']) {
+                    echo '<form action="..\service\comment.php" method="post" class="view-comment-remove">
+                                <button type="submit" name="delete-comment" class="terminate-btn">X</button>
+                            </form>';
+                }
+            }
 
-
+            echo '</div>
+                        <div class="view-comment-content">' . $row['comment_Content'] . '</div>
+                    </div>';
         }
     }
-    return $resultGetComments;
+//    return $resultGetComments;
 }
 
 /*function getProjectID($projectTitle) {
